@@ -1,4 +1,5 @@
-import { Globe, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Globe, Mail, Headphones } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -17,13 +18,22 @@ export function Footer() {
             </p>
           </div>
 
-          <a
-            href="mailto:hello@indonesianbasics.com"
-            className="flex items-center gap-2 text-white/60 hover:text-white transition-colors"
-          >
-            <Mail className="w-5 h-5" />
-            hello@indonesianbasics.com
-          </a>
+          <div className="flex items-center gap-6">
+            <Link
+              to="/audio"
+              className="flex items-center gap-2 text-white/60 hover:text-white transition-colors"
+            >
+              <Headphones className="w-5 h-5" />
+              Audio
+            </Link>
+            <a
+              href="mailto:hello@indonesianbasics.com"
+              className="flex items-center gap-2 text-white/60 hover:text-white transition-colors"
+            >
+              <Mail className="w-5 h-5" />
+              hello@indonesianbasics.com
+            </a>
+          </div>
         </div>
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-white/40 text-sm">

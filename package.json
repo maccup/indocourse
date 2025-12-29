@@ -12,10 +12,13 @@
     "build:pdf": "node scripts/build-pdf.js en",
     "build:pdf:kdp": "node scripts/build-pdf.js en --kdp",
     "build:audio": "node scripts/extract-audio.js en",
-    "generate:assets": "node scripts/generate-assets.js"
+    "generate:assets": "node scripts/generate-assets.js",
+    "generate:qr": "node scripts/generate-qr-codes.js"
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "qrcode": "^1.5.4",
+    "react-router-dom": "^7.1.1",
     "dotenv": "^17.2.3",
     "framer-motion": "^12.23.26",
     "lucide-react": "^0.562.0",

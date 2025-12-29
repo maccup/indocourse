@@ -1,6 +1,6 @@
 # Unit 02: Numbers, Money, & Basic Bargaining
 
-![Unit 02 Illustration](../../../assets/images/unit_02.jpg)
+![Unit 02 Illustration](../../../assets/images/generated/unit_02.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -93,9 +93,15 @@ Bargaining is expected in traditional markets (Pasar), but NOT in supermarkets o
 **Ibu:** Ya sudah. Delapan puluh ribu. Silakan.
 **Sarah:** Makasih, Bu.
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 02 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_02.png" alt="QR Code - Unit 02 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-02</strong></p>
 
 ### Audio Notes
 1.  Note the tone. It is friendly, not aggressive.

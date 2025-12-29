@@ -1,6 +1,6 @@
 # Unit 01: Greetings & Introductions (Selamat Pagi)
 
-![Unit 01 Illustration](../../../assets/images/unit_01.jpg)
+![Unit 01 Illustration](../../../assets/images/generated/unit_01.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -69,9 +69,15 @@ Indonesian has no word for "am", "is", or "are".
 **Sarah:** Saya Sarah.
 **Budi:** Salam kenal, Sarah.
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 01 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_01.png" alt="QR Code - Unit 01 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-01</strong></p>
 
 ### Audio Notes
 *(Ambient coffee shop noise)*

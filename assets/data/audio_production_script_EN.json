@@ -205,7 +205,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "**Boleh kurang, nggak?**"
+        "text": "Boleh kurang, nggak?"
       },
       {
         "speaker": "Ibu",
@@ -308,7 +308,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Saya mau **Nasi Goreng Ayam**, satu."
+        "text": "Saya mau Nasi Goreng Ayam, satu."
       },
       {
         "speaker": "Ibu",
@@ -316,7 +316,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "**Jangan pedas**, ya Bu. Dikit saja. (Don't make it spicy. Just a little)."
+        "text": "Jangan pedas, ya Bu. Dikit saja. (Don't make it spicy. Just a little)."
       },
       {
         "speaker": "Ibu",
@@ -324,11 +324,11 @@
       },
       {
         "speaker": "Sarah",
-        "text": "**Es Teh Manis**, satu."
+        "text": "Es Teh Manis, satu."
       },
       {
         "speaker": "Ibu",
-        "text": "Makan sini atau **bungkus**? (Eat here or wrap/take-away?)"
+        "text": "Makan sini atau bungkus? (Eat here or wrap/take-away?)"
       },
       {
         "speaker": "Sarah",
@@ -423,7 +423,7 @@
       },
       {
         "speaker": "Budi",
-        "text": "Pak, nanti **belok kanan** di depan ya."
+        "text": "Pak, nanti belok kanan di depan ya."
       },
       {
         "speaker": "Driver",
@@ -431,7 +431,7 @@
       },
       {
         "speaker": "Budi",
-        "text": "Masuk gang ini, lalu **lurus terus**."
+        "text": "Masuk gang ini, lalu lurus terus."
       },
       {
         "speaker": "Driver",
@@ -439,7 +439,7 @@
       },
       {
         "speaker": "Budi",
-        "text": "Ya, benar. **Stop di kiri**, Pak."
+        "text": "Ya, benar. Stop di kiri, Pak."
       },
       {
         "speaker": "Driver",
@@ -522,7 +522,7 @@
     "dialogue": [
       {
         "speaker": "Sarah",
-        "text": "Budi, **hari Sabtu** sibuk nggak? (Busy on Saturday?)"
+        "text": "Budi, hari Sabtu sibuk nggak? (Busy on Saturday?)"
       },
       {
         "speaker": "Budi",
@@ -534,7 +534,7 @@
       },
       {
         "speaker": "Budi",
-        "text": "Boleh. **Jam berapa** berangkat?"
+        "text": "Boleh. Jam berapa berangkat?"
       },
       {
         "speaker": "Sarah",
@@ -542,7 +542,7 @@
       },
       {
         "speaker": "Budi",
-        "text": "Waduh, pagi banget! Saya baru **bangun** jam sembilan."
+        "text": "Waduh, pagi banget! Saya baru bangun jam sembilan."
       },
       {
         "speaker": "Sarah",
@@ -550,7 +550,7 @@
       },
       {
         "speaker": "Budi",
-        "text": "Oke, jam sepuluh bisa. Sampai ketemu **besok**."
+        "text": "Oke, jam sepuluh bisa. Sampai ketemu besok."
       }
     ]
   },
@@ -621,11 +621,11 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Ini **adikku**, namanya Tom."
+        "text": "Ini adikku, namanya Tom."
       },
       {
         "speaker": "Ibu Wayan",
-        "text": "Ganteng ya (Handsome). Dia **punya** pacar?"
+        "text": "Ganteng ya (Handsome). Dia punya pacar?"
       },
       {
         "speaker": "Sarah",
@@ -637,7 +637,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Ini **orang tua** saya. Ayah dan Ibu."
+        "text": "Ini orang tua saya. Ayah dan Ibu."
       },
       {
         "speaker": "Ibu Wayan",
@@ -720,7 +720,7 @@
     "dialogue": [
       {
         "speaker": "Sarah",
-        "text": "Aduh, hari ini **panas banget** ya!"
+        "text": "Aduh, hari ini panas banget ya!"
       },
       {
         "speaker": "Budi",
@@ -728,15 +728,15 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Kita cari tempat **yang dingin** yuk. Masuk mall?"
+        "text": "Kita cari tempat yang dingin yuk. Masuk mall?"
       },
       {
         "speaker": "Budi",
-        "text": "Boleh. Mall Grand Indonesia **dekat** dari sini."
+        "text": "Boleh. Mall Grand Indonesia dekat dari sini."
       },
       {
         "speaker": "Sarah",
-        "text": "**Jauh** nggak kalau jalan kaki?"
+        "text": "Jauh nggak kalau jalan kaki?"
       },
       {
         "speaker": "Budi",
@@ -744,7 +744,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Ide **bagus**."
+        "text": "Ide bagus."
       }
     ]
   },
@@ -819,7 +819,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Sore, Mba. Saya lagi **sakit perut**."
+        "text": "Sore, Mba. Saya lagi sakit perut."
       },
       {
         "speaker": "Apoteker",
@@ -827,7 +827,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Dari pagi. Saya juga agak **mual** (nauseous)."
+        "text": "Dari pagi. Saya juga agak mual (nauseous)."
       },
       {
         "speaker": "Apoteker",
@@ -839,7 +839,7 @@
       },
       {
         "speaker": "Apoteker",
-        "text": "Ini ada **obat** untuk maag dan diare. Diminum 3x sehari ya."
+        "text": "Ini ada obat untuk maag dan diare. Diminum 3x sehari ya."
       },
       {
         "speaker": "Sarah",
@@ -894,19 +894,19 @@
     "dialogue": [
       {
         "speaker": "Budi",
-        "text": "Sarah, kamu **sudah** berapa lama di Indonesia?"
+        "text": "Sarah, kamu sudah berapa lama di Indonesia?"
       },
       {
         "speaker": "Sarah",
-        "text": "**Sudah** dua minggu."
+        "text": "Sudah dua minggu."
       },
       {
         "speaker": "Budi",
-        "text": "Kamu **pernah** ke Jogja?"
+        "text": "Kamu pernah ke Jogja?"
       },
       {
         "speaker": "Sarah",
-        "text": "**Belum pernah**. Tapi saya **mau** ke sana minggu depan."
+        "text": "Belum pernah. Tapi saya mau ke sana minggu depan."
       },
       {
         "speaker": "Budi",
@@ -914,7 +914,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Kamu **sudah pernah** ke Borobudur?"
+        "text": "Kamu sudah pernah ke Borobudur?"
       },
       {
         "speaker": "Budi",
@@ -977,19 +977,19 @@
     "dialogue": [
       {
         "speaker": "Sarah",
-        "text": "(Knocking) **Permisi**... Selamat sore."
+        "text": "(Knocking) Permisi... Selamat sore."
       },
       {
         "speaker": "Ibu Wayan",
-        "text": "Eh, Mba Sarah. **Silakan masuk**."
+        "text": "Eh, Mba Sarah. Silakan masuk."
       },
       {
         "speaker": "Sarah",
-        "text": "Terima kasih, Bu. **Maaf** saya terlambat sedikit. Macet."
+        "text": "Terima kasih, Bu. Maaf saya terlambat sedikit. Macet."
       },
       {
         "speaker": "Ibu Wayan",
-        "text": "**Tidak apa-apa**, santai saja. **Silakan duduk**."
+        "text": "Tidak apa-apa, santai saja. Silakan duduk."
       },
       {
         "speaker": "Sarah",
@@ -997,7 +997,7 @@
       },
       {
         "speaker": "Ibu Wayan",
-        "text": "Biasa saja (Just ordinary/humble). **Silakan diminum** tehnya."
+        "text": "Biasa saja (Just ordinary/humble). Silakan diminum tehnya."
       },
       {
         "speaker": "Sarah",

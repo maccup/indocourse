@@ -1,6 +1,6 @@
 # Unit 09: Past & Future (Sudah/Belum/Akan)
 
-![Unit 09 Illustration](../../../assets/images/unit_09.jpg)
+![Unit 09 Illustration](../../../assets/images/generated/unit_09.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -56,9 +56,15 @@ In conversation, **Mau** (want) is often used for "Will/Gonna".
 **Budi:** Sudah sering (Often). Rumah nenek saya di sana.
 **Sarah:** Nanti saya minta tips ya!
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 09 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_09.png" alt="QR Code - Unit 09 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-09</strong></p>
 
 ### Audio Notes
 1.  Note how "Belum" stands alone as "No" (for "have you ever/already").

@@ -78,13 +78,28 @@ export function Hero({ scrollToDownload }: HeroProps) {
           >
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-br from-[#E07A5F] to-[#81B29A] rounded-3xl blur-2xl opacity-30 scale-105" />
-              <div className="relative w-72 lg:w-96 aspect-[3/4] bg-gradient-to-br from-[#E07A5F] to-[#E07A5F]/90 rounded-3xl shadow-2xl overflow-hidden">
+              <div className="relative w-72 lg:w-96 aspect-[3/4] rounded-3xl shadow-2xl overflow-hidden">
                 <img
-                  src="/images/cover.svg"
-                  alt="Indonesian Basics eBook Cover"
-                  className="w-full h-full object-cover"
+                  src="/images/cover.png"
+                  alt=""
+                  className="absolute inset-0 w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-b from-[#FDFBF7]/95 via-[#FDFBF7]/40 to-[#FDFBF7]/90" />
+                <div className="relative h-full flex flex-col p-6 lg:p-8">
+                  <div className="text-center">
+                    <h2 className="font-['Lora'] text-2xl lg:text-3xl font-bold text-[#E07A5F] leading-tight drop-shadow-sm">
+                      Survival Indonesian
+                    </h2>
+                    <p className="text-sm lg:text-base text-[#3D405B] mt-2 font-medium">
+                      10 Lessons to Speak Like a Local in Bali
+                    </p>
+                  </div>
+                  <div className="flex-1" />
+                  <div className="text-center">
+                    <p className="text-sm text-[#3D405B] font-medium">by Maciej Cupial</p>
+                    <p className="text-xs text-[#81B29A] mt-1">indonesianbasics.com</p>
+                  </div>
+                </div>
               </div>
               <div className="absolute -bottom-4 -right-4 bg-[#81B29A] text-white px-6 py-3 rounded-2xl font-bold shadow-lg">
                 FREE

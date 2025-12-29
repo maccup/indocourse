@@ -1,6 +1,6 @@
 # Unit 07: Adjectives (Hot/Cold/Spicy)
 
-![Unit 07 Illustration](../../../assets/images/unit_07.jpg)
+![Unit 07 Illustration](../../../assets/images/generated/unit_07.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -62,9 +62,15 @@ In Indonesian: **"Rumah Besar"** (Noun + Adj). Always flip it!
 **Budi:** Lumayan (So-so). Tapi capek. Naik Gojek saja?
 **Sarah:** Ide **bagus**.
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 07 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_07.png" alt="QR Code - Unit 07 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-07</strong></p>
 
 ### Audio Notes
 1.  "Yuk" is a casual "Let's". *Makan yuk* (Let's eat).

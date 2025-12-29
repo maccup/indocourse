@@ -170,7 +170,7 @@ async function generateCover() {
     return;
   }
 
-  const coverPrompt = `Illustration of Bali rice terraces at golden hour sunrise. Lush green stepped rice paddies cascading down hillside. Small traditional Balinese temple silhouette in distance. Palm trees framing the scene. Warm orange and green tones. Peaceful, serene atmosphere. Digital art style, clean and modern. Portrait orientation. No text or words.`;
+  const coverPrompt = `Digital nomad scene at a Balinese open-air café. Laptop on a natural wood/bamboo table. Tropical plants (monstera, banana leaves) framing the left and right edges. In the background: soft silhouette of a traditional Balinese temple (pura) and palm trees. Warm golden hour lighting with terracotta and sage green tones. A cup of coffee beside the laptop. Peaceful, productive atmosphere. Modern minimalist flat illustration style, clean geometric shapes. Portrait orientation (3:4 aspect ratio). Upper third should have open/lighter area suitable for text overlay. No text, no words, no letters in the image.`;
 
   try {
     await generateImage(coverPrompt, outputPath);

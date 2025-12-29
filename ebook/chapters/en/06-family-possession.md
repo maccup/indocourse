@@ -1,6 +1,6 @@
 # Unit 06: Family & Possession (Punya)
 
-![Unit 06 Illustration](../../../assets/images/unit_06.jpg)
+![Unit 06 Illustration](../../../assets/images/generated/unit_06.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -66,9 +66,15 @@ For formal situations (using titles), place the title after the noun.
 **Ibu Wayan:** Mba Sarah punya kakak?
 **Sarah:** Tidak punya. Saya anak tunggal (only child).
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 06 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_06.png" alt="QR Code - Unit 06 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-06</strong></p>
 
 ### Audio Notes
 1.  Notice the mix of "-ku" (casual/intimate) and "Saya" (neutral).

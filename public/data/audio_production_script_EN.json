@@ -1,0 +1,1008 @@
+[
+  {
+    "unit": "Unit 01: Greetings & Introductions (Selamat Pagi)",
+    "vocabulary": [
+      {
+        "indonesian": "Selamat pagi",
+        "english": "Good morning"
+      },
+      {
+        "indonesian": "Selamat siang",
+        "english": "Good day"
+      },
+      {
+        "indonesian": "Selamat sore",
+        "english": "Good afternoon"
+      },
+      {
+        "indonesian": "Selamat malam",
+        "english": "Good evening"
+      },
+      {
+        "indonesian": "Apa kabar?",
+        "english": "How are you?"
+      },
+      {
+        "indonesian": "Baik",
+        "english": "Good / Fine"
+      },
+      {
+        "indonesian": "Nama",
+        "english": "Name"
+      },
+      {
+        "indonesian": "Saya",
+        "english": "I / My"
+      },
+      {
+        "indonesian": "Mas",
+        "english": "You (Brother)"
+      },
+      {
+        "indonesian": "Mba",
+        "english": "You (Sister)"
+      },
+      {
+        "indonesian": "Pak",
+        "english": "You (Sir/Father)"
+      },
+      {
+        "indonesian": "Bu",
+        "english": "You (Ma'am/Mother)"
+      },
+      {
+        "indonesian": "Siapa",
+        "english": "Who"
+      },
+      {
+        "indonesian": "Makasih",
+        "english": "Thanks"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Budi",
+        "text": "Pagi, Mba."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Pagi, Mas."
+      },
+      {
+        "speaker": "Budi",
+        "text": "Apa kabar?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Baik. Mas gimana? (How about you?)"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Baik juga. Makasih."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Namanya siapa, Mas?"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Saya Budi. Mba siapa namanya?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Saya Sarah."
+      },
+      {
+        "speaker": "Budi",
+        "text": "Salam kenal, Sarah."
+      }
+    ]
+  },
+  {
+    "unit": "Unit 02: Numbers, Money, & Basic Bargaining",
+    "vocabulary": [
+      {
+        "indonesian": "Berapa?",
+        "english": "How much / How many?"
+      },
+      {
+        "indonesian": "Harga",
+        "english": "Price"
+      },
+      {
+        "indonesian": "Uang",
+        "english": "Money"
+      },
+      {
+        "indonesian": "Mahal",
+        "english": "Expensive"
+      },
+      {
+        "indonesian": "Murah",
+        "english": "Cheap"
+      },
+      {
+        "indonesian": "Boleh",
+        "english": "Can / Allowed"
+      },
+      {
+        "indonesian": "Kurang",
+        "english": "Less / Minus"
+      },
+      {
+        "indonesian": "Ini",
+        "english": "This"
+      },
+      {
+        "indonesian": "Itu",
+        "english": "That"
+      },
+      {
+        "indonesian": "Satu",
+        "english": "One"
+      },
+      {
+        "indonesian": "Dua",
+        "english": "Two"
+      },
+      {
+        "indonesian": "Tiga",
+        "english": "Three"
+      },
+      {
+        "indonesian": "Empat",
+        "english": "Four"
+      },
+      {
+        "indonesian": "Lima",
+        "english": "Five"
+      },
+      {
+        "indonesian": "Enam",
+        "english": "Six"
+      },
+      {
+        "indonesian": "Tujuh",
+        "english": "Seven"
+      },
+      {
+        "indonesian": "Delapan",
+        "english": "Eight"
+      },
+      {
+        "indonesian": "Sembilan",
+        "english": "Nine"
+      },
+      {
+        "indonesian": "Sepuluh",
+        "english": "Ten"
+      },
+      {
+        "indonesian": "Ribu",
+        "english": "Thousand"
+      },
+      {
+        "indonesian": "Juta",
+        "english": "Million"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "text": "Pagi, Bu. Kain ini berapa?"
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Pagi, cantik (beautiful). Itu seratus lima puluh ribu. (150,000)"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Wah, mahal banget, Bu!"
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Bagus lho, kualitas ekspor."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Boleh kurang, nggak?"
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Boleh. Mau berapa?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Tujuh puluh ribu, ya? (70,000)"
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Waduh, belum dapat, Mba. (I can't do that yet). Seratus pas, deh. (100 flat/fixed)."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Delapan puluh ribu deh, Bu. Saya ambil dua."
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Ya sudah. Delapan puluh ribu. Silakan."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Makasih, Bu."
+      }
+    ]
+  },
+  {
+    "unit": "Unit 03: Food & Dining (Warung Culture)",
+    "vocabulary": [
+      {
+        "indonesian": "Makan",
+        "english": "To eat / Food"
+      },
+      {
+        "indonesian": "Minum",
+        "english": "To drink / Drink"
+      },
+      {
+        "indonesian": "Nasi",
+        "english": "Rice"
+      },
+      {
+        "indonesian": "Ayam",
+        "english": "Chicken"
+      },
+      {
+        "indonesian": "Ikan",
+        "english": "Fish"
+      },
+      {
+        "indonesian": "Goreng",
+        "english": "Fried"
+      },
+      {
+        "indonesian": "Bakar",
+        "english": "Grilled"
+      },
+      {
+        "indonesian": "Pedas",
+        "english": "Spicy"
+      },
+      {
+        "indonesian": "Manis",
+        "english": "Sweet"
+      },
+      {
+        "indonesian": "Air putih",
+        "english": "Water"
+      },
+      {
+        "indonesian": "Es",
+        "english": "Ice"
+      },
+      {
+        "indonesian": "Mau",
+        "english": "Want"
+      },
+      {
+        "indonesian": "Suka",
+        "english": "Like"
+      },
+      {
+        "indonesian": "Enak",
+        "english": "Delicious"
+      },
+      {
+        "indonesian": "Bon / Bill",
+        "english": "The Bill"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "text": "Siang, Bu. Buka? (Open?)"
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Siang, Mba. Buka, silakan duduk. Mau pesan apa?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Saya mau Nasi Goreng Ayam, satu."
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Pedas nggak?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Jangan pedas, ya Bu. Dikit saja. (Don't make it spicy. Just a little)."
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Oke. Minumnya apa?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Es Teh Manis, satu."
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Makan sini atau bungkus? (Eat here or wrap/take-away?)"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Makan sini saja."
+      },
+      {
+        "speaker": "Ibu",
+        "text": "Tunggu sebentar ya."
+      }
+    ]
+  },
+  {
+    "unit": "Unit 04: Directions & Transportation (Kiri / Kanan)",
+    "vocabulary": [
+      {
+        "indonesian": "Di mana",
+        "english": "Where (is)"
+      },
+      {
+        "indonesian": "Ke mana",
+        "english": "Where (to)"
+      },
+      {
+        "indonesian": "Sini / Situ / Sana",
+        "english": "Here / There / Over there"
+      },
+      {
+        "indonesian": "Kiri",
+        "english": "Left"
+      },
+      {
+        "indonesian": "Kanan",
+        "english": "Right"
+      },
+      {
+        "indonesian": "Lurus",
+        "english": "Straight"
+      },
+      {
+        "indonesian": "Jalan",
+        "english": "Street / Walk / Go"
+      },
+      {
+        "indonesian": "Stop / Berhenti",
+        "english": "Stop"
+      },
+      {
+        "indonesian": "Depan",
+        "english": "Front"
+      },
+      {
+        "indonesian": "Belakang",
+        "english": "Back / Behind"
+      },
+      {
+        "indonesian": "Dekat",
+        "english": "Near"
+      },
+      {
+        "indonesian": "Jauh",
+        "english": "Far"
+      },
+      {
+        "indonesian": "Belok",
+        "english": "Turn"
+      },
+      {
+        "indonesian": "Mobil",
+        "english": "Car"
+      },
+      {
+        "indonesian": "Motor",
+        "english": "Motorcycle"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Driver",
+        "text": "Siang, Pak. Sesuai aplikasi ya? (Good day. According to app?)"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Ya, Pak. Ke Hotel Santika."
+      },
+      {
+        "speaker": "Driver",
+        "text": "Lewat mana, Pak? (Which way?)"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Ikut Google Maps saja, Pak."
+      },
+      {
+        "speaker": "Budi",
+        "text": "Pak, nanti belok kanan di depan ya."
+      },
+      {
+        "speaker": "Driver",
+        "text": "Oke, siap."
+      },
+      {
+        "speaker": "Budi",
+        "text": "Masuk gang ini, lalu lurus terus."
+      },
+      {
+        "speaker": "Driver",
+        "text": "Yang pagar hitam itu?"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Ya, benar. Stop di kiri, Pak."
+      },
+      {
+        "speaker": "Driver",
+        "text": "Oke. Sampai, Pak."
+      }
+    ]
+  },
+  {
+    "unit": "Unit 05: Time & Daily Routine (Jam Berapa?)",
+    "vocabulary": [
+      {
+        "indonesian": "Jam",
+        "english": "Hour / Clock"
+      },
+      {
+        "indonesian": "Menit",
+        "english": "Minute"
+      },
+      {
+        "indonesian": "Sekarang",
+        "english": "Now"
+      },
+      {
+        "indonesian": "Besok",
+        "english": "Tomorrow"
+      },
+      {
+        "indonesian": "Kemarin",
+        "english": "Yesterday"
+      },
+      {
+        "indonesian": "Hari ini",
+        "english": "Today"
+      },
+      {
+        "indonesian": "Pagi",
+        "english": "Morning"
+      },
+      {
+        "indonesian": "Siang",
+        "english": "Day/Noon"
+      },
+      {
+        "indonesian": "Sore",
+        "english": "Afternoon"
+      },
+      {
+        "indonesian": "Malam",
+        "english": "Night"
+      },
+      {
+        "indonesian": "Bangun",
+        "english": "Wake up"
+      },
+      {
+        "indonesian": "Tidur",
+        "english": "Sleep"
+      },
+      {
+        "indonesian": "Mandi",
+        "english": "Shower"
+      },
+      {
+        "indonesian": "Kerja",
+        "english": "Work"
+      },
+      {
+        "indonesian": "Pulang",
+        "english": "Go home"
+      },
+      {
+        "indonesian": "Buka",
+        "english": "Open"
+      },
+      {
+        "indonesian": "Tutup",
+        "english": "Closed"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "text": "Budi, hari Sabtu sibuk nggak? (Busy on Saturday?)"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Nggak terlalu. Kenapa?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Kita mau ke pantai. Mau ikut?"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Boleh. Jam berapa berangkat?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Jam delapan pagi."
+      },
+      {
+        "speaker": "Budi",
+        "text": "Waduh, pagi banget! Saya baru bangun jam sembilan."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Ya ampun, kebo banget! (Cow/Lazy!). Ya sudah, jam sepuluh ya?"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Oke, jam sepuluh bisa. Sampai ketemu besok."
+      }
+    ]
+  },
+  {
+    "unit": "Unit 06: Family & Possession (Punya)",
+    "vocabulary": [
+      {
+        "indonesian": "Keluarga",
+        "english": "Family"
+      },
+      {
+        "indonesian": "Orang tua",
+        "english": "Parents"
+      },
+      {
+        "indonesian": "Ayah / Bapak",
+        "english": "Father"
+      },
+      {
+        "indonesian": "Ibu / Mama",
+        "english": "Mother"
+      },
+      {
+        "indonesian": "Anak",
+        "english": "Child"
+      },
+      {
+        "indonesian": "Kakak",
+        "english": "Older Sibling"
+      },
+      {
+        "indonesian": "Adik",
+        "english": "Younger Sibling"
+      },
+      {
+        "indonesian": "Suami",
+        "english": "Husband"
+      },
+      {
+        "indonesian": "Istri",
+        "english": "Wife"
+      },
+      {
+        "indonesian": "Teman",
+        "english": "Friend"
+      },
+      {
+        "indonesian": "Pacar",
+        "english": "Boyfriend/Girlfriend"
+      },
+      {
+        "indonesian": "Punya",
+        "english": "Have / Own"
+      },
+      {
+        "indonesian": "Ada",
+        "english": "There is / exist"
+      },
+      {
+        "indonesian": "Menikah",
+        "english": "Married"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Ibu Wayan",
+        "text": "Ini siapa, Mba Sarah?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Ini adikku, namanya Tom."
+      },
+      {
+        "speaker": "Ibu Wayan",
+        "text": "Ganteng ya (Handsome). Dia punya pacar?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Sudah. Ini pacarnya, Lisa."
+      },
+      {
+        "speaker": "Ibu Wayan",
+        "text": "Wah, cantik. Kalau ini?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Ini orang tua saya. Ayah dan Ibu."
+      },
+      {
+        "speaker": "Ibu Wayan",
+        "text": "Mba Sarah punya kakak?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Tidak punya. Saya anak tunggal (only child)."
+      }
+    ]
+  },
+  {
+    "unit": "Unit 07: Adjectives (Hot/Cold/Spicy)",
+    "vocabulary": [
+      {
+        "indonesian": "Bagus",
+        "english": "Good / Nice"
+      },
+      {
+        "indonesian": "Baik",
+        "english": "Good / Kind"
+      },
+      {
+        "indonesian": "Besar",
+        "english": "Big"
+      },
+      {
+        "indonesian": "Kecil",
+        "english": "Small"
+      },
+      {
+        "indonesian": "Panas",
+        "english": "Hot"
+      },
+      {
+        "indonesian": "Dingin",
+        "english": "Cold"
+      },
+      {
+        "indonesian": "Jauh",
+        "english": "Far"
+      },
+      {
+        "indonesian": "Dekat",
+        "english": "Near"
+      },
+      {
+        "indonesian": "Capek",
+        "english": "Tired"
+      },
+      {
+        "indonesian": "Senang",
+        "english": "Happy"
+      },
+      {
+        "indonesian": "Sakit",
+        "english": "Sick / Pain"
+      },
+      {
+        "indonesian": "Enak",
+        "english": "Delicious / Comfy"
+      },
+      {
+        "indonesian": "Baru",
+        "english": "New"
+      },
+      {
+        "indonesian": "Lama",
+        "english": "Old (Things) / Long time"
+      },
+      {
+        "indonesian": "Tua",
+        "english": "Old (People)"
+      },
+      {
+        "indonesian": "Sangat / Banget",
+        "english": "Very"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "text": "Aduh, hari ini panas banget ya!"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Iya, gila (crazy). Matahari kuat sekali."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Kita cari tempat yang dingin yuk. Masuk mall?"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Boleh. Mall Grand Indonesia dekat dari sini."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Jauh nggak kalau jalan kaki?"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Lumayan (So-so). Tapi capek. Naik Gojek saja?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Ide bagus."
+      }
+    ]
+  },
+  {
+    "unit": "Unit 08: Health & Emergencies",
+    "vocabulary": [
+      {
+        "indonesian": "Sakit",
+        "english": "Sick / Pain / Hurts"
+      },
+      {
+        "indonesian": "Tolong",
+        "english": "Help / Please"
+      },
+      {
+        "indonesian": "Dokter",
+        "english": "Doctor"
+      },
+      {
+        "indonesian": "Rumah Sakit",
+        "english": "Hospital"
+      },
+      {
+        "indonesian": "Apotek",
+        "english": "Pharmacy"
+      },
+      {
+        "indonesian": "Obat",
+        "english": "Medicine"
+      },
+      {
+        "indonesian": "Kepala",
+        "english": "Head"
+      },
+      {
+        "indonesian": "Perut",
+        "english": "Stomach"
+      },
+      {
+        "indonesian": "Gigi",
+        "english": "Tooth"
+      },
+      {
+        "indonesian": "Kaki",
+        "english": "Foot/Leg"
+      },
+      {
+        "indonesian": "Demam",
+        "english": "Fever"
+      },
+      {
+        "indonesian": "Muntah",
+        "english": "Vomit"
+      },
+      {
+        "indonesian": "Diare",
+        "english": "Diarrhea"
+      },
+      {
+        "indonesian": "Bahaya",
+        "english": "Danger"
+      },
+      {
+        "indonesian": "Hati-hati",
+        "english": "Be careful"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Apoteker",
+        "text": "Selamat sore, ada yang bisa dibantu?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Sore, Mba. Saya lagi sakit perut."
+      },
+      {
+        "speaker": "Apoteker",
+        "text": "Sudah berapa lama?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Dari pagi. Saya juga agak mual (nauseous)."
+      },
+      {
+        "speaker": "Apoteker",
+        "text": "Salah makan? (Ate wrong food?)"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Mungkin. Kemarin makan sambal terlalu banyak."
+      },
+      {
+        "speaker": "Apoteker",
+        "text": "Ini ada obat untuk maag dan diare. Diminum 3x sehari ya."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Oke. Terima kasih."
+      },
+      {
+        "speaker": "Apoteker",
+        "text": "Semoga cepat sembuh (Get well soon)."
+      }
+    ]
+  },
+  {
+    "unit": "Unit 09: Past & Future (Sudah/Belum/Akan)",
+    "vocabulary": [
+      {
+        "indonesian": "Sudah",
+        "english": "Already / Done"
+      },
+      {
+        "indonesian": "Belum",
+        "english": "Not yet"
+      },
+      {
+        "indonesian": "Akan",
+        "english": "Will"
+      },
+      {
+        "indonesian": "Mau",
+        "english": "Want / Will"
+      },
+      {
+        "indonesian": "Sedang / Lagi",
+        "english": "Currently / -ing"
+      },
+      {
+        "indonesian": "Pernah",
+        "english": "Ever"
+      },
+      {
+        "indonesian": "Tadi",
+        "english": "Just now / Earlier"
+      },
+      {
+        "indonesian": "Nanti",
+        "english": "Later"
+      },
+      {
+        "indonesian": "Baru saja",
+        "english": "Just (very recently)"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Budi",
+        "text": "Sarah, kamu sudah berapa lama di Indonesia?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Sudah dua minggu."
+      },
+      {
+        "speaker": "Budi",
+        "text": "Kamu pernah ke Jogja?"
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Belum pernah. Tapi saya mau ke sana minggu depan."
+      },
+      {
+        "speaker": "Budi",
+        "text": "Wah, asik. Jogja bagus banget."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Kamu sudah pernah ke Borobudur?"
+      },
+      {
+        "speaker": "Budi",
+        "text": "Sudah sering (Often). Rumah nenek saya di sana."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Nanti saya minta tips ya!"
+      }
+    ]
+  },
+  {
+    "unit": "Unit 10: Social Etiquette & Polite Requests",
+    "vocabulary": [
+      {
+        "indonesian": "Maaf",
+        "english": "Sorry"
+      },
+      {
+        "indonesian": "Permisi",
+        "english": "Excuse me"
+      },
+      {
+        "indonesian": "Silakan",
+        "english": "Please (go ahead)"
+      },
+      {
+        "indonesian": "Tolong",
+        "english": "Please (help)"
+      },
+      {
+        "indonesian": "Boleh",
+        "english": "May I?"
+      },
+      {
+        "indonesian": "Terima kasih",
+        "english": "Thank you"
+      },
+      {
+        "indonesian": "Sama-sama",
+        "english": "You're welcome"
+      },
+      {
+        "indonesian": "Kembali",
+        "english": "You're welcome"
+      },
+      {
+        "indonesian": "Tidak apa-apa",
+        "english": "It's okay / No problem"
+      },
+      {
+        "indonesian": "Hati-hati",
+        "english": "Be careful / Safe trip"
+      },
+      {
+        "indonesian": "Santai",
+        "english": "Relax / Chill"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Sarah",
+        "text": "(Knocking) Permisi... Selamat sore."
+      },
+      {
+        "speaker": "Ibu Wayan",
+        "text": "Eh, Mba Sarah. Silakan masuk."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Terima kasih, Bu. Maaf saya terlambat sedikit. Macet."
+      },
+      {
+        "speaker": "Ibu Wayan",
+        "text": "Tidak apa-apa, santai saja. Silakan duduk."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Wah, rumahnya bagus sekali."
+      },
+      {
+        "speaker": "Ibu Wayan",
+        "text": "Biasa saja (Just ordinary/humble). Silakan diminum tehnya."
+      },
+      {
+        "speaker": "Sarah",
+        "text": "Terima kasih, Bu."
+      }
+    ]
+  }
+]

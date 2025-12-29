@@ -1,6 +1,6 @@
 # Unit 08: Health & Emergencies
 
-![Unit 08 Illustration](../../../assets/images/unit_08.jpg)
+![Unit 08 Illustration](../../../assets/images/generated/unit_08.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -61,9 +61,15 @@ You might see signs like "Dilarang" (Forbidden).
 **Sarah:** Oke. Terima kasih.
 **Apoteker:** Semoga cepat sembuh (Get well soon).
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 08 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_08.png" alt="QR Code - Unit 08 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-08</strong></p>
 
 ### Audio Notes
 1.  "Semoga cepat sembuh" is the standard phrase for "Get well soon".

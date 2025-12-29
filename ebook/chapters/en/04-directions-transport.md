@@ -1,6 +1,6 @@
 # Unit 04: Directions & Transportation (Kiri / Kanan)
 
-![Unit 04 Illustration](../../../assets/images/unit_04.jpg)
+![Unit 04 Illustration](../../../assets/images/generated/unit_04.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -65,9 +65,15 @@ To tell a driver what to do, just use the verb + direction.
 **Budi:** Ya, benar. **Stop di kiri**, Pak.
 **Driver:** Oke. Sampai, Pak.
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 04 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_04.png" alt="QR Code - Unit 04 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-04</strong></p>
 
 ### Audio Notes
 1.  "Sesuai aplikasi" is the #1 phrase you will hear from Grab/Gojek drivers. It confirms you don't need to explain the destination if it's already set.

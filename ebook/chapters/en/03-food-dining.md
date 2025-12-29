@@ -1,6 +1,6 @@
 # Unit 03: Food & Dining (Warung Culture)
 
-![Unit 03 Illustration](../../../assets/images/unit_03.jpg)
+![Unit 03 Illustration](../../../assets/images/generated/unit_03.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -69,9 +69,15 @@ If you want to emphasize a preference, use **Yang**:
 **Sarah:** Makan sini saja.
 **Ibu:** Tunggu sebentar ya.
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 03 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_03.png" alt="QR Code - Unit 03 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-03</strong></p>
 
 ### Audio Notes
 1.  "Bungkus" is the magic word for Take-Away.

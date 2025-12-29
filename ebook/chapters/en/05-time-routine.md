@@ -1,6 +1,6 @@
 # Unit 05: Time & Daily Routine (Jam Berapa?)
 
-![Unit 05 Illustration](../../../assets/images/unit_05.jpg)
+![Unit 05 Illustration](../../../assets/images/generated/unit_05.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -68,9 +68,15 @@ When talking about routine, you might be asked: "Have you eaten?"
 **Sarah:** Ya ampun, kebo banget! (Cow/Lazy!). Ya sudah, jam sepuluh ya?
 **Budi:** Oke, jam sepuluh bisa. Sampai ketemu **besok**.
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 05 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_05.png" alt="QR Code - Unit 05 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-05</strong></p>
 
 ### Audio Notes
 1.  "Kebo" (Buffalo/Cow) is mild slang for someone who sleeps a lot or is lazy. Friendly banter.

@@ -1,6 +1,6 @@
 # Unit 10: Social Etiquette & Polite Requests
 
-![Unit 10 Illustration](../../../assets/images/unit_10.jpg)
+![Unit 10 Illustration](../../../assets/images/generated/unit_10.png)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
@@ -55,9 +55,15 @@ English has "Please". Indonesian has three, depending on context:
 **Ibu Wayan:** Biasa saja (Just ordinary/humble). **Silakan diminum** tehnya.
 **Sarah:** Terima kasih, Bu.
 
-### 🎧 Audio Dialogue
+### 🎧 Listen Online
 
-**[Audio Track: Unit 10 Dialogue]**
+Scan to hear native pronunciation:
+
+<p align="center">
+  <img src="../../../assets/images/generated/qr_unit_10.png" alt="QR Code - Unit 10 Audio" width="150" />
+</p>
+
+<p align="center"><strong>https://indonesianbasics.com/audio#unit-10</strong></p>
 
 ### Audio Notes
 1.  Note the repeated use of "Silakan" by the host.
