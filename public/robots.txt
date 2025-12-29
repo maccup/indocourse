@@ -1,0 +1,25 @@
+# Indonesian Basics robots.txt
+# https://indonesianbasics.com
+
+User-agent: *
+Allow: /
+
+# Block development/build files
+Disallow: /src/
+Disallow: /*.tsx$
+Disallow: /*.ts$
+Disallow: /node_modules/
+
+# Allow important resources
+Allow: /images/
+Allow: /*.pdf$
+
+# Crawl rate limits for aggressive bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://indonesianbasics.com/sitemap.xml

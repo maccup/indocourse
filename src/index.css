@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-terracotta: #E07A5F;
+  --color-sage: #81B29A;
+  --color-cream: #FDFBF7;
+  --color-charcoal: #3D405B;
+  --color-sand: #F4F1DE;
+
+  --font-sans: 'Nunito', sans-serif;
+  --font-serif: 'Lora', serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}

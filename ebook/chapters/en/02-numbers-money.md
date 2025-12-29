@@ -1,5 +1,7 @@
 # Unit 02: Numbers, Money, & Basic Bargaining
 
+![Unit 02 Illustration](../../../assets/images/unit_02.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Count from 1 to 1,000,000 (It’s easier than you think!).
@@ -91,7 +93,11 @@ Bargaining is expected in traditional markets (Pasar), but NOT in supermarkets o
 **Ibu:** Ya sudah. Delapan puluh ribu. Silakan.
 **Sarah:** Makasih, Bu.
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 02 Dialogue]**
+
+### Audio Notes
 1.  Note the tone. It is friendly, not aggressive.
 2.  "Wah" and "Waduh" are interjections of surprise.
 3.  "Deh" is a particle used to confirm or settle a deal.

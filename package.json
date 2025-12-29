@@ -1,19 +1,46 @@
 {
-  "name": "indocourse",
+  "name": "indonesian-basics",
+  "private": true,
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Indonesian Basics - Free Indonesian for Beginners course",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build:pdf": "node scripts/build-pdf.js",
-    "build:audio": "node scripts/extract-audio.js"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "build:pdf": "node scripts/build-pdf.js en",
+    "build:pdf:kdp": "node scripts/build-pdf.js en --kdp",
+    "build:audio": "node scripts/extract-audio.js en",
+    "generate:assets": "node scripts/generate-assets.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
+    "clsx": "^2.1.1",
     "dotenv": "^17.2.3",
+    "framer-motion": "^12.23.26",
+    "lucide-react": "^0.562.0",
     "markdown-it": "^14.1.0",
-    "puppeteer": "^24.34.0"
+    "puppeteer": "^24.34.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.23",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4"
   }
 }

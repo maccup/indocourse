@@ -1,123 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survival Indonesian | Speak Like a Local</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        cream: '#FDFBF7',
-                        terracotta: '#E07A5F',
-                        sage: '#81B29A',
-                        charcoal: '#3D405B',
-                    },
-                    fontFamily: {
-                        sans: ['Nunito', 'sans-serif'],
-                        serif: ['Lora', 'serif'],
-                    }
-                }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Indonesian Basics: Free Indonesian for Beginners | Learn Bahasa Indonesia</title>
+    <meta name="title" content="Indonesian Basics: Free Indonesian for Beginners | Learn Bahasa Indonesia" />
+    <meta name="description" content="Is Indonesian easy to learn? Yes! Download our free Indonesian for beginners PDF with audio. Learn basic Indonesian language phrases locals actually use in Bali. No textbook fluff." />
+    <meta name="keywords" content="indonesian basics, indonesian for beginners, is indonesian easy to learn, basic indonesian language, learn indonesian free, bahasa indonesia for beginners, indonesian pdf free, survival indonesian" />
+    <meta name="author" content="Indonesian Basics" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://indonesianbasics.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://indonesianbasics.com/" />
+    <meta property="og:site_name" content="Indonesian Basics" />
+    <meta property="og:title" content="Free Indonesian for Beginners - Learn Basic Indonesian Language" />
+    <meta property="og:description" content="Is Indonesian easy to learn? Yes! Free PDF + audio teaching authentic street Indonesian for Bali. No 'Anda' - learn real phrases with Mas, Mba, Pak, Bu." />
+    <meta property="og:image" content="https://indonesianbasics.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://indonesianbasics.com/" />
+    <meta name="twitter:title" content="Free Indonesian for Beginners - Basic Indonesian Language Course" />
+    <meta name="twitter:description" content="Learn basic Indonesian in days, not months. Free PDF + audio. Real street phrases for Bali travelers." />
+    <meta name="twitter:image" content="https://indonesianbasics.com/og-image.jpg" />
+
+    <!-- Geo & Language -->
+    <meta name="language" content="English" />
+    <meta name="geo.region" content="ID-BA" />
+    <meta name="geo.placename" content="Bali, Indonesia" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://indonesianbasics.com/#website",
+          "url": "https://indonesianbasics.com/",
+          "name": "Indonesian Basics",
+          "description": "Free Indonesian for beginners course with audio",
+          "inLanguage": "en"
+        },
+        {
+          "@type": "Course",
+          "@id": "https://indonesianbasics.com/#course",
+          "name": "Indonesian Basics: Survival Indonesian for Beginners",
+          "description": "Learn authentic street Indonesian spoken by locals in Bali and Jakarta. Free PDF eBook with audio. Covers greetings, numbers, food, directions, and essential phrases.",
+          "provider": {
+            "@type": "Organization",
+            "name": "Indonesian Basics",
+            "url": "https://indonesianbasics.com"
+          },
+          "educationalLevel": "Beginner (A1-A2)",
+          "inLanguage": "en",
+          "teaches": "Indonesian Language (Bahasa Indonesia)",
+          "coursePrerequisites": "None - absolute beginner friendly",
+          "availableLanguage": "English",
+          "isAccessibleForFree": true,
+          "hasCourseInstance": {
+            "@type": "CourseInstance",
+            "courseMode": "online",
+            "courseWorkload": "PT10H"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://indonesianbasics.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Is Indonesian easy to learn?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, Indonesian is one of the easiest Asian languages for English speakers. It uses the Latin alphabet, has no verb conjugations, no gendered nouns, no tones, and simple grammar. Most beginners can hold basic conversations within 1-2 weeks of study."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does it take to learn Indonesian?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "For basic conversational Indonesian (A1-A2 level), most learners achieve this in 2-4 weeks with daily practice. The US Foreign Service Institute classifies Indonesian as a Category II language, requiring approximately 900 hours for professional proficiency."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the difference between Indonesian and Malay?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Indonesian (Bahasa Indonesia) and Malay (Bahasa Melayu) are mutually intelligible with about 80% shared vocabulary. The main differences are in some vocabulary, spelling conventions, and regional expressions. If you learn Indonesian, you will understand most Malay."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do I need to learn Indonesian for Bali?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "While many Balinese speak English in tourist areas, learning basic Indonesian dramatically improves your experience. Locals appreciate the effort, you get better prices, and you can connect with people outside tourist zones. Even 20-30 phrases make a big difference."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the basic Indonesian words I should learn first?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Start with greetings (Pagi, Siang, Sore, Malam), polite titles (Mas, Mba, Pak, Bu), essential phrases (Terima kasih, Sama-sama, Permisi, Maaf), and numbers 1-10. These 20-30 words cover most daily interactions in Bali and Indonesia."
+              }
             }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://indonesianbasics.com/#organization",
+          "name": "Indonesian Basics",
+          "url": "https://indonesianbasics.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://indonesianbasics.com/logo.png"
+          },
+          "description": "Free Indonesian language learning resources for travelers and expats"
         }
+      ]
+    }
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Lora:wght@700&display=swap" rel="stylesheet">
-</head>
-<body class="bg-cream text-charcoal font-sans antialiased">
-
-    <!-- Navbar -->
-    <nav class="p-6 flex justify-between items-center max-w-6xl mx-auto">
-        <div class="font-serif text-2xl font-bold text-terracotta">IndoCourse</div>
-        <a href="#download" class="text-charcoal hover:text-terracotta font-bold">Get the Book</a>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-6 py-12 md:py-24">
-        <div class="md:w-1/2 space-y-6">
-            <h1 class="font-serif text-5xl md:text-6xl font-bold leading-tight text-charcoal">
-                Speak <span class="text-terracotta">Indonesian</span><br>Like a Local.
-            </h1>
-            <p class="text-xl text-gray-600">
-                Stop sounding like a textbook. Learn the "Survival Indonesian" that expats and travelers actually use in Bali and Jakarta.
-            </p>
-            <div class="flex gap-4 pt-4">
-                <a href="IndoCourse_Survival_Indonesian.pdf" download class="bg-terracotta text-white px-8 py-4 rounded-lg font-bold hover:bg-red-500 transition shadow-lg">
-                    Download Free PDF
-                </a>
-                <a href="#curriculum" class="border-2 border-sage text-sage px-8 py-4 rounded-lg font-bold hover:bg-sage hover:text-white transition">
-                    View Curriculum
-                </a>
-            </div>
-        </div>
-        <div class="md:w-1/2 flex justify-center mt-12 md:mt-0">
-            <!-- Embedding SVG directly or using img tag -->
-            <img src="assets/images/cover.svg" alt="Survival Indonesian Book Cover" class="w-3/4 shadow-2xl rounded-lg transform -rotate-3 hover:rotate-0 transition duration-500">
-        </div>
-    </header>
-
-    <!-- Features -->
-    <section class="bg-white py-20">
-        <div class="max-w-6xl mx-auto px-6">
-            <h2 class="font-serif text-3xl font-bold text-center mb-16">Why this book is different</h2>
-            <div class="grid md:grid-cols-3 gap-12">
-                <div class="space-y-4">
-                    <div class="w-12 h-12 bg-sage rounded-full flex items-center justify-center text-white font-bold text-xl">1</div>
-                    <h3 class="font-bold text-xl">No "Anda" Allowed</h3>
-                    <p class="text-gray-600">Native speakers rarely use the formal "Anda". We teach you to use Titles (Mas, Mba, Pak) so you don't sound like a robot.</p>
-                </div>
-                <div class="space-y-4">
-                    <div class="w-12 h-12 bg-terracotta rounded-full flex items-center justify-center text-white font-bold text-xl">2</div>
-                    <h3 class="font-bold text-xl">Zero Copula</h3>
-                    <p class="text-gray-600">Stop worrying about "am, is, are". Indonesian doesn't have them! We teach you the shortcut to fluency.</p>
-                </div>
-                <div class="space-y-4">
-                    <div class="w-12 h-12 bg-charcoal rounded-full flex items-center justify-center text-white font-bold text-xl">3</div>
-                    <h3 class="font-bold text-xl">Survival Focused</h3>
-                    <p class="text-gray-600">Learn only the 20% of vocabulary that gives you 80% of the results. Directions, Food, Money, and Socializing.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Curriculum -->
-    <section id="curriculum" class="py-20 bg-cream">
-        <div class="max-w-4xl mx-auto px-6">
-            <h2 class="font-serif text-3xl font-bold text-center mb-12">What's Inside?</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <ul class="space-y-4">
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 01: Greetings & Introductions</li>
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 02: Numbers & Money</li>
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 03: Food & Dining</li>
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 04: Directions & Transport</li>
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 05: Time & Routine</li>
-                </ul>
-                <ul class="space-y-4">
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 06: Family & Possession</li>
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 07: Adjectives (Hot/Cold)</li>
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 08: Health & Emergencies</li>
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 09: Past & Future</li>
-                    <li class="flex items-center gap-3"><span class="text-terracotta">✓</span> Unit 10: Social Etiquette</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="bg-terracotta py-20 text-center text-white">
-        <div class="max-w-2xl mx-auto px-6">
-            <h2 class="font-serif text-4xl font-bold mb-6">Ready to start?</h2>
-            <p class="text-lg mb-8 opacity-90">Download the eBook and audio scripts today. It's free and open source.</p>
-            <a href="IndoCourse_Survival_Indonesian.pdf" download class="bg-white text-terracotta px-8 py-4 rounded-lg font-bold hover:bg-cream transition inline-block">
-                Download Now
-            </a>
-        </div>
-    </section>
-
-    <footer class="bg-charcoal text-cream py-8 text-center text-sm opacity-80">
-        <p>&copy; 2024 IndoCourse. Built with <span class="text-terracotta">❤</span> in Bali.</p>
-    </footer>
-
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

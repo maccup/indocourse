@@ -1,7 +1,11 @@
-const fs = require('fs');
-const path = require('path');
-const MarkdownIt = require('markdown-it');
-const puppeteer = require('puppeteer');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import MarkdownIt from 'markdown-it';
+import puppeteer from 'puppeteer';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const md = new MarkdownIt({
   html: true,
@@ -17,7 +21,12 @@ const isKdp = args.includes('--kdp');
 const CHAPTERS_DIR = path.join(__dirname, `../ebook/chapters/${lang}`);
 const ASSETS_DIR = path.join(__dirname, '../assets');
 const filename = `IndoCourse_Survival_Indonesian_${lang.toUpperCase()}${isKdp ? '_KDP' : ''}.pdf`;
-const OUTPUT_FILE = path.join(__dirname, `../${filename}`);
+const OUTPUT_FILE = path.join(__dirname, `../output/${filename}`);
+
+// Ensure output directory exists
+if (!fs.existsSync(path.dirname(OUTPUT_FILE))) {
+  fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
+}
 
 async function buildPdf() {
   console.log(`Starting PDF Build Process...`);
@@ -36,7 +45,6 @@ async function buildPdf() {
   const cssContent = fs.readFileSync(cssPath, 'utf-8');
 
   // 2. Load Cover Image
-  // We will embed it as Base64 to ensure Puppeteer renders it without path issues
   const coverPath = path.join(ASSETS_DIR, 'images/cover.svg');
   const coverSvg = fs.readFileSync(coverPath, 'utf-8');
   const coverBase64 = Buffer.from(coverSvg).toString('base64');
@@ -45,7 +53,7 @@ async function buildPdf() {
   // 3. Get Chapters
   const files = fs.readdirSync(CHAPTERS_DIR)
     .filter(file => file.endsWith('.md'))
-    .sort(); // Ensure 01 comes before 02
+    .sort();
 
   console.log(`Found ${files.length} chapters.`);
 
@@ -60,10 +68,10 @@ async function buildPdf() {
         ${isKdp ? `
           @page {
             size: 6in 9in;
-            margin: 0.75in 0.5in 0.75in 0.5in; /* Top Right Bottom Left */
+            margin: 0.75in 0.5in 0.75in 0.5in;
           }
           body {
-            font-size: 11pt; /* Slightly smaller for print */
+            font-size: 11pt;
           }
           .chapter {
             page-break-before: always;
@@ -72,19 +80,15 @@ async function buildPdf() {
       </style>
     </head>
     <body>
-      <!-- COVER PAGE -->
       <div class="cover-page">
         <img src="${coverImgSrc}" class="cover-image" alt="Cover">
       </div>
-
-      <!-- CHAPTERS -->
   `;
 
   for (const file of files) {
     const filePath = path.join(CHAPTERS_DIR, file);
     const content = fs.readFileSync(filePath, 'utf-8');
     
-    // Add a page break before each chapter (except maybe the first one if we want it right after cover, but usually yes)
     htmlContent += `<div class="page-break"></div>`;
     
     // Render Markdown
@@ -110,26 +114,14 @@ async function buildPdf() {
   const pdfOptions = isKdp ? {
     path: OUTPUT_FILE,
     printBackground: true,
-    // width/height take precedence over format if set, but preference is usually explicit format or @page
     width: '6in',
     height: '9in',
-    // Margins handled by CSS @page for better control in print, but Puppeteer needs explicit args sometimes
-    margin: {
-      top: '0cm', // CSS handles it
-      right: '0cm',
-      bottom: '0cm',
-      left: '0cm'
-    }
+    margin: { top: '0cm', right: '0cm', bottom: '0cm', left: '0cm' }
   } : {
     path: OUTPUT_FILE,
     format: 'A4',
     printBackground: true,
-    margin: {
-      top: '0cm',
-      right: '0cm',
-      bottom: '0cm',
-      left: '0cm'
-    }
+    margin: { top: '0cm', right: '0cm', bottom: '0cm', left: '0cm' }
   };
 
   await page.pdf(pdfOptions);

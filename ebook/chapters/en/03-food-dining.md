@@ -1,5 +1,7 @@
 # Unit 03: Food & Dining (Warung Culture)
 
+![Unit 03 Illustration](../../../assets/images/unit_03.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Order food and drinks at a local *Warung* or restaurant.
@@ -67,7 +69,11 @@ If you want to emphasize a preference, use **Yang**:
 **Sarah:** Makan sini saja.
 **Ibu:** Tunggu sebentar ya.
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 03 Dialogue]**
+
+### Audio Notes
 1.  "Bungkus" is the magic word for Take-Away.
 2.  "Pedas nggak?" is a quick way asking "Do you want it spicy?".
 

@@ -1,5 +1,7 @@
 # Unit 05: Time & Daily Routine (Jam Berapa?)
 
+![Unit 05 Illustration](../../../assets/images/unit_05.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Ask and tell the time.
@@ -66,7 +68,11 @@ When talking about routine, you might be asked: "Have you eaten?"
 **Sarah:** Ya ampun, kebo banget! (Cow/Lazy!). Ya sudah, jam sepuluh ya?
 **Budi:** Oke, jam sepuluh bisa. Sampai ketemu **besok**.
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 05 Dialogue]**
+
+### Audio Notes
 1.  "Kebo" (Buffalo/Cow) is mild slang for someone who sleeps a lot or is lazy. Friendly banter.
 2.  Note the negotiation of time.
 

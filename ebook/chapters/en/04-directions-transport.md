@@ -1,5 +1,7 @@
 # Unit 04: Directions & Transportation (Kiri / Kanan)
 
+![Unit 04 Illustration](../../../assets/images/unit_04.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Give directions to a taxi or Gojek/Grab driver.
@@ -63,7 +65,11 @@ To tell a driver what to do, just use the verb + direction.
 **Budi:** Ya, benar. **Stop di kiri**, Pak.
 **Driver:** Oke. Sampai, Pak.
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 04 Dialogue]**
+
+### Audio Notes
 1.  "Sesuai aplikasi" is the #1 phrase you will hear from Grab/Gojek drivers. It confirms you don't need to explain the destination if it's already set.
 2.  "Gang" (pronounced 'Gung') is a small alleyway, very common in Bali and Java.
 

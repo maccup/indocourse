@@ -1,5 +1,7 @@
 # Unit 10: Social Etiquette & Polite Requests
 
+![Unit 10 Illustration](../../../assets/images/unit_10.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Be super polite in Indonesian.
@@ -53,7 +55,11 @@ English has "Please". Indonesian has three, depending on context:
 **Ibu Wayan:** Biasa saja (Just ordinary/humble). **Silakan diminum** tehnya.
 **Sarah:** Terima kasih, Bu.
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 10 Dialogue]**
+
+### Audio Notes
 1.  Note the repeated use of "Silakan" by the host.
 2.  "Biasa saja" is a humble response to a compliment. Indonesians rarely agree with compliments directly (that would be arrogant).
 

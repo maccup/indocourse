@@ -1,6 +1,10 @@
-const fs = require('fs');
-const path = require('path');
-const MarkdownIt = require('markdown-it');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import MarkdownIt from 'markdown-it';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const md = new MarkdownIt();
 
@@ -9,8 +13,13 @@ const args = process.argv.slice(2);
 const lang = args[0] || 'en';
 
 const CHAPTERS_DIR = path.join(__dirname, `../ebook/chapters/${lang}`);
-const OUTPUT_FILE = path.join(__dirname, `../audio_production_script_${lang.toUpperCase()}.json`);
-const TXT_OUTPUT = path.join(__dirname, `../audio_production_script_${lang.toUpperCase()}.txt`);
+const OUTPUT_FILE = path.join(__dirname, `../assets/data/audio_production_script_${lang.toUpperCase()}.json`);
+const TXT_OUTPUT = path.join(__dirname, `../assets/data/audio_production_script_${lang.toUpperCase()}.txt`);
+
+// Ensure directory exists
+if (!fs.existsSync(path.dirname(OUTPUT_FILE))) {
+  fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
+}
 
 function extractAudioScript() {
   console.log(`Starting Audio Script Extraction for: ${lang.toUpperCase()}`);
@@ -39,12 +48,10 @@ function extractAudioScript() {
     };
 
     // 1. Extract Vocabulary
-    // Look for the table. It usually starts after ## 2. Vocabulary
     const vocabSection = content.split('## 2. Vocabulary')[1]?.split('##')[0];
     if (vocabSection) {
       const lines = vocabSection.split('\n');
       for (const line of lines) {
-        // Match table rows: | **Word** | Meaning | Notes |
         const match = line.match(/\|\s*\*\*(.+?)\*\*\s*\|\s*(.+?)\s*\|/);
         if (match) {
           unitData.vocabulary.push({
@@ -56,15 +63,12 @@ function extractAudioScript() {
     }
 
     // 2. Extract Dialogue
-    // Look for ## 4. Dialogue
     const dialogueSection = content.split('## 4. Dialogue')[1]?.split('##')[0];
     if (dialogueSection) {
-      // Remove the "Context:" line
       const cleanDialogue = dialogueSection.replace(/\*\*Context:\*\*.+?\n/, '');
       
       const lines = cleanDialogue.split('\n');
       for (const line of lines) {
-        // Match lines like: **Budi:** Hello.
         const match = line.match(/^\*\*(.+?):\*\*\s*(.+)/);
         if (match) {
           unitData.dialogue.push({
@@ -87,13 +91,13 @@ function extractAudioScript() {
   fullScript.forEach(unit => {
     txtContent += `=== ${unit.unit} ===\n\n`;
     
-    txtContent += "--- VOCABULARY ---\\n";
+    txtContent += "--- VOCABULARY ---\n";
     unit.vocabulary.forEach(v => {
       txtContent += `[IND] ${v.indonesian}\n`;
     });
     txtContent += "\n";
     
-    txtContent += "--- DIALOGUE ---\\n";
+    txtContent += "--- DIALOGUE ---\n";
     unit.dialogue.forEach(d => {
       txtContent += `${d.speaker}: ${d.text}\n`;
     });

@@ -1,5 +1,7 @@
 # Unit 06: Family & Possession (Punya)
 
+![Unit 06 Illustration](../../../assets/images/unit_06.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Talk about your family.
@@ -64,7 +66,11 @@ For formal situations (using titles), place the title after the noun.
 **Ibu Wayan:** Mba Sarah punya kakak?
 **Sarah:** Tidak punya. Saya anak tunggal (only child).
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 06 Dialogue]**
+
+### Audio Notes
 1.  Notice the mix of "-ku" (casual/intimate) and "Saya" (neutral).
 2.  "Ganteng" is for men, "Cantik" is for women.
 

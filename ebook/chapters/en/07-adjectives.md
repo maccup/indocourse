@@ -1,5 +1,7 @@
 # Unit 07: Adjectives (Hot/Cold/Spicy)
 
+![Unit 07 Illustration](../../../assets/images/unit_07.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Describe things (Food, Weather, Places).
@@ -60,7 +62,11 @@ In Indonesian: **"Rumah Besar"** (Noun + Adj). Always flip it!
 **Budi:** Lumayan (So-so). Tapi capek. Naik Gojek saja?
 **Sarah:** Ide **bagus**.
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 07 Dialogue]**
+
+### Audio Notes
 1.  "Yuk" is a casual "Let's". *Makan yuk* (Let's eat).
 2.  "Lumayan" is a very useful word for "Not bad / So-so / Average".
 

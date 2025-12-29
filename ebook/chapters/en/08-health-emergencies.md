@@ -1,5 +1,7 @@
 # Unit 08: Health & Emergencies
 
+![Unit 08 Illustration](../../../assets/images/unit_08.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Say you are sick or in pain.
@@ -59,7 +61,11 @@ You might see signs like "Dilarang" (Forbidden).
 **Sarah:** Oke. Terima kasih.
 **Apoteker:** Semoga cepat sembuh (Get well soon).
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 08 Dialogue]**
+
+### Audio Notes
 1.  "Semoga cepat sembuh" is the standard phrase for "Get well soon".
 2.  "Lagi" here means "Currently" (Present continuous).
 

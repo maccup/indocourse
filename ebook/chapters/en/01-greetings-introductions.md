@@ -1,5 +1,7 @@
 # Unit 01: Greetings & Introductions (Selamat Pagi)
 
+![Unit 01 Illustration](../../../assets/images/unit_01.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Greet people naturally at different times of the day.
@@ -67,7 +69,11 @@ Indonesian has no word for "am", "is", or "are".
 **Sarah:** Saya Sarah.
 **Budi:** Salam kenal, Sarah.
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 01 Dialogue]**
+
+### Audio Notes
 *(Ambient coffee shop noise)*
 1.  Read the dialogue naturally (informal speed).
 2.  Note how they drop "Selamat".

@@ -1,5 +1,7 @@
 # Unit 09: Past & Future (Sudah/Belum/Akan)
 
+![Unit 09 Illustration](../../../assets/images/unit_09.jpg)
+
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
 *   Talk about the past (Simple).
@@ -54,7 +56,11 @@ In conversation, **Mau** (want) is often used for "Will/Gonna".
 **Budi:** Sudah sering (Often). Rumah nenek saya di sana.
 **Sarah:** Nanti saya minta tips ya!
 
-### Audio Script Cue
+### 🎧 Audio Dialogue
+
+**[Audio Track: Unit 09 Dialogue]**
+
+### Audio Notes
 1.  Note how "Belum" stands alone as "No" (for "have you ever/already").
 2.  "Asik" (or Asyik) means Cool/Fun.
 
