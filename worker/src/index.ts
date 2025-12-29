@@ -1,0 +1,267 @@
+interface Env {
+  DB: D1Database;
+  BREVO_API_KEY: string;
+  FRONTEND_URL: string;
+  SENDER_EMAIL: string;
+  SENDER_NAME: string;
+}
+
+interface SubscribeRequest {
+  email: string;
+  name: string;
+  locale: string;
+}
+
+const ALLOWED_LOCALES = ['en'];
+
+const DOWNLOAD_LINKS: Record<string, { pdf: string; audio: string }> = {
+  en: {
+    pdf: 'https://indonesianbasics.com/downloads/indonesian-basics-en.pdf',
+    audio: 'https://indonesianbasics.com/downloads/indonesian-basics-audio-en.zip'
+  }
+};
+
+function corsHeaders(origin: string, allowedOrigin: string): HeadersInit {
+  const isAllowed = origin === allowedOrigin ||
+    allowedOrigin.includes('localhost') && origin.includes('localhost');
+
+  return {
+    'Access-Control-Allow-Origin': isAllowed ? origin : allowedOrigin,
+    'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Access-Control-Max-Age': '86400'
+  };
+}
+
+function jsonResponse(data: unknown, status: number, origin: string, allowedOrigin: string): Response {
+  return new Response(JSON.stringify(data), {
+    status,
+    headers: {
+      'Content-Type': 'application/json',
+      ...corsHeaders(origin, allowedOrigin)
+    }
+  });
+}
+
+function validateEmail(email: string): boolean {
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(email);
+}
+
+function generateEmailHtml(name: string, locale: string): string {
+  const links = DOWNLOAD_LINKS[locale] || DOWNLOAD_LINKS['en'];
+  const firstName = name.split(' ')[0];
+
+  return `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #FDFBF7;">
+  <table role="presentation" style="width: 100%; border-collapse: collapse;">
+    <tr>
+      <td align="center" style="padding: 40px 20px;">
+        <table role="presentation" style="max-width: 600px; width: 100%; border-collapse: collapse; background-color: #ffffff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.08);">
+
+          <!-- Header -->
+          <tr>
+            <td style="padding: 40px 40px 24px; text-align: center; background: linear-gradient(135deg, #E07A5F 0%, #d4684f 100%); border-radius: 16px 16px 0 0;">
+              <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: 700;">Indonesian Basics</h1>
+              <p style="margin: 8px 0 0; color: rgba(255,255,255,0.9); font-size: 16px;">Speak Like a Local, Not a Textbook</p>
+            </td>
+          </tr>
+
+          <!-- Content -->
+          <tr>
+            <td style="padding: 40px;">
+              <h2 style="margin: 0 0 16px; color: #2D3436; font-size: 24px; font-weight: 600;">
+                Selamat, ${firstName}!
+              </h2>
+              <p style="margin: 0 0 24px; color: #636e72; font-size: 16px; line-height: 1.6;">
+                Your free Indonesian learning materials are ready. You're about to learn Indonesian the way locals actually speak it.
+              </p>
+
+              <!-- Download Buttons -->
+              <table role="presentation" style="width: 100%; border-collapse: collapse;">
+                <tr>
+                  <td style="padding: 8px 0;">
+                    <a href="${links.pdf}" style="display: block; padding: 16px 24px; background-color: #E07A5F; color: #ffffff; text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 16px; text-align: center;">
+                      Download PDF eBook
+                    </a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 8px 0;">
+                    <a href="${links.audio}" style="display: block; padding: 16px 24px; background-color: #81B29A; color: #ffffff; text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 16px; text-align: center;">
+                      Download Audio Files
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Tips Section -->
+              <div style="margin-top: 32px; padding: 24px; background-color: #f8f9fa; border-radius: 12px;">
+                <h3 style="margin: 0 0 12px; color: #2D3436; font-size: 16px; font-weight: 600;">
+                  Quick Start Tips
+                </h3>
+                <ul style="margin: 0; padding-left: 20px; color: #636e72; font-size: 14px; line-height: 1.8;">
+                  <li>Start with Unit 1 - master basic greetings first</li>
+                  <li>Listen to the audio while reading the dialogues</li>
+                  <li>Practice the "No Anda" rule - use Pak, Bu, Mas, Mba instead</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding: 24px 40px; background-color: #f8f9fa; border-radius: 0 0 16px 16px; text-align: center;">
+              <p style="margin: 0; color: #a0a0a0; font-size: 14px;">
+                Happy learning!<br>
+                <strong style="color: #636e72;">The Indonesian Basics Team</strong>
+              </p>
+              <p style="margin: 16px 0 0; color: #a0a0a0; font-size: 12px;">
+                <a href="https://indonesianbasics.com" style="color: #81B29A; text-decoration: none;">IndonesianBasics.com</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>`;
+}
+
+async function sendEmail(env: Env, to: string, name: string, locale: string): Promise<boolean> {
+  const response = await fetch('https://api.brevo.com/v3/smtp/email', {
+    method: 'POST',
+    headers: {
+      'accept': 'application/json',
+      'api-key': env.BREVO_API_KEY,
+      'content-type': 'application/json'
+    },
+    body: JSON.stringify({
+      sender: {
+        name: env.SENDER_NAME,
+        email: env.SENDER_EMAIL
+      },
+      to: [{ email: to, name }],
+      subject: 'Your Indonesian Basics Download is Ready!',
+      htmlContent: generateEmailHtml(name, locale)
+    })
+  });
+
+  return response.ok;
+}
+
+async function handleSubscribe(request: Request, env: Env, origin: string): Promise<Response> {
+  let body: SubscribeRequest;
+
+  try {
+    body = await request.json();
+  } catch {
+    return jsonResponse({ error: 'Invalid JSON body' }, 400, origin, env.FRONTEND_URL);
+  }
+
+  const { email, name, locale = 'en' } = body;
+
+  if (!email || !validateEmail(email)) {
+    return jsonResponse({ error: 'Valid email is required' }, 400, origin, env.FRONTEND_URL);
+  }
+
+  if (!name || name.trim().length < 2) {
+    return jsonResponse({ error: 'Name is required (minimum 2 characters)' }, 400, origin, env.FRONTEND_URL);
+  }
+
+  const normalizedLocale = ALLOWED_LOCALES.includes(locale) ? locale : 'en';
+
+  try {
+    const existing = await env.DB.prepare(
+      'SELECT id, email_sent_at FROM subscribers WHERE email = ?'
+    ).bind(email.toLowerCase()).first();
+
+    if (existing) {
+      await env.DB.prepare(
+        'UPDATE subscribers SET download_count = download_count + 1, locale = ? WHERE id = ?'
+      ).bind(normalizedLocale, existing.id).run();
+
+      if (!existing.email_sent_at) {
+        const sent = await sendEmail(env, email, name, normalizedLocale);
+        if (sent) {
+          await env.DB.prepare(
+            "UPDATE subscribers SET email_sent_at = datetime('now') WHERE id = ?"
+          ).bind(existing.id).run();
+        }
+      }
+
+      return jsonResponse({
+        success: true,
+        message: 'Download link sent to your email',
+        links: DOWNLOAD_LINKS[normalizedLocale]
+      }, 200, origin, env.FRONTEND_URL);
+    }
+
+    const result = await env.DB.prepare(
+      'INSERT INTO subscribers (email, name, locale, download_count) VALUES (?, ?, ?, 1)'
+    ).bind(email.toLowerCase(), name.trim(), normalizedLocale).run();
+
+    const sent = await sendEmail(env, email, name, normalizedLocale);
+
+    if (sent) {
+      await env.DB.prepare(
+        "UPDATE subscribers SET email_sent_at = datetime('now') WHERE id = ?"
+      ).bind(result.meta.last_row_id).run();
+    }
+
+    return jsonResponse({
+      success: true,
+      message: 'Download link sent to your email',
+      links: DOWNLOAD_LINKS[normalizedLocale]
+    }, 201, origin, env.FRONTEND_URL);
+
+  } catch (error) {
+    console.error('Subscribe error:', error);
+    return jsonResponse({ error: 'Internal server error' }, 500, origin, env.FRONTEND_URL);
+  }
+}
+
+async function handleGetLocales(origin: string, env: Env): Promise<Response> {
+  return jsonResponse({
+    locales: ALLOWED_LOCALES.map(code => ({
+      code,
+      name: code === 'en' ? 'English' : code
+    }))
+  }, 200, origin, env.FRONTEND_URL);
+}
+
+export default {
+  async fetch(request: Request, env: Env): Promise<Response> {
+    const url = new URL(request.url);
+    const origin = request.headers.get('Origin') || '';
+
+    if (request.method === 'OPTIONS') {
+      return new Response(null, {
+        status: 204,
+        headers: corsHeaders(origin, env.FRONTEND_URL)
+      });
+    }
+
+    if (url.pathname === '/api/subscribe' && request.method === 'POST') {
+      return handleSubscribe(request, env, origin);
+    }
+
+    if (url.pathname === '/api/locales' && request.method === 'GET') {
+      return handleGetLocales(origin, env);
+    }
+
+    if (url.pathname === '/api/health' && request.method === 'GET') {
+      return jsonResponse({ status: 'ok' }, 200, origin, env.FRONTEND_URL);
+    }
+
+    return jsonResponse({ error: 'Not found' }, 404, origin, env.FRONTEND_URL);
+  }
+};

@@ -125,7 +125,7 @@ Style requirements:
 - Simple, clean lines suitable for a language learning book
 - No text in the image`;
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=${API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent?key=${API_KEY}`;
 
   const response = await fetch(url, {
     method: 'POST',

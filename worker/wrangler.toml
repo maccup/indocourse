@@ -1,0 +1,20 @@
+name = "indonesian-basics-api"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+FRONTEND_URL = "https://indonesianbasics.com"
+SENDER_EMAIL = "hello@indonesianbasics.com"
+SENDER_NAME = "Indonesian Basics"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "indonesian-basics-db"
+database_id = "e67ffb68-2ef8-459f-a16d-5bb175a56408"
+
+[env.production]
+vars = { FRONTEND_URL = "https://indonesianbasics.com" }
+
+[env.dev]
+vars = { FRONTEND_URL = "http://localhost:5173" }
