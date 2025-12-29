@@ -3,18 +3,27 @@ main = "src/index.ts"
 compatibility_date = "2024-12-01"
 compatibility_flags = ["nodejs_compat"]
 
+# Static assets for downloads
+assets = { directory = "public" }
+
 [vars]
 FRONTEND_URL = "https://indonesianbasics.com"
 SENDER_EMAIL = "hello@indonesianbasics.com"
 SENDER_NAME = "Indonesian Basics"
+API_URL = "https://api.indonesianbasics.com"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "indonesian-basics-db"
 database_id = "e67ffb68-2ef8-459f-a16d-5bb175a56408"
 
+# Custom domain
+[[routes]]
+pattern = "api.indonesianbasics.com"
+custom_domain = true
+
 [env.production]
-vars = { FRONTEND_URL = "https://indonesianbasics.com" }
+vars = { FRONTEND_URL = "https://indonesianbasics.com", API_URL = "https://api.indonesianbasics.com" }
 
 [env.dev]
-vars = { FRONTEND_URL = "http://localhost:5173" }
+vars = { FRONTEND_URL = "http://localhost:5173", API_URL = "http://localhost:8787" }

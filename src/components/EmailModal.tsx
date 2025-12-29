@@ -12,7 +12,7 @@ interface Locale {
   name: string;
 }
 
-const API_URL = import.meta.env.VITE_API_URL || 'https://indonesian-basics-api.workers.dev';
+const API_URL = import.meta.env.VITE_API_URL || 'https://api.indonesianbasics.com';
 
 const AVAILABLE_LOCALES: Locale[] = [
   { code: 'en', name: 'English' }

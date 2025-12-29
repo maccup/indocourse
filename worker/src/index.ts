@@ -4,6 +4,7 @@ interface Env {
   FRONTEND_URL: string;
   SENDER_EMAIL: string;
   SENDER_NAME: string;
+  API_URL: string;
 }
 
 interface SubscribeRequest {
@@ -14,12 +15,14 @@ interface SubscribeRequest {
 
 const ALLOWED_LOCALES = ['en'];
 
-const DOWNLOAD_LINKS: Record<string, { pdf: string; audio: string }> = {
-  en: {
-    pdf: 'https://indonesianbasics.com/downloads/indonesian-basics-en.pdf',
-    audio: 'https://indonesianbasics.com/downloads/indonesian-basics-audio-en.zip'
-  }
-};
+function getDownloadLinks(apiUrl: string): Record<string, { pdf: string; audio: string }> {
+  return {
+    en: {
+      pdf: `${apiUrl}/downloads/indonesian-basics-en.pdf`,
+      audio: `${apiUrl}/downloads/indonesian-basics-audio-en.zip`
+    }
+  };
+}
 
 function corsHeaders(origin: string, allowedOrigin: string): HeadersInit {
   const isLocalhost = origin.includes('localhost') || origin.includes('127.0.0.1');
@@ -48,8 +51,9 @@ function validateEmail(email: string): boolean {
   return re.test(email);
 }
 
-function generateEmailHtml(name: string, locale: string): string {
-  const links = DOWNLOAD_LINKS[locale] || DOWNLOAD_LINKS['en'];
+function generateEmailHtml(name: string, locale: string, apiUrl: string): string {
+  const downloadLinks = getDownloadLinks(apiUrl);
+  const links = downloadLinks[locale] || downloadLinks['en'];
   const firstName = name.split(' ')[0];
 
   return `
@@ -152,7 +156,7 @@ async function sendEmail(env: Env, to: string, name: string, locale: string): Pr
         },
         to: [{ email: to, name }],
         subject: 'Your Indonesian Basics Download is Ready!',
-        htmlContent: generateEmailHtml(name, locale)
+        htmlContent: generateEmailHtml(name, locale, env.API_URL)
       })
     });
 
@@ -211,10 +215,11 @@ async function handleSubscribe(request: Request, env: Env, origin: string): Prom
         }
       }
 
+      const downloadLinks = getDownloadLinks(env.API_URL);
       return jsonResponse({
         success: true,
         message: 'Download link sent to your email',
-        links: DOWNLOAD_LINKS[normalizedLocale]
+        links: downloadLinks[normalizedLocale]
       }, 200, origin, env.FRONTEND_URL);
     }
 
@@ -230,10 +235,11 @@ async function handleSubscribe(request: Request, env: Env, origin: string): Prom
       ).bind(result.meta.last_row_id).run();
     }
 
+    const downloadLinks = getDownloadLinks(env.API_URL);
     return jsonResponse({
       success: true,
       message: 'Download link sent to your email',
-      links: DOWNLOAD_LINKS[normalizedLocale]
+      links: downloadLinks[normalizedLocale]
     }, 201, origin, env.FRONTEND_URL);
 
   } catch (error) {
