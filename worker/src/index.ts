@@ -22,8 +22,8 @@ const DOWNLOAD_LINKS: Record<string, { pdf: string; audio: string }> = {
 };
 
 function corsHeaders(origin: string, allowedOrigin: string): HeadersInit {
-  const isAllowed = origin === allowedOrigin ||
-    allowedOrigin.includes('localhost') && origin.includes('localhost');
+  const isLocalhost = origin.includes('localhost') || origin.includes('127.0.0.1');
+  const isAllowed = origin === allowedOrigin || isLocalhost;
 
   return {
     'Access-Control-Allow-Origin': isAllowed ? origin : allowedOrigin,
@@ -136,26 +136,39 @@ function generateEmailHtml(name: string, locale: string): string {
 </html>`;
 }
 
-async function sendEmail(env: Env, to: string, name: string, locale: string): Promise<boolean> {
-  const response = await fetch('https://api.brevo.com/v3/smtp/email', {
-    method: 'POST',
-    headers: {
-      'accept': 'application/json',
-      'api-key': env.BREVO_API_KEY,
-      'content-type': 'application/json'
-    },
-    body: JSON.stringify({
-      sender: {
-        name: env.SENDER_NAME,
-        email: env.SENDER_EMAIL
+async function sendEmail(env: Env, to: string, name: string, locale: string): Promise<{ success: boolean; error?: string }> {
+  try {
+    const response = await fetch('https://api.brevo.com/v3/smtp/email', {
+      method: 'POST',
+      headers: {
+        'accept': 'application/json',
+        'api-key': env.BREVO_API_KEY,
+        'content-type': 'application/json'
       },
-      to: [{ email: to, name }],
-      subject: 'Your Indonesian Basics Download is Ready!',
-      htmlContent: generateEmailHtml(name, locale)
-    })
-  });
+      body: JSON.stringify({
+        sender: {
+          name: env.SENDER_NAME,
+          email: env.SENDER_EMAIL
+        },
+        to: [{ email: to, name }],
+        subject: 'Your Indonesian Basics Download is Ready!',
+        htmlContent: generateEmailHtml(name, locale)
+      })
+    });
 
-  return response.ok;
+    if (!response.ok) {
+      const errorData = await response.json().catch(() => ({}));
+      console.error('Brevo API error:', JSON.stringify(errorData));
+      return { success: false, error: JSON.stringify(errorData) };
+    }
+
+    const data = await response.json();
+    console.log('Brevo API success:', JSON.stringify(data));
+    return { success: true };
+  } catch (err) {
+    console.error('Brevo API exception:', err);
+    return { success: false, error: String(err) };
+  }
 }
 
 async function handleSubscribe(request: Request, env: Env, origin: string): Promise<Response> {
@@ -190,8 +203,8 @@ async function handleSubscribe(request: Request, env: Env, origin: string): Prom
       ).bind(normalizedLocale, existing.id).run();
 
       if (!existing.email_sent_at) {
-        const sent = await sendEmail(env, email, name, normalizedLocale);
-        if (sent) {
+        const emailResult = await sendEmail(env, email, name, normalizedLocale);
+        if (emailResult.success) {
           await env.DB.prepare(
             "UPDATE subscribers SET email_sent_at = datetime('now') WHERE id = ?"
           ).bind(existing.id).run();
@@ -209,9 +222,9 @@ async function handleSubscribe(request: Request, env: Env, origin: string): Prom
       'INSERT INTO subscribers (email, name, locale, download_count) VALUES (?, ?, ?, 1)'
     ).bind(email.toLowerCase(), name.trim(), normalizedLocale).run();
 
-    const sent = await sendEmail(env, email, name, normalizedLocale);
+    const emailResult = await sendEmail(env, email, name, normalizedLocale);
 
-    if (sent) {
+    if (emailResult.success) {
       await env.DB.prepare(
         "UPDATE subscribers SET email_sent_at = datetime('now') WHERE id = ?"
       ).bind(result.meta.last_row_id).run();

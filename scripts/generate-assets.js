@@ -170,16 +170,7 @@ async function generateCover() {
     return;
   }
 
-  const coverPrompt = `Create a book cover illustration:
-
-Subject: Indonesian Gunungan (Wayang Kulit "Tree of Life" mountain shape) - a symmetrical, ornate triangular mountain silhouette from Indonesian shadow puppetry
-
-Composition:
-- Centered Gunungan shape taking 60% of vertical space
-- Simple decorative batik-inspired patterns within the shape
-- Clean empty space around for text placement (will be added separately)
-- Portrait orientation suitable for ebook cover
-- No text whatsoever`;
+  const coverPrompt = `Illustration of Bali rice terraces at golden hour sunrise. Lush green stepped rice paddies cascading down hillside. Small traditional Balinese temple silhouette in distance. Palm trees framing the scene. Warm orange and green tones. Peaceful, serene atmosphere. Digital art style, clean and modern. Portrait orientation. No text or words.`;
 
   try {
     await generateImage(coverPrompt, outputPath);

@@ -103,26 +103,18 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
                       <CheckCircle className="w-8 h-8 text-[#81B29A]" />
                     </div>
                     <h3 className="text-xl font-bold text-[#2D3436] mb-2">Check Your Email!</h3>
-                    <p className="text-[#636e72] mb-6">
+                    <p className="text-[#636e72] mb-4">
                       We've sent your download links to <strong>{email}</strong>
                     </p>
-                    {downloadLinks && (
-                      <div className="space-y-3">
-                        <p className="text-sm text-[#636e72]">Or download directly:</p>
-                        <a
-                          href={downloadLinks.pdf}
-                          className="block w-full py-3 px-4 bg-[#E07A5F] text-white rounded-xl font-semibold hover:bg-[#d4684f] transition-colors"
-                        >
-                          Download PDF
-                        </a>
-                        <a
-                          href={downloadLinks.audio}
-                          className="block w-full py-3 px-4 bg-[#81B29A] text-white rounded-xl font-semibold hover:bg-[#6fa389] transition-colors"
-                        >
-                          Download Audio
-                        </a>
-                      </div>
-                    )}
+                    <p className="text-sm text-[#a0a0a0]">
+                      Don't see it? Check your spam folder or try again in a few minutes.
+                    </p>
+                    <button
+                      onClick={handleClose}
+                      className="mt-6 w-full py-3 px-4 bg-[#81B29A] text-white rounded-xl font-semibold hover:bg-[#6fa389] transition-colors"
+                    >
+                      Got it!
+                    </button>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-4">
