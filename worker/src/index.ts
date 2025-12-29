@@ -203,16 +203,15 @@ async function handleSubscribe(request: Request, env: Env, origin: string): Prom
 
     if (existing) {
       await env.DB.prepare(
-        'UPDATE subscribers SET download_count = download_count + 1, locale = ? WHERE id = ?'
-      ).bind(normalizedLocale, existing.id).run();
+        'UPDATE subscribers SET download_count = download_count + 1, locale = ?, name = ? WHERE id = ?'
+      ).bind(normalizedLocale, name.trim(), existing.id).run();
 
-      if (!existing.email_sent_at) {
-        const emailResult = await sendEmail(env, email, name, normalizedLocale);
-        if (emailResult.success) {
-          await env.DB.prepare(
-            "UPDATE subscribers SET email_sent_at = datetime('now') WHERE id = ?"
-          ).bind(existing.id).run();
-        }
+      // Always resend email
+      const emailResult = await sendEmail(env, email, name, normalizedLocale);
+      if (emailResult.success) {
+        await env.DB.prepare(
+          "UPDATE subscribers SET email_sent_at = datetime('now') WHERE id = ?"
+        ).bind(existing.id).run();
       }
 
       const downloadLinks = getDownloadLinks(env.API_URL);
