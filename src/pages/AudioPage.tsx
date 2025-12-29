@@ -21,9 +21,12 @@ interface UnitData {
 
 function slugify(text: string): string {
   return text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '_')
-    .replace(/^_|_$/g, '');
+    .replace(/[\/\s]+/g, '_')
+    .toLowerCase();
+}
+
+function sanitizeSpeaker(name: string): string {
+  return name.replace(/[\/\s]+/g, '_').toLowerCase();
 }
 
 function getAudioPath(unitNum: string, type: 'vocab' | 'dialogue', item: VocabItem | DialogueLine, index?: number): string {
@@ -33,7 +36,8 @@ function getAudioPath(unitNum: string, type: 'vocab' | 'dialogue', item: VocabIt
     return `/audio/en/unit${unitNum}_vocab_${slug}.mp3`;
   } else {
     const dialogue = item as DialogueLine;
-    return `/audio/en/unit${unitNum}_dialogue_${index}_${dialogue.speaker}.mp3`;
+    const speaker = sanitizeSpeaker(dialogue.speaker);
+    return `/audio/en/unit${unitNum}_dialogue_${index}_${speaker}.mp3`;
   }
 }
 

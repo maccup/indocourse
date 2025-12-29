@@ -263,7 +263,7 @@ async function main() {
       // Dialogue
       for (let i = 0; i < unit.dialogue.length; i++) {
         const line = unit.dialogue[i];
-        const speaker = line.speaker.replace(/[\/\s]+/g, '_');
+        const speaker = line.speaker.replace(/[\/\s]+/g, '_').toLowerCase();
         const filename = `${unitId}_dialogue_${i}_${speaker}.mp3`;
         const outputPath = path.join(OUTPUT_AUDIO_DIR, filename);
 
