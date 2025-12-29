@@ -26,7 +26,6 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
   const [locale, setLocale] = useState('en');
   const [status, setStatus] = useState<SubmitStatus>('idle');
   const [errorMessage, setErrorMessage] = useState('');
-  const [downloadLinks, setDownloadLinks] = useState<{ pdf: string; audio: string } | null>(null);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -46,7 +45,6 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
         throw new Error(data.error || 'Something went wrong');
       }
 
-      setDownloadLinks(data.links);
       setStatus('success');
     } catch (err) {
       setErrorMessage(err instanceof Error ? err.message : 'Failed to subscribe');
@@ -61,7 +59,6 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
       setLocale('en');
       setStatus('idle');
       setErrorMessage('');
-      setDownloadLinks(null);
       onClose();
     }
   };
