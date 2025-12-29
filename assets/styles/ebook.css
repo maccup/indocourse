@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --color-cream: #FDFBF7;
+  --color-terracotta: #E07A5F;
+  --color-sage: #81B29A;
+  --color-charcoal: #3D405B;
+  --color-light-gray: #f0ebe4;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Print Specifics */
+@page {
+  margin: 2cm;
+  size: A4;
+}
+
+.page-break {
+  page-break-after: always;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+  color: var(--color-terracotta);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  border-bottom: 3px solid var(--color-sage);
+  padding-bottom: 0.2em;
+  margin-top: 0; /* Reset for start of page */
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: var(--color-charcoal);
+  border-left: 5px solid var(--color-terracotta);
+  padding-left: 15px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: var(--color-sage);
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Tables (Vocabulary) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em 0;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+th {
+  background-color: var(--color-terracotta);
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-family: 'Lora', serif;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid var(--color-light-gray);
+}
+
+tr:nth-child(even) {
+  background-color: var(--color-cream);
+}
+
+/* Blockquotes */
+blockquote {
+  background-color: #ecf3f0; /* Light Sage */
+  border-left: 5px solid var(--color-sage);
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
+  font-style: italic;
+  font-family: 'Lora', serif;
+}
+
+/* Cover Page */
+.cover-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  page-break-after: always;
+}
+
+.cover-image {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+/* Footer/Header helper */
+.footer {
+  font-size: 0.8rem;
+  color: #999;
+  text-align: center;
+  margin-top: 3em;
+  border-top: 1px solid #ddd;
+  padding-top: 1em;
+}
