@@ -1,6 +1,6 @@
 # Unit 07: Adjectives (Hot/Cold/Spicy)
 
-![Unit 07 Illustration](../../../assets/images/generated/unit_07.png)
+![Unit 07 Illustration](../../../assets/images/generated/unit_07.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:

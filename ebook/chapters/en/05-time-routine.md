@@ -1,6 +1,6 @@
 # Unit 05: Time & Daily Routine (Jam Berapa?)
 
-![Unit 05 Illustration](../../../assets/images/generated/unit_05.png)
+![Unit 05 Illustration](../../../assets/images/generated/unit_05.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:

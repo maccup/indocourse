@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Navbar, Footer } from '../components/layout';
-import { Hero, Features, WhatsInside, Preview, FAQ, Download } from '../components/sections';
+import { Hero, Features, WhatsInside, Preview, Authors, FAQ, Download } from '../components/sections';
 
 export function HomePage() {
   const [activeSection, setActiveSection] = useState('');
@@ -46,6 +46,7 @@ export function HomePage() {
         <Features />
         <WhatsInside />
         <Preview />
+        <Authors />
         <FAQ />
         <Download />
       </main>

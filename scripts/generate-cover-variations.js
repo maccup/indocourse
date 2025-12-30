@@ -49,12 +49,13 @@ Portrait orientation (3:4 aspect ratio). Flat vector illustration. No text.`
     id: 'v4_map_navigator',
     name: 'The Navigator',
     prompt: `${MASCOT_BASE}
-Scene: Kiki holding a colorful illustrated map of Indonesia, studying it with curious focused expression, finger pointing at destination.
+IMPORTANT: Kiki has exactly TWO hands/arms like a normal monkey - no extra limbs.
+Scene: Kiki holding a colorful illustrated map of Indonesia with both hands, looking at the map with curious excited expression.
 Background: Soft teal (#2EC4B6) with subtle compass rose pattern.
-Elements: Map shows iconic Indonesian landmarks (Borobudur, Bali temple gate, Komodo dragon, orangutan), dotted travel route, small airplane icon.
+Elements: Map shows iconic Indonesian landmarks (Borobudur temple, Bali temple gate, gecko/lizard, palm trees), the shape of Indonesia archipelago visible.
 Mood: Planning, curiosity, the excitement before adventure.
-Composition: Kiki holding large map that fills lower 2/3, peeking over it at viewer with excited eyes.
-Portrait orientation (3:4 aspect ratio). Flat vector illustration. No text.`
+Composition: Kiki centered, holding map open with both hands in front of chest, face visible above the map with big happy eyes looking at viewer.
+Portrait orientation (3:4 aspect ratio). Flat vector illustration. Anatomically correct - TWO arms only. No text.`
   },
   {
     id: 'v5_coastal_road_trip',

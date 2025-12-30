@@ -93,15 +93,39 @@ export function TermsPage() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">7. Governing Law</h2>
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">7. Complaint Procedure</h2>
             <p>
-              These terms are governed by Polish law. Any disputes shall be resolved by the courts
-              of Warsaw, Poland.
+              You have the right to file a complaint regarding the service. Please send your complaint
+              to{' '}
+              <a href="mailto:hello@indonesianbasics.com" className="text-[#2EC4B6] hover:underline">
+                hello@indonesianbasics.com
+              </a>.
+              We will respond to your complaint within 14 days of receipt.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">8. Changes to Terms</h2>
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">8. Governing Law and Disputes</h2>
+            <p>
+              These terms are governed by Polish law. Any disputes between MPR Sp. z o.o. and a user
+              who is not a consumer shall be resolved by the courts of Warsaw, Poland.
+            </p>
+            <p className="mt-4">
+              If you are a consumer, you may also use out-of-court complaint and redress mechanisms.
+              You can use the EU Online Dispute Resolution (ODR) platform available at:{' '}
+              <a
+                href="https://ec.europa.eu/consumers/odr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#2EC4B6] hover:underline"
+              >
+                https://ec.europa.eu/consumers/odr
+              </a>.
+            </p>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">9. Changes to Terms</h2>
             <p>
               We may update these terms at any time. The current version is always available at{' '}
               <Link to="/terms" className="text-[#2EC4B6] hover:underline">
@@ -111,7 +135,7 @@ export function TermsPage() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">9. Contact</h2>
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">10. Contact</h2>
             <p>
               For questions about these terms, contact us at{' '}
               <a href="mailto:hello@indonesianbasics.com" className="text-[#2EC4B6] hover:underline">

@@ -1,6 +1,6 @@
 # Unit 09: Past & Future (Sudah/Belum/Akan)
 
-![Unit 09 Illustration](../../../assets/images/generated/unit_09.png)
+![Unit 09 Illustration](../../../assets/images/generated/unit_09.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:

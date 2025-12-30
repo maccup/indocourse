@@ -1,6 +1,6 @@
 # Unit 04: Directions & Transportation (Kiri / Kanan)
 
-![Unit 04 Illustration](../../../assets/images/generated/unit_04.png)
+![Unit 04 Illustration](../../../assets/images/generated/unit_04.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:

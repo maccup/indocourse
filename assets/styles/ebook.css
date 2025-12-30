@@ -155,7 +155,7 @@ blockquote {
   flex-direction: column;
   page-break-after: always;
   overflow: hidden;
-  background-color: var(--color-primary);
+  background-color: #65a9a5;
 }
 
 .cover-background {
@@ -164,6 +164,7 @@ blockquote {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center top;
   z-index: 0;
 }
 
@@ -173,39 +174,112 @@ blockquote {
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 3rem 2.5rem;
   box-sizing: border-box;
+  background: transparent !important;
 }
 
 .cover-header {
-  text-align: left;
+  text-align: center;
   flex: 0 0 auto;
-  margin-top: auto;
+  margin-top: 0;
+  margin-bottom: auto;
+  padding: 2.5rem 2.5rem 3rem;
+  background: transparent !important;
 }
 
-.cover-author-line {
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--color-text);
-  margin-bottom: 0.5em;
+/* Reset all cover text elements - comprehensive reset */
+.cover-page *,
+.cover-page h1,
+.cover-page h2,
+.cover-page p,
+.cover-page span,
+.cover-page div,
+.cover-content,
+.cover-content *,
+.cover-header,
+.cover-header *,
+.cover-authors,
+.cover-authors * {
+  border: none !important;
+  border-bottom: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  padding-bottom: 0 !important;
+  box-shadow: none !important;
 }
 
 .cover-title {
   font-family: 'Inter', sans-serif;
-  font-size: 3rem;
-  font-weight: 700;
-  color: var(--color-text);
-  margin: 0;
-  line-height: 1.1;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin: 0 0 0.15em 0;
+  padding: 0;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  background: none;
 }
 
-.cover-spacer {
-  flex: 1;
+.cover-tagline {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  margin: 0 0 0.4em 0;
+  padding: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  background: none;
+}
+
+.cover-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  background: none;
+}
+
+.cover-authors {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  padding: 1.5rem 2.5rem;
+  background: transparent;
+}
+
+.cover-author {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin: 0;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.cover-author-separator {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin: 0;
+  opacity: 0.8;
 }
 
 .cover-footer {
-  text-align: left;
+  text-align: center;
   flex: 0 0 auto;
   padding-bottom: 2rem;
 }
@@ -214,9 +288,10 @@ blockquote {
   font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--color-text);
-  opacity: 0.8;
+  color: #FFFFFF;
+  opacity: 0.9;
   margin: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 /* Author Page */
@@ -235,14 +310,44 @@ blockquote {
   border-bottom: 2px solid var(--color-text);
 }
 
+.author-entry {
+  margin-bottom: 2.5em;
+}
+
+.author-entry:last-of-type {
+  margin-bottom: 2em;
+}
+
+.author-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 0.2em;
+}
+
+.author-role {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1em;
+}
+
 .author-bio {
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1rem;
+  line-height: 1.75;
   color: var(--color-text);
 }
 
 .author-bio p {
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
+}
+
+.author-bio p:last-child {
+  margin-bottom: 0;
 }
 
 /* Footer/Header helper */

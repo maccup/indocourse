@@ -247,7 +247,7 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
                           </div>
                         </div>
                         <span className="text-sm text-[#2D3436]/70 leading-snug">
-                          Keep me updated about new Indonesian learning resources and products.{' '}
+                          I want to receive the newsletter and marketing information about new Indonesian learning resources via email.{' '}
                           <span className="text-[#2D3436]/40">(Optional)</span>
                         </span>
                       </label>

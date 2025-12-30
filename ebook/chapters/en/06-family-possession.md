@@ -1,6 +1,6 @@
 # Unit 06: Family & Possession (Punya)
 
-![Unit 06 Illustration](../../../assets/images/generated/unit_06.png)
+![Unit 06 Illustration](../../../assets/images/generated/unit_06.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:

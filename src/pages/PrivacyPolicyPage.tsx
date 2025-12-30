@@ -93,14 +93,22 @@ export function PrivacyPolicyPage() {
 
           <section className="mb-8">
             <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">5. Data Retention</h2>
+            <p>We process your data for different periods depending on the purpose:</p>
+            <ul className="list-disc pl-6 mt-2 space-y-1">
+              <li><strong>Course Delivery (Contract):</strong> For the duration of the service and up to 5 years thereafter for the purpose of defending against potential legal claims.</li>
+              <li><strong>Marketing:</strong> Until you withdraw your consent or unsubscribe.</li>
+            </ul>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">6. Automated Decision-Making</h2>
             <p>
-              We retain your data until you withdraw consent or request deletion.
-              You can unsubscribe anytime via the link in every email.
+              We do not use your data for automated decision-making, including profiling as defined in Art. 22 GDPR.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">6. Your Rights</h2>
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">7. Your Rights</h2>
             <p>Under GDPR, you have the right to:</p>
             <ul className="list-disc pl-6 mt-2 space-y-1">
               <li>Access your personal data</li>
@@ -129,14 +137,14 @@ export function PrivacyPolicyPage() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">7. International Transfers</h2>
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">8. International Transfers</h2>
             <p>
               Data transferred to the USA (Cloudflare) is protected by EU Standard Contractual Clauses.
             </p>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">8. Cookies and Analytics</h2>
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">9. Cookies and Analytics</h2>
             <p>
               This website uses essential cookies for basic functionality only.
             </p>
@@ -164,7 +172,7 @@ export function PrivacyPolicyPage() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">9. Changes to This Policy</h2>
+            <h2 className="text-xl font-bold text-[#1A1A1A] mb-4">10. Changes to This Policy</h2>
             <p>
               Updates to this policy will be published at{' '}
               <Link to="/privacy-policy" className="text-[#2EC4B6] hover:underline">

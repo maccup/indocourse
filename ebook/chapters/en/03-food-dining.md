@@ -1,6 +1,6 @@
 # Unit 03: Food & Dining (Warung Culture)
 
-![Unit 03 Illustration](../../../assets/images/generated/unit_03.png)
+![Unit 03 Illustration](../../../assets/images/generated/unit_03.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:

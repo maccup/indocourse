@@ -1,6 +1,6 @@
 # Unit 02: Numbers, Money, & Basic Bargaining
 
-![Unit 02 Illustration](../../../assets/images/generated/unit_02.png)
+![Unit 02 Illustration](../../../assets/images/generated/unit_02.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:

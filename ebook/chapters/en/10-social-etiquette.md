@@ -1,6 +1,6 @@
 # Unit 10: Social Etiquette & Polite Requests
 
-![Unit 10 Illustration](../../../assets/images/generated/unit_10.png)
+![Unit 10 Illustration](../../../assets/images/generated/unit_10.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:

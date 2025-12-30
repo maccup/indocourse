@@ -57,7 +57,7 @@ export function Hero({ scrollToDownload }: HeroProps) {
             <div className="flex flex-wrap items-center gap-6 pt-4 text-sm text-[#2D3436]/60 font-medium">
               <div className="flex items-center gap-2">
                 <BookOpen className="w-4 h-4 text-[#2EC4B6]" />
-                <span>10 Fun Units</span>
+                <span>Beginner (A1-A2)</span>
               </div>
               <div className="flex items-center gap-2">
                 <Headphones className="w-4 h-4 text-[#2EC4B6]" />
@@ -79,41 +79,63 @@ export function Hero({ scrollToDownload }: HeroProps) {
             <div className="relative">
               {/* Floating elements */}
               <motion.div
-                animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute -top-6 -left-6 bg-[#FFE66D] text-2xl p-4 rounded-2xl shadow-lg z-10"
+                animate={{ y: [0, -8, 0] }}
+                transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute top-1/4 -left-5 bg-white text-2xl p-3 rounded-2xl shadow-lg z-10"
               >
                 🍌
               </motion.div>
               <motion.div
-                animate={{ y: [0, 10, 0] }}
-                transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-                className="absolute -top-2 -right-4 bg-white text-2xl p-4 rounded-2xl shadow-lg z-10"
+                animate={{ y: [0, 8, 0] }}
+                transition={{ duration: 2.8, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+                className="absolute top-1/2 -right-5 bg-white text-2xl p-3 rounded-2xl shadow-lg z-10"
               >
                 🏝️
               </motion.div>
               <motion.div
-                animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-                className="absolute -bottom-2 -left-4 bg-white text-2xl p-4 rounded-2xl shadow-lg z-10"
+                animate={{ y: [0, -6, 0] }}
+                transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut", delay: 1 }}
+                className="absolute bottom-1/4 -left-5 bg-white text-2xl p-3 rounded-2xl shadow-lg z-10"
               >
                 🛵
               </motion.div>
 
-              {/* Book cover */}
-              <div className="absolute inset-0 bg-[#2EC4B6] rounded-3xl blur-2xl opacity-30 scale-105" />
-              <div className="relative w-72 lg:w-96 aspect-[3/4] rounded-3xl shadow-2xl overflow-hidden bg-[#2EC4B6]">
+              {/* Book cover - professional design */}
+              <div className="absolute inset-0 bg-[#65a9a5] rounded-3xl blur-2xl opacity-30 scale-105" />
+              <div className="relative w-72 lg:w-96 aspect-[5/6] rounded-3xl shadow-2xl overflow-hidden bg-[#65a9a5]">
+                {/* Cover image - positioned to show Kiki with map */}
                 <img
-                  src="/images/cover.png"
-                  alt="Survival Indonesian - Learn with Kiki the Monkey"
-                  className="absolute inset-0 w-full h-full object-cover"
+                  src="/images/cover.jpg"
+                  alt="Learn Indonesian the fun way - with Kiki the Monkey"
+                  className="absolute inset-0 w-full h-full object-cover transform translate-y-[5%] scale-110"
                 />
+                {/* Title overlay at top */}
+                <div className="absolute top-0 left-0 right-0 pt-6 pb-8 px-4 text-center bg-gradient-to-b from-[#65a9a5] via-[#65a9a5]/90 to-transparent">
+                  <h2 className="text-white font-black text-2xl lg:text-3xl leading-tight drop-shadow-[0_2px_3px_rgba(0,0,0,0.3)]">
+                    Learn Indonesian
+                  </h2>
+                  <p className="text-[#FFE66D] font-bold text-lg lg:text-xl drop-shadow-[0_2px_3px_rgba(0,0,0,0.25)]">
+                    the fun way!
+                  </p>
+                  <p className="text-white/95 font-medium text-xs lg:text-sm mt-1 drop-shadow-[0_1px_2px_rgba(0,0,0,0.2)]">
+                    Beginner Course (A1-A2)
+                  </p>
+                </div>
+                {/* Authors at bottom */}
+                <div className="absolute bottom-0 left-0 right-0 pb-2 pt-4 px-3 text-center">
+                  <p className="text-white/95 font-medium text-xs lg:text-sm drop-shadow-[0_1px_2px_rgba(0,0,0,0.2)]">
+                    10 lessons to speak like a local
+                  </p>
+                  <p className="text-white/80 font-medium text-[8px] lg:text-[10px] drop-shadow-[0_1px_2px_rgba(0,0,0,0.4)]">
+                    Maciej Cupial & Fawwaz Faishal
+                  </p>
+                </div>
               </div>
               <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ delay: 0.8, type: "spring" }}
-                className="absolute -bottom-4 -right-4 bg-[#FFE66D] text-[#2D3436] px-6 py-3 rounded-2xl font-black text-lg shadow-lg"
+                className="absolute -top-2 -right-4 bg-[#FFE66D] text-[#2D3436] px-5 py-2 rounded-xl font-black text-base shadow-lg rotate-6 z-10"
               >
                 FREE! 🎉
               </motion.div>

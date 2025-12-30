@@ -174,19 +174,19 @@ const UNIT_PROMPTS = {
 
   '03': `${MASCOT_STYLE} Scene: Kiki the monkey at a food stall, face bright red, sweating drops flying off, steam shooting from ears after eating spicy sambal. Tongue out, fanning mouth. A plate of nasi goreng and chili visible. Hilarious overreaction. No text.`,
 
-  '04': `${MASCOT_STYLE} Scene: Kiki the monkey on a small scooter, holding a map completely upside down, looking confused. Road signs pointing in different directions. A helpful Gojek driver (human in green) pointing the right way. Comedic lost situation. No text.`,
+  '04': `${MASCOT_STYLE} Scene: Kiki the monkey riding a small teal scooter, wearing a green safety helmet on head. Looking confused while holding a map upside down. Road signs with arrows (no text, just arrow symbols) pointing in different directions. Kiki is ON the scooter, helmet securely on head. Comedic lost tourist situation. IMPORTANT: Kiki must wear a helmet and be riding the scooter. NO TEXT anywhere in the image - signs should only have arrow symbols.`,
 
-  '05': `${MASCOT_STYLE} Scene: Kiki the monkey in panic mode, running with an alarm clock ringing loudly. One sandal flying off. Fur messy like just woke up. Sun showing it's morning. Late for something important! Comedic chaos energy. Yellow (#FFE66D) alarm effects. No text.`,
+  '05': `${MASCOT_STYLE} Scene: Kiki the monkey in panic mode, running fast while holding a ringing alarm clock. Messy bed-head fur, stressed expression, running late! One empty sandal (no foot in it) left behind on the ground. Morning sun rising. Comedic "overslept and late" chaos energy. Yellow (#FFE66D) alarm effects. IMPORTANT: The sandal on the ground should be empty, not attached to any foot. No text.`,
 
   '06': `${MASCOT_STYLE} Scene: Kiki the monkey surrounded by a big loving Indonesian family - grandma pinching cheeks, uncle patting head, kids hugging. Kiki looks overwhelmed but happy, blushing. Hearts floating around. Warm family chaos. No text.`,
 
   '07': `${MASCOT_STYLE} Scene: Split image - LEFT: Kiki melting in tropical heat, sun blazing, sweat puddle forming. RIGHT: Same Kiki freezing with icicles, shivering in an over-airconditioned space. Extreme contrast, exaggerated reactions. Comedy of temperature. No text.`,
 
-  '08': `${MASCOT_STYLE} Scene: Kiki the monkey looking sick and pathetic, wrapped in a blanket, thermometer in mouth, sad puppy eyes. A kind pharmacist offers medicine bottle and young coconut. Get-well-soon vibes but adorably dramatic sick face. No text.`,
+  '08': `${MASCOT_STYLE} Scene: Kiki the monkey looking sick, wrapped in a cozy blanket, thermometer in mouth, sad puppy eyes. Next to Kiki is a small table with medicine bottle and young coconut (kelapa muda). Get-well-soon vibes, adorably dramatic sick face. Simple composition - just sick Kiki with remedies nearby. IMPORTANT: No other characters, just Kiki alone being sick. No text.`,
 
   '09': `${MASCOT_STYLE} Scene: Kiki the monkey in the center with two thought bubbles - LEFT bubble shows chaotic yesterday (mess, mistakes). RIGHT bubble shows bright tomorrow (stars, checkmarks, success). Kiki looks determined and hopeful. Timeline feeling. No text.`,
 
-  '10': `${MASCOT_STYLE} Scene: Kiki the monkey nervously removing tiny shoes at a doorway, bowing respectfully but a bit too deep, almost tipping over. Indonesian host family at door smiling kindly at the effort. Shoes neatly placed. Sweet cultural learning moment. No text.`
+  '10': `${MASCOT_STYLE} Scene: Kiki the monkey at a doorway, politely removing ONE pair of small sandals before entering. Bowing slightly with a nervous but respectful smile. The single pair of Kiki's sandals placed neatly by the door. Indonesian home entrance visible. Sweet cultural learning moment - learning to remove shoes before entering. IMPORTANT: Only ONE pair of sandals (Kiki's), no other shoes visible. No text.`
 };
 
 async function generateCover() {

@@ -105,11 +105,11 @@ async function buildPdf() {
 
   // 2. Load Cover Image (optional - for abstract B graphic)
   let coverImgSrc = '';
-  const coverPath = path.join(ASSETS_DIR, 'images/generated/cover.png');
+  const coverPath = path.join(ASSETS_DIR, 'images/generated/cover.jpg');
   if (fs.existsSync(coverPath)) {
     const coverImage = fs.readFileSync(coverPath);
     const coverBase64 = coverImage.toString('base64');
-    coverImgSrc = `data:image/png;base64,${coverBase64}`;
+    coverImgSrc = `data:image/jpeg;base64,${coverBase64}`;
   }
 
   // 3. Get Chapters
@@ -120,17 +120,37 @@ async function buildPdf() {
   console.log(`Found ${files.length} chapters.`);
 
   // Book metadata
-  const bookTitle = 'Survival Indonesian';
-  const bookSubtitle = '10 Lessons to Speak Like a Local';
-  const authorName = 'Maciej Cupial';
+  const bookTitle = 'Learn Indonesian';
+  const bookTagline = 'the fun way!';
+  const bookSubtitle = 'Beginner Course (A1-A2)';
+  const bookSubtitle2 = '10 lessons to speak like a local';
+  const authors = {
+    primary: 'Maciej Cupial',
+    secondary: 'Fawwaz Faishal'
+  };
   const website = 'indonesianbasics.com';
 
-  // Author bio for author page
-  const authorBio = `Maciej Cupial is a digital nomad living in Ubud, Bali. With a background in four languages (Polish, English, Spanish, German), he knows that traditional learning methods are often too slow for modern travelers.
+  // Author bios for author page
+  const authorBios = {
+    maciej: {
+      name: 'Maciej Cupial',
+      role: 'Content Architect',
+      bio: `A digital nomad based in Ubud, Bali. Having learned four languages (Polish, English, Spanish, German), Maciej understands that traditional textbooks move too slowly for modern travelers.
 
-Need driven innovation: he utilized AI to curate the most essential parts of Bahasa Indonesia, structuring them based on the effective learning frameworks he used to master European languages.
+He designed this course using the same frameworks that helped him master European languages—focusing on high-frequency phrases and practical patterns that deliver results fast.
 
-This ebook is the tool he built for himself to speak with locals immediately—fast, logical, and practical.`;
+This ebook started as his personal study tool: structured, logical, and built for real conversations.`
+    },
+    fawwaz: {
+      name: 'Fawwaz Faishal',
+      role: 'Language Expert',
+      bio: `A native Indonesian speaker with years of experience teaching Bahasa Indonesia to foreigners. Fawwaz ensures every phrase in this book sounds natural and is actually used by locals.
+
+His deep understanding of both formal Indonesian and everyday colloquial speech helps learners avoid the stiff, textbook language that marks tourists as outsiders.
+
+From proper titles (Mas, Mba, Pak, Bu) to authentic pronunciation, Fawwaz bridges the gap between classroom Indonesian and street-level fluency.`
+    }
+  };
 
   // 4. Build HTML Content
   let htmlContent = `
@@ -154,6 +174,9 @@ This ebook is the tool he built for himself to speak with locals immediately—f
           .cover-title {
             font-size: 2.5rem;
           }
+          .cover-tagline {
+            font-size: 1.5rem;
+          }
           .chapter-divider-number {
             font-size: 140px;
           }
@@ -164,13 +187,17 @@ This ebook is the tool he built for himself to speak with locals immediately—f
       </style>
     </head>
     <body>
-      <div class="cover-page">
-        ${coverImgSrc ? `<img src="${coverImgSrc}" class="cover-background" alt="">` : ''}
-        <div class="cover-content">
-          <div class="cover-spacer"></div>
-          <div class="cover-header">
-            <p class="cover-author-line">${authorName} · Indonesian Basics</p>
-            <h1 class="cover-title">${bookTitle}</h1>
+      <div style="height: 100vh; width: 100%; position: relative; display: flex; flex-direction: column; page-break-after: always; overflow: hidden; background-color: #65a9a5;">
+        ${coverImgSrc ? `<img src="${coverImgSrc}" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; z-index: 0;" alt="">` : ''}
+        <div style="position: relative; z-index: 2; display: flex; flex-direction: column; height: 100%; box-sizing: border-box;">
+          <div style="text-align: center; flex: 0 0 auto; margin-top: 0; margin-bottom: auto; padding: 3rem 3rem 8rem; background: linear-gradient(to bottom, #65a9a5 0%, rgba(101,169,165,0.95) 50%, rgba(101,169,165,0.7) 75%, transparent 100%);">
+            <h1 style="font-family: 'Inter', sans-serif; font-size: 6.5rem; font-weight: 900; color: #FFFFFF; margin: 0 0 0.15em 0; padding: 0; line-height: 1.0; letter-spacing: -0.02em; border: none; background: transparent;">${bookTitle}</h1>
+            <p style="font-family: 'Inter', sans-serif; font-size: 3.5rem; font-weight: 700; color: #FFE66D; margin: 0 0 0.35em 0; padding: 0; line-height: 1.1; border: none; background: transparent;">${bookTagline}</p>
+            <p style="font-family: 'Inter', sans-serif; font-size: 2.2rem; font-weight: 500; color: rgba(255,255,255,0.9); margin: 0; padding: 0; border: none; background: transparent;">${bookSubtitle}</p>
+          </div>
+          <div style="position: absolute; bottom: 0; left: 0; right: 0; text-align: center; padding: 1.2rem 2rem 1.5rem;">
+            <p style="font-family: 'Inter', sans-serif; font-size: 2.2rem; font-weight: 500; color: rgba(255,255,255,0.95); margin: 0 0 0.4rem 0; border: none; background: transparent;">${bookSubtitle2}</p>
+            <p style="font-family: 'Inter', sans-serif; font-size: 1.5rem; font-weight: 600; color: rgba(255,255,255,0.8); margin: 0; border: none; background: transparent;">${authors.primary} & ${authors.secondary}</p>
           </div>
         </div>
       </div>
@@ -199,16 +226,32 @@ This ebook is the tool he built for himself to speak with locals immediately—f
   }
 
   // Add author page at the end
-  const authorBioHtml = authorBio.split('\n\n').map(p => `<p>${p}</p>`).join('');
+  const maciejBioHtml = authorBios.maciej.bio.split('\n\n').map(p => `<p>${p}</p>`).join('');
+  const fawwazBioHtml = authorBios.fawwaz.bio.split('\n\n').map(p => `<p>${p}</p>`).join('');
+
   htmlContent += `
     <div class="author-page">
-      <h2>About the Author</h2>
-      <div class="author-bio">
-        ${authorBioHtml}
+      <h2>About the Authors</h2>
+
+      <div class="author-entry">
+        <div class="author-name">${authorBios.maciej.name}</div>
+        <div class="author-role">${authorBios.maciej.role}</div>
+        <div class="author-bio">
+          ${maciejBioHtml}
+        </div>
       </div>
+
+      <div class="author-entry">
+        <div class="author-name">${authorBios.fawwaz.name}</div>
+        <div class="author-role">${authorBios.fawwaz.role}</div>
+        <div class="author-bio">
+          ${fawwazBioHtml}
+        </div>
+      </div>
+
       <div class="footer">
         <p>Learn more at <strong>${website}</strong></p>
-        <p>© 2025 ${authorName}. Free to share.</p>
+        <p>© 2025 ${authors.primary} & ${authors.secondary}. Free to share.</p>
       </div>
     </div>
     </body>

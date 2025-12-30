@@ -1,6 +1,6 @@
 # Unit 01: Greetings & Introductions (Selamat Pagi)
 
-![Unit 01 Illustration](../../../assets/images/generated/unit_01.png)
+![Unit 01 Illustration](../../../assets/images/generated/unit_01.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:

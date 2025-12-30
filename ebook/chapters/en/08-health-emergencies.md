@@ -1,6 +1,6 @@
 # Unit 08: Health & Emergencies
 
-![Unit 08 Illustration](../../../assets/images/generated/unit_08.png)
+![Unit 08 Illustration](../../../assets/images/generated/unit_08.jpg)
 
 ## 1. Learning Objectives
 By the end of this unit, you will be able to:
