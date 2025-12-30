@@ -95,20 +95,212 @@ This is not them being nosey! It is just a friendly greeting, like "What's up?".
 
 ## 6. Exercises
 
-### Exercise A: Choose the Right Title
-Which word (Mas, Mba, Pak, Bu) would you use for:
+### A. Vocabulary Drill
 
-1.  A young male waiter? ....................
-2.  An older female shopkeeper? ....................
-3.  A male taxi driver (older than you)? ....................
-4.  A young woman at the reception? ....................
+**A1. Match the Indonesian to English:**
 
-### Exercise B: Translate to Natural Indonesian
-1.  (To a young man): What is your name?
-    *   ................................................................
-2.  (To an older woman): Good morning.
-    *   ................................................................
-3.  I am Budi.
-    *   ................................................................
-4.  Thanks.
-    *   ................................................................
+| | Indonesian | | English |
+|---|---|---|---|
+| 1. | Selamat pagi | ___ | a. How are you? |
+| 2. | Apa kabar? | ___ | b. Good evening |
+| 3. | Selamat malam | ___ | c. Good morning |
+| 4. | Makasih | ___ | d. Name |
+| 5. | Nama | ___ | e. Thanks |
+
+**A2. Fill in the blank with the correct word:**
+*(Pagi, Siang, Sore, Malam, Baik, Siapa)*
+
+1.  It's 10 AM. You say: "Selamat ____________."
+2.  It's 5 PM (before sunset). You say: "Selamat ____________."
+3.  Someone asks "Apa kabar?" You reply: "____________."
+4.  You want to ask someone's name: "____________ nama Mas?"
+5.  It's 8 PM. You say: "Selamat ____________."
+
+---
+
+### B. Grammar Practice
+
+**B1. Choose the correct title (Mas / Mba / Pak / Bu):**
+
+1.  A young male waiter: ____________
+2.  An older female shopkeeper: ____________
+3.  A male taxi driver (older than you): ____________
+4.  A young woman at reception: ____________
+5.  Your friend's father: ____________
+
+**B2. Error Correction - Find and fix the mistake:**
+
+1.  "Siapa nama Anda?" (Speaking to a young male waiter)
+    ▸ Correct: ________________________________________________
+2.  "Saya adalah Budi." (Introducing yourself)
+    ▸ Correct: ________________________________________________
+3.  "Selamat pagi!" (It's 2 PM)
+    ▸ Correct: ________________________________________________
+
+**B3. Complete the sentence using "Zero Copula" (no "to be"):**
+
+1.  (I am Sarah) → Saya ____________.
+2.  (She is Ibu Wayan) → Dia ____________.
+3.  (He is Pak Budi) → Dia ____________.
+
+---
+
+### C. Translation Challenge
+
+**C1. Translate to Indonesian:**
+
+1.  Good afternoon, Ma'am.
+    ▸ ________________________________________________________________
+2.  What is your name, Sir?
+    ▸ ________________________________________________________________
+3.  Nice to meet you. (Lit: "Greetings to know")
+    ▸ ________________________________________________________________
+
+**C2. Translate to English:**
+
+1.  "Pagi, Mas. Apa kabar?"
+    ▸ ________________________________________________________________
+2.  "Baik. Makasih."
+    ▸ ________________________________________________________________
+3.  "Saya Budi. Mba siapa namanya?"
+    ▸ ________________________________________________________________
+
+---
+
+### D. Dialogue Comprehension
+
+*Re-read the dialogue between Budi and Sarah, then answer:*
+
+1.  Where did Budi and Sarah meet?
+    ▸ ________________________________________________________________
+2.  What time of day was it? (Morning/Afternoon/Evening)
+    ▸ ________________________________________________________________
+3.  Why did Budi call Sarah "Mba" instead of using her name at first?
+    ▸ ________________________________________________________________
+4.  What does "Salam kenal" mean?
+    ▸ ________________________________________________________________
+5.  In the dialogue, did anyone use "Anda"? Why or why not?
+    ▸ ________________________________________________________________
+
+---
+
+### E. Real-World Scenarios
+
+**What would you say in these situations?**
+
+1.  You enter a coffee shop at 9 AM. The barista (young male) greets you. How do you respond and ask his name?
+    ▸ ________________________________________________________________
+2.  You meet your hotel manager (older woman) for the first time. Greet her and introduce yourself.
+    ▸ ________________________________________________________________
+3.  A local asks "Mau ke mana?" What is an appropriate casual response?
+    ▸ ________________________________________________________________
+4.  Your new Indonesian friend asks "Apa kabar?" How do you respond and ask them back?
+    ▸ ________________________________________________________________
+5.  You want to say goodbye at 7 PM. What do you say?
+    ▸ ________________________________________________________________
+
+---
+
+### F. Fun & Games
+
+**F1. Word Search**
+*Find these 8 words hidden in the grid:*
+PAGI, MALAM, SIANG, SORE, BAIK, NAMA, SIAPA, SAYA
+
+```
+S E L A M A T P N
+I A Y A N G K A A
+A N A M A L A M M
+P A G I R S I A A
+A B U S O R E X Y
+M B A I K A C P S
+S A Y A P A K O A
+```
+
+**F2. Sentence Scramble - Rearrange the words:**
+
+1.  [ pagi / Selamat / Mba ]
+    ▸ ________________________________________________________________
+2.  [ Saya / Budi / nama ]
+    ▸ ________________________________________________________________
+3.  [ kabar / Apa / Pak / ? ]
+    ▸ ________________________________________________________________
+4.  [ kenal / Salam / Sarah ]
+    ▸ ________________________________________________________________
+
+**F3. Vocabulary Puzzle**
+
+*Write the Indonesian word for each clue:*
+
+1. Morning greeting word (4 letters)
+   ▸ ________________________________________________________________
+2. Good/Fine - response to "Apa kabar?" (4 letters)
+   ▸ ________________________________________________________________
+3. "Who" in Indonesian (5 letters)
+   ▸ ________________________________________________________________
+4. Casual "Thanks" (7 letters)
+   ▸ ________________________________________________________________
+
+---
+
+### G. Self-Check: Am I Ready?
+
+**Before moving to Unit 02, make sure you can:**
+
+- [ ] Greet someone at any time of day
+- [ ] Introduce yourself naturally (without "Anda")
+- [ ] Use the right title (Mas/Mba/Pak/Bu) for different people
+- [ ] Ask someone's name politely
+- [ ] Respond to "Apa kabar?" and "Mau ke mana?"
+- [ ] Understand why Indonesian has no "to be" verb
+
+---
+
+### Answer Key - Unit 01
+
+**A1. Matching:** 1-c, 2-a, 3-b, 4-e, 5-d
+
+**A2. Fill in the blank:** 1. Pagi, 2. Sore, 3. Baik, 4. Siapa, 5. Malam
+
+**B1. Titles:** 1. Mas, 2. Bu, 3. Pak, 4. Mba, 5. Pak
+
+**B2. Error Correction:**
+1. "Siapa nama Mas?" (Use title, not Anda)
+2. "Saya Budi." (No "adalah" needed - Zero Copula)
+3. "Selamat siang!" (2 PM is Siang, not Pagi)
+
+**B3. Zero Copula:** 1. Sarah, 2. Ibu Wayan, 3. Pak Budi
+
+**C1. To Indonesian:**
+1. Selamat sore, Bu.
+2. Siapa nama Pak/Bapak?
+3. Salam kenal.
+
+**C2. To English:**
+1. Morning, (young man). How are you?
+2. Good/Fine. Thanks.
+3. I am Budi. What is your name, Miss?
+
+**D. Dialogue Comprehension:**
+1. A co-working space in Bali
+2. Morning (they said "Pagi")
+3. He didn't know her name yet; using titles is polite for strangers
+4. "Nice to meet you" / "Greetings to know (you)"
+5. No - because "Anda" sounds stiff; they used titles instead
+
+**E. Scenarios (Sample answers):**
+1. "Pagi, Mas. Siapa nama Mas?"
+2. "Selamat pagi, Bu. Saya [your name]. Salam kenal."
+3. "Jalan-jalan saja." (Just walking around)
+4. "Baik. Makasih. Mas/Mba gimana?"
+5. "Selamat malam."
+
+**F1. Word Search:** All words found horizontally/vertically/diagonally in grid
+
+**F2. Sentence Scramble:**
+1. Selamat pagi, Mba.
+2. Nama saya Budi. / Saya nama Budi.
+3. Apa kabar, Pak?
+4. Salam kenal, Sarah.
+
+**F3. Vocabulary Puzzle:** 1. PAGI, 2. BAIK, 3. SIAPA, 4. MAKASIH

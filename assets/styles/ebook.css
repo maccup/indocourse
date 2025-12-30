@@ -21,8 +21,24 @@ body {
 
 /* Print Specifics */
 @page {
-  margin: 0;
+  margin: 1cm 1.5cm;  /* Consistent margins on content pages */
   size: A4;
+}
+
+/* First page (cover) - no margins */
+@page :first {
+  margin: 0;
+}
+
+/* Full-bleed pages (no margins) */
+@page full-bleed {
+  margin: 0;
+}
+
+.full-bleed-page {
+  page: full-bleed;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .page-break {
@@ -30,7 +46,7 @@ body {
 }
 
 .chapter {
-  padding: 2.5cm 2cm;
+  padding: 0;  /* @page handles margins now */
   box-sizing: border-box;
 }
 
@@ -297,32 +313,53 @@ blockquote {
 /* Author Page */
 .author-page {
   page-break-before: always;
-  padding: 3rem 2.5rem;
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  padding: 3rem 4rem !important;
+  background-color: #65a9a5;
+  height: 100vh;
+  box-sizing: border-box;
 }
 
 .author-page h2 {
   font-family: 'Inter', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  color: var(--color-text);
-  margin-bottom: 1.5em;
-  padding-bottom: 0.5em;
-  border-bottom: 2px solid var(--color-text);
+  color: #FFFFFF;
+  margin: 0 0 1.2em 0;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
 }
 
 .author-entry {
-  margin-bottom: 2.5em;
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5em;
+  margin-bottom: 5em;
 }
 
 .author-entry:last-of-type {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
+}
+
+.author-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid rgba(255,255,255,0.3);
+  flex-shrink: 0;
+}
+
+.author-info {
+  flex: 1;
 }
 
 .author-name {
   font-family: 'Inter', sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--color-text);
+  color: #FFFFFF;
   margin-bottom: 0.2em;
 }
 
@@ -330,20 +367,20 @@ blockquote {
   font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--color-primary);
+  color: #FFE66D;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1em;
 }
 
 .author-bio {
-  font-size: 1rem;
-  line-height: 1.75;
-  color: var(--color-text);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.9);
 }
 
 .author-bio p {
-  margin-bottom: 1em;
+  margin-bottom: 0.7em;
 }
 
 .author-bio p:last-child {
@@ -355,9 +392,19 @@ blockquote {
   font-size: 0.8rem;
   color: #999;
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2em;
   border-top: 1px solid var(--color-border);
-  padding-top: 1em;
+  padding-top: 0.8em;
+}
+
+.author-page .footer {
+  color: rgba(255,255,255,0.8);
+  border-top-color: rgba(255,255,255,0.2);
+  margin-top: 1.5em;
+}
+
+.author-page .footer strong {
+  color: #FFE66D;
 }
 
 /* Table of Contents */
@@ -417,4 +464,111 @@ code {
   border-radius: 3px;
   font-family: inherit;
   font-size: 0.95em;
+}
+
+/* Images - Center all images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+p:has(img) {
+  text-align: center;
+}
+
+/* QR code images - small, keep with URL below */
+img[alt*="QR"] {
+  page-break-after: avoid;
+  break-after: avoid-page;
+}
+
+/* Centered paragraphs (URLs under QR codes) */
+p[align="center"] {
+  page-break-before: avoid;
+  break-before: avoid-page;
+}
+
+/* ============================================
+   PAGE BREAK CONTROL
+
+   Philosophy: Allow content to flow naturally.
+   Only prevent breaks that would look truly bad.
+   Big blank spaces are worse than mid-section breaks.
+   ============================================ */
+
+/* Orphan/Widow control - prevent single lines at page breaks */
+p, li {
+  orphans: 2;
+  widows: 2;
+}
+
+/* CRITICAL: Explicitly allow page breaks everywhere by default */
+h2, h3, h4, p, ul, ol, table, blockquote {
+  page-break-before: auto;
+  page-break-after: auto;
+  page-break-inside: auto;
+  break-before: auto;
+  break-after: auto;
+  break-inside: auto;
+}
+
+/* Tables CAN break across pages - but keep individual rows together */
+table {
+  page-break-inside: auto;  /* Allow table to break */
+  break-inside: auto;
+}
+
+tr {
+  page-break-inside: avoid;  /* But keep rows intact */
+  break-inside: avoid-page;
+}
+
+/* Blockquotes (tips, notes) - short, keep together */
+blockquote {
+  page-break-inside: avoid;
+  break-inside: avoid-page;
+}
+
+/* Code blocks (word search grid) - centered and styled */
+pre {
+  page-break-inside: avoid;
+  break-inside: avoid-page;
+  background-color: #f8f9fa;
+  padding: 1.5em 3em;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.1em;
+  letter-spacing: 0.25em;
+  line-height: 2;
+  text-align: center;
+  max-width: fit-content;
+  margin: 1.5em auto;
+}
+
+/* Individual list items should not break internally */
+li {
+  page-break-inside: avoid;
+  break-inside: avoid-page;
+}
+
+/* Horizontal rules - natural section separators */
+hr {
+  margin: 2em 0;
+}
+
+/* Answer key section - start on new page */
+h3.answer-key {
+  page-break-before: always;
+  break-before: page;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+/* Fun & Games section - keep puzzle elements together */
+strong:has(+ em),  /* F1. Word Search + *Find these words...* */
+strong + em {
+  page-break-after: avoid;
+  break-after: avoid-page;
 }
