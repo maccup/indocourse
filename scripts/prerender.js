@@ -18,19 +18,19 @@ const routes = [
     path: '/audio',
     title: 'Audio Companion - 234 Indonesian Pronunciation Files | Indonesian Basics',
     description: 'Listen to native Indonesian pronunciation for all 10 units. Free MP3 audio files covering vocabulary and dialogues from greetings to polite requests.',
-    canonical: 'https://indonesianbasics.com/audio'
+    canonical: 'https://indonesianbasics.com/audio/'
   },
   {
     path: '/privacy-policy',
     title: 'Privacy Policy | Indonesian Basics',
     description: 'Privacy policy for Indonesian Basics. Learn how we collect, use, and protect your personal data when you download our free Indonesian language course.',
-    canonical: 'https://indonesianbasics.com/privacy-policy'
+    canonical: 'https://indonesianbasics.com/privacy-policy/'
   },
   {
     path: '/terms',
     title: 'Terms of Service | Indonesian Basics',
     description: 'Terms of service for Indonesian Basics. Read about the permitted use of our free Indonesian language learning materials.',
-    canonical: 'https://indonesianbasics.com/terms'
+    canonical: 'https://indonesianbasics.com/terms/'
   }
 ]
 

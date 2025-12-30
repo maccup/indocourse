@@ -66,7 +66,7 @@ function generateEmailHtml(name: string, locale: string, apiUrl: string): string
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #FDFBF7;">
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #F8F9FA;">
   <table role="presentation" style="width: 100%; border-collapse: collapse;">
     <tr>
       <td align="center" style="padding: 40px 20px;">
@@ -74,9 +74,9 @@ function generateEmailHtml(name: string, locale: string, apiUrl: string): string
 
           <!-- Header -->
           <tr>
-            <td style="padding: 40px 40px 24px; text-align: center; background: linear-gradient(135deg, #E07A5F 0%, #d4684f 100%); border-radius: 16px 16px 0 0;">
+            <td style="padding: 40px 40px 24px; text-align: center; background: linear-gradient(135deg, #2EC4B6 0%, #26a69a 100%); border-radius: 16px 16px 0 0;">
               <h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: 700;">Indonesian Basics</h1>
-              <p style="margin: 8px 0 0; color: rgba(255,255,255,0.9); font-size: 16px;">Speak Like a Local, Not a Textbook</p>
+              <p style="margin: 8px 0 0; color: rgba(255,255,255,0.9); font-size: 16px;">Learn with Kiki the Monkey</p>
             </td>
           </tr>
 
@@ -84,39 +84,40 @@ function generateEmailHtml(name: string, locale: string, apiUrl: string): string
           <tr>
             <td style="padding: 40px;">
               <h2 style="margin: 0 0 16px; color: #2D3436; font-size: 24px; font-weight: 600;">
-                Selamat, ${firstName}!
+                Selamat, ${firstName}! 🎉
               </h2>
-              <p style="margin: 0 0 24px; color: #636e72; font-size: 16px; line-height: 1.6;">
-                Your free Indonesian learning materials are ready. You're about to learn Indonesian the way locals actually speak it.
+              <p style="margin: 0 0 24px; color: #2D3436; opacity: 0.7; font-size: 16px; line-height: 1.6;">
+                Your free Indonesian learning materials are ready! You're about to learn Indonesian the way locals actually speak it - no boring textbooks, just real phrases you'll use in Bali.
               </p>
 
               <!-- Download Buttons -->
               <table role="presentation" style="width: 100%; border-collapse: collapse;">
                 <tr>
                   <td style="padding: 8px 0;">
-                    <a href="${links.pdf}" style="display: block; padding: 16px 24px; background-color: #E07A5F; color: #ffffff; text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 16px; text-align: center;">
-                      Download PDF eBook
+                    <a href="${links.pdf}" style="display: block; padding: 18px 24px; background-color: #FFE66D; color: #2D3436; text-decoration: none; border-radius: 12px; font-weight: 700; font-size: 16px; text-align: center;">
+                      📚 Download PDF eBook
                     </a>
                   </td>
                 </tr>
                 <tr>
                   <td style="padding: 8px 0;">
-                    <a href="${links.audio}" style="display: block; padding: 16px 24px; background-color: #81B29A; color: #ffffff; text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 16px; text-align: center;">
-                      Download Audio Files
+                    <a href="${links.audio}" style="display: block; padding: 18px 24px; background-color: #2EC4B6; color: #ffffff; text-decoration: none; border-radius: 12px; font-weight: 700; font-size: 16px; text-align: center;">
+                      🎧 Download 234 Audio Files
                     </a>
                   </td>
                 </tr>
               </table>
 
               <!-- Tips Section -->
-              <div style="margin-top: 32px; padding: 24px; background-color: #f8f9fa; border-radius: 12px;">
+              <div style="margin-top: 32px; padding: 24px; background-color: #F8F9FA; border-radius: 12px; border-left: 4px solid #2EC4B6;">
                 <h3 style="margin: 0 0 12px; color: #2D3436; font-size: 16px; font-weight: 600;">
-                  Quick Start Tips
+                  🚀 Quick Start Tips
                 </h3>
-                <ul style="margin: 0; padding-left: 20px; color: #636e72; font-size: 14px; line-height: 1.8;">
+                <ul style="margin: 0; padding-left: 20px; color: #2D3436; opacity: 0.7; font-size: 14px; line-height: 1.8;">
                   <li>Start with Unit 1 - master basic greetings first</li>
                   <li>Listen to the audio while reading the dialogues</li>
                   <li>Practice the "No Anda" rule - use Pak, Bu, Mas, Mba instead</li>
+                  <li>15-20 mins a day = conversations in 2-4 weeks!</li>
                 </ul>
               </div>
             </td>
@@ -124,13 +125,12 @@ function generateEmailHtml(name: string, locale: string, apiUrl: string): string
 
           <!-- Footer -->
           <tr>
-            <td style="padding: 24px 40px; background-color: #f8f9fa; border-radius: 0 0 16px 16px; text-align: center;">
-              <p style="margin: 0; color: #a0a0a0; font-size: 14px;">
-                Happy learning!<br>
-                <strong style="color: #636e72;">The Indonesian Basics Team</strong>
+            <td style="padding: 24px 40px; background-color: #2D3436; border-radius: 0 0 16px 16px; text-align: center;">
+              <p style="margin: 0; color: rgba(255,255,255,0.6); font-size: 14px;">
+                Happy learning! Kiki is cheering for you 🐒
               </p>
-              <p style="margin: 16px 0 0; color: #a0a0a0; font-size: 12px;">
-                <a href="https://indonesianbasics.com" style="color: #81B29A; text-decoration: none;">IndonesianBasics.com</a>
+              <p style="margin: 12px 0 0; color: rgba(255,255,255,0.4); font-size: 12px;">
+                <a href="https://indonesianbasics.com" style="color: #2EC4B6; text-decoration: none;">IndonesianBasics.com</a>
               </p>
             </td>
           </tr>
