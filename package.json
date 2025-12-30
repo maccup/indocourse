@@ -13,7 +13,7 @@
     "build:pdf": "node scripts/build-pdf.js en && cp output/IndoCourse_Survival_Indonesian_EN.pdf worker/public/downloads/indonesian-basics-en.pdf",
     "build:pdf:kdp": "node scripts/build-pdf.js en --kdp",
     "build:audio": "node scripts/extract-audio.js en",
-    "build:audio-zip": "cd assets/audio/en && zip -r ../../../worker/public/downloads/indonesian-basics-audio-en.zip *.mp3",
+    "build:audio-zip": "cd assets/audio/en && zip -j ../../../worker/public/downloads/indonesian-basics-audio-en.zip *.mp3",
     "generate:assets": "node scripts/generate-assets.js",
     "generate:qr": "node scripts/generate-qr-codes.js",
     "build:ebook": "npm run build:pdf && npm run build:audio-zip",
