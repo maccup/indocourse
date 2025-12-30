@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Volume2, RotateCcw, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
+import { Volume2, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
 
 const vocabCards = [
   {
