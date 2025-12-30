@@ -107,7 +107,8 @@ async function generateAudio(text, outputPath, voiceName = TTS_VOICE) {
 
 async function generateImage(prompt, outputPath, useCustomStyle = true) {
   const pngPath = outputPath.replace(/\.\w+$/, '.png');
-  if (fs.existsSync(pngPath)) {
+  const jpgPath = outputPath.replace(/\.\w+$/, '.jpg');
+  if (fs.existsSync(pngPath) || fs.existsSync(jpgPath)) {
     return { skipped: true };
   }
 
@@ -217,30 +218,25 @@ No text in the image.`;
 
 // OG Image for social media sharing (1200x630)
 async function generateOGImage() {
-  const outputPath = path.join(__dirname, '../public/og-image.png');
-  if (fs.existsSync(outputPath)) {
-    console.log('  [SKIP] og-image.png exists');
+  const pngPath = path.join(__dirname, '../public/og-image.png');
+  const jpgPath = path.join(__dirname, '../public/og-image.jpg');
+  if (fs.existsSync(pngPath) || fs.existsSync(jpgPath)) {
+    console.log('  [SKIP] og-image exists');
     return;
   }
 
-  const ogPrompt = `Professional social media Open Graph card, exactly 1200x630 pixels landscape format.
+  const ogPrompt = `Social media Open Graph card, 1200x630 landscape.
 
-Scene: A cute cartoon monkey character (Kiki) - small friendly monkey with huge expressive happy eyes, warm brown fur, wearing tiny teal (#2EC4B6) backpack - sitting happily and waving at the viewer.
+LAYOUT CRITICAL: Image divided into LEFT and RIGHT halves.
+- LEFT HALF: Cute cartoon monkey (Kiki) - friendly monkey with big happy eyes, brown fur, teal backpack, waving. Small decorative elements: banana, palm leaf, temple silhouette.
+- RIGHT HALF: COMPLETELY EMPTY solid teal (#2EC4B6) background. NO characters, NO elements on right side.
 
-Kiki is positioned on the LEFT third of the image, leaving RIGHT two-thirds as clean space.
-
-Background: Solid bright teal (#2EC4B6) with subtle lighter teal geometric shapes or soft gradients. Very clean and modern.
-
-Small decorative elements floating around Kiki: yellow banana, small palm leaf, tiny Indonesian temple silhouette.
-
-Style: Premium Duolingo/Headspace/Notion marketing quality. Flat vector illustration. Modern, clean, professional. The kind of image you'd see on a top-tier app's social media.
-
-Absolutely NO text in the image. Clean right side for text overlay later.
-
-This should look like a million-dollar app's social card.`;
+Style: Duolingo/Headspace flat vector illustration. Clean, modern.
+Background: Solid teal (#2EC4B6).
+NO text anywhere in image.`;
 
   try {
-    await generateImage(ogPrompt, outputPath, true);
+    await generateImage(ogPrompt, pngPath, true);
     console.log('  [OK] og-image.png generated');
   } catch (err) {
     console.error('  [ERROR] og-image.png:', err.message);
@@ -299,17 +295,17 @@ async function generateUnitImages() {
   console.log('\n--- Unit Illustrations ---');
 
   for (const [unitNum, prompt] of Object.entries(UNIT_PROMPTS)) {
-    const outputPath = path.join(OUTPUT_IMAGE_DIR, `unit_${unitNum}.png`);
+    const pngPath = path.join(OUTPUT_IMAGE_DIR, `unit_${unitNum}.png`);
+    const jpgPath = path.join(OUTPUT_IMAGE_DIR, `unit_${unitNum}.jpg`);
 
-    if (fs.existsSync(outputPath)) {
-      console.log(`  [SKIP] unit_${unitNum}.png exists`);
+    if (fs.existsSync(pngPath) || fs.existsSync(jpgPath)) {
+      console.log(`  [SKIP] unit_${unitNum} exists`);
       continue;
     }
 
     try {
-      await generateImage(prompt, outputPath, true);
+      await generateImage(prompt, pngPath, true);
       console.log(`  [OK] unit_${unitNum}.png generated`);
-      // Small delay to avoid rate limiting
       await sleep(1000);
     } catch (err) {
       console.error(`  [ERROR] unit_${unitNum}.png:`, err.message);

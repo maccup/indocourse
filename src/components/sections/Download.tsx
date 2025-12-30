@@ -47,11 +47,11 @@ export function Download() {
           </motion.div>
 
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
-            Ready to join Kiki?
+            Ready to start learning?
           </h2>
 
           <p className="text-xl text-white/90 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Get the complete course FREE! Kiki's already packed the bananas... 🍌
+            Get the complete course FREE! Kiki's packed 10 lessons, 234 audio files, and zero boring grammar.
           </p>
 
           <motion.button

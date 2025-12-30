@@ -74,7 +74,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Baik. Mas gimana? (How about you?)"
+        "text": "Baik. Mas gimana?"
       },
       {
         "speaker": "Budi",
@@ -193,7 +193,7 @@
       },
       {
         "speaker": "Ibu",
-        "text": "Pagi, cantik (beautiful). Itu seratus lima puluh ribu. (150,000)"
+        "text": "Pagi, cantik. Itu seratus lima puluh ribu."
       },
       {
         "speaker": "Sarah",
@@ -213,11 +213,11 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Tujuh puluh ribu, ya? (70,000)"
+        "text": "Tujuh puluh ribu, ya?"
       },
       {
         "speaker": "Ibu",
-        "text": "Waduh, belum dapat, Mba. (I can't do that yet). Seratus pas, deh. (100 flat/fixed)."
+        "text": "Waduh, belum dapat, Mba. Seratus pas, deh."
       },
       {
         "speaker": "Sarah",
@@ -293,14 +293,14 @@
         "english": "Delicious"
       },
       {
-        "indonesian": "Bon / Bill",
+        "indonesian": "Bon",
         "english": "The Bill"
       }
     ],
     "dialogue": [
       {
         "speaker": "Sarah",
-        "text": "Siang, Bu. Buka? (Open?)"
+        "text": "Siang, Bu. Buka?"
       },
       {
         "speaker": "Ibu",
@@ -316,7 +316,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Jangan pedas, ya Bu. Dikit saja. (Don't make it spicy. Just a little)."
+        "text": "Jangan pedas, ya Bu. Dikit saja."
       },
       {
         "speaker": "Ibu",
@@ -328,7 +328,7 @@
       },
       {
         "speaker": "Ibu",
-        "text": "Makan sini atau bungkus? (Eat here or wrap/take-away?)"
+        "text": "Makan sini atau bungkus?"
       },
       {
         "speaker": "Sarah",
@@ -407,7 +407,7 @@
     "dialogue": [
       {
         "speaker": "Driver",
-        "text": "Siang, Pak. Sesuai aplikasi ya? (Good day. According to app?)"
+        "text": "Siang, Pak. Sesuai aplikasi ya?"
       },
       {
         "speaker": "Budi",
@@ -415,7 +415,7 @@
       },
       {
         "speaker": "Driver",
-        "text": "Lewat mana, Pak? (Which way?)"
+        "text": "Lewat mana, Pak?"
       },
       {
         "speaker": "Budi",
@@ -522,7 +522,7 @@
     "dialogue": [
       {
         "speaker": "Sarah",
-        "text": "Budi, hari Sabtu sibuk nggak? (Busy on Saturday?)"
+        "text": "Budi, hari Sabtu sibuk nggak?"
       },
       {
         "speaker": "Budi",
@@ -546,7 +546,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Ya ampun, kebo banget! (Cow/Lazy!). Ya sudah, jam sepuluh ya?"
+        "text": "Ya ampun, kebo banget! Ya sudah, jam sepuluh ya?"
       },
       {
         "speaker": "Budi",
@@ -625,7 +625,7 @@
       },
       {
         "speaker": "Ibu Wayan",
-        "text": "Ganteng ya (Handsome). Dia punya pacar?"
+        "text": "Ganteng ya. Dia punya pacar?"
       },
       {
         "speaker": "Sarah",
@@ -645,7 +645,7 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Tidak punya. Saya anak tunggal (only child)."
+        "text": "Tidak punya. Saya anak tunggal."
       }
     ]
   },
@@ -724,7 +724,7 @@
       },
       {
         "speaker": "Budi",
-        "text": "Iya, gila (crazy). Matahari kuat sekali."
+        "text": "Iya, gila. Matahari kuat sekali."
       },
       {
         "speaker": "Sarah",
@@ -740,7 +740,7 @@
       },
       {
         "speaker": "Budi",
-        "text": "Lumayan (So-so). Tapi capek. Naik Gojek saja?"
+        "text": "Lumayan. Tapi capek. Naik Gojek saja?"
       },
       {
         "speaker": "Sarah",
@@ -827,11 +827,11 @@
       },
       {
         "speaker": "Sarah",
-        "text": "Dari pagi. Saya juga agak mual (nauseous)."
+        "text": "Dari pagi. Saya juga agak mual."
       },
       {
         "speaker": "Apoteker",
-        "text": "Salah makan? (Ate wrong food?)"
+        "text": "Salah makan?"
       },
       {
         "speaker": "Sarah",
@@ -847,7 +847,7 @@
       },
       {
         "speaker": "Apoteker",
-        "text": "Semoga cepat sembuh (Get well soon)."
+        "text": "Semoga cepat sembuh."
       }
     ]
   },
@@ -918,7 +918,7 @@
       },
       {
         "speaker": "Budi",
-        "text": "Sudah sering (Often). Rumah nenek saya di sana."
+        "text": "Sudah sering. Rumah nenek saya di sana."
       },
       {
         "speaker": "Sarah",
@@ -977,7 +977,7 @@
     "dialogue": [
       {
         "speaker": "Sarah",
-        "text": "(Knocking) Permisi... Selamat sore."
+        "text": "Permisi... Selamat sore."
       },
       {
         "speaker": "Ibu Wayan",
@@ -997,7 +997,7 @@
       },
       {
         "speaker": "Ibu Wayan",
-        "text": "Biasa saja (Just ordinary/humble). Silakan diminum tehnya."
+        "text": "Biasa saja. Silakan diminum tehnya."
       },
       {
         "speaker": "Sarah",

@@ -1,16 +1,16 @@
 import { motion } from 'framer-motion';
 
 const units = [
-  { emoji: '👋', title: 'Greetings', desc: 'Kiki learns to wave hello (a bit too enthusiastically)' },
-  { emoji: '💰', title: 'Numbers & Money', desc: 'So many zeros! Kiki vs Indonesian Rupiah' },
-  { emoji: '🌶️', title: 'Food & Dining', desc: 'Kiki discovers sambal is VERY spicy' },
-  { emoji: '🛵', title: 'Directions', desc: 'Kiki gets lost (with map upside down)' },
-  { emoji: '⏰', title: 'Time & Routine', desc: 'Kiki is late again!' },
-  { emoji: '👨‍👩‍👧‍👦', title: 'Family', desc: 'Kiki meets ALL the relatives' },
-  { emoji: '🥵', title: 'Adjectives', desc: 'Hot outside, freezing in the mall' },
-  { emoji: '🤒', title: 'Health', desc: 'Kiki catches Bali Belly' },
-  { emoji: '📅', title: 'Past & Future', desc: 'Yesterday was chaos, tomorrow will be better!' },
-  { emoji: '🙏', title: 'Etiquette', desc: 'Kiki learns to bow (bows too deep)' }
+  { emoji: '👋', title: 'Greetings', desc: 'Say hello without sounding like a robot!' },
+  { emoji: '💰', title: 'Numbers & Money', desc: 'So many zeros! Master rupiah like a pro' },
+  { emoji: '🌶️', title: 'Food & Dining', desc: 'Order nasi goreng, survive the sambal' },
+  { emoji: '🛵', title: 'Directions', desc: 'Tell your Grab driver where to go' },
+  { emoji: '⏰', title: 'Time & Routine', desc: 'Never be "jam karet" (rubber time)' },
+  { emoji: '👨‍👩‍👧‍👦', title: 'Family', desc: 'Meet the whole big Indonesian family' },
+  { emoji: '🥵', title: 'Adjectives', desc: 'Hot, cold, big, small - describe it all!' },
+  { emoji: '🤒', title: 'Health', desc: 'Bali belly? Get help at the pharmacy' },
+  { emoji: '📅', title: 'Past & Future', desc: 'Yesterday was fun, tomorrow will be better' },
+  { emoji: '🙏', title: 'Etiquette', desc: 'Learn the 3 types of "please"!' }
 ];
 
 export function WhatsInside() {
@@ -24,10 +24,10 @@ export function WhatsInside() {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
-            Kiki's 10 Adventures 🐵
+            What's inside?
           </h2>
           <p className="text-xl text-[#2D3436]/60">
-            Each unit = one hilarious situation Kiki gets into while learning Indonesian
+            10 lessons for real situations - Kiki picked only the useful stuff!
           </p>
         </motion.div>
 

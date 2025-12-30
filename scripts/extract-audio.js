@@ -1,14 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import MarkdownIt from 'markdown-it';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const md = new MarkdownIt();
-
-// Parse Args
 const args = process.argv.slice(2);
 const lang = args[0] || 'en';
 
@@ -16,7 +12,6 @@ const CHAPTERS_DIR = path.join(__dirname, `../ebook/chapters/${lang}`);
 const OUTPUT_FILE = path.join(__dirname, `../assets/data/audio_production_script_${lang.toUpperCase()}.json`);
 const TXT_OUTPUT = path.join(__dirname, `../assets/data/audio_production_script_${lang.toUpperCase()}.txt`);
 
-// Ensure directory exists
 if (!fs.existsSync(path.dirname(OUTPUT_FILE))) {
   fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
 }
@@ -65,9 +60,9 @@ function extractAudioScript() {
     // 2. Extract Dialogue
     const dialogueSection = content.split('## 4. Dialogue')[1]?.split('##')[0];
     if (dialogueSection) {
-      const cleanDialogue = dialogueSection.replace(/\*\*Context:\*\*.+?\n/, '');
-      
-      const lines = cleanDialogue.split('\n');
+      const dialogueContent = dialogueSection.replace(/\*\*Context:\*\*.+?\n/, '');
+
+      const lines = dialogueContent.split('\n');
       for (const line of lines) {
         const match = line.match(/^\*\*(.+?):\*\*\s*(.+)/);
         if (match) {

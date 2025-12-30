@@ -22,7 +22,7 @@
 Budi: Pagi, Mba.
 Sarah: Pagi, Mas.
 Budi: Apa kabar?
-Sarah: Baik. Mas gimana? (How about you?)
+Sarah: Baik. Mas gimana?
 Budi: Baik juga. Makasih.
 Sarah: Namanya siapa, Mas?
 Budi: Saya Budi. Mba siapa namanya?
@@ -57,13 +57,13 @@ Budi: Salam kenal, Sarah.
 
 --- DIALOGUE ---
 Sarah: Pagi, Bu. Kain ini berapa?
-Ibu: Pagi, cantik (beautiful). Itu seratus lima puluh ribu. (150,000)
+Ibu: Pagi, cantik. Itu seratus lima puluh ribu.
 Sarah: Wah, mahal banget, Bu!
 Ibu: Bagus lho, kualitas ekspor.
-Sarah: **Boleh kurang, nggak?**
+Sarah: Boleh kurang, nggak?
 Ibu: Boleh. Mau berapa?
-Sarah: Tujuh puluh ribu, ya? (70,000)
-Ibu: Waduh, belum dapat, Mba. (I can't do that yet). Seratus pas, deh. (100 flat/fixed).
+Sarah: Tujuh puluh ribu, ya?
+Ibu: Waduh, belum dapat, Mba. Seratus pas, deh.
 Sarah: Delapan puluh ribu deh, Bu. Saya ambil dua.
 Ibu: Ya sudah. Delapan puluh ribu. Silakan.
 Sarah: Makasih, Bu.
@@ -86,17 +86,17 @@ Sarah: Makasih, Bu.
 [IND] Mau
 [IND] Suka
 [IND] Enak
-[IND] Bon / Bill
+[IND] Bon
 
 --- DIALOGUE ---
-Sarah: Siang, Bu. Buka? (Open?)
+Sarah: Siang, Bu. Buka?
 Ibu: Siang, Mba. Buka, silakan duduk. Mau pesan apa?
-Sarah: Saya mau **Nasi Goreng Ayam**, satu.
+Sarah: Saya mau Nasi Goreng Ayam, satu.
 Ibu: Pedas nggak?
-Sarah: **Jangan pedas**, ya Bu. Dikit saja. (Don't make it spicy. Just a little).
+Sarah: Jangan pedas, ya Bu. Dikit saja.
 Ibu: Oke. Minumnya apa?
-Sarah: **Es Teh Manis**, satu.
-Ibu: Makan sini atau **bungkus**? (Eat here or wrap/take-away?)
+Sarah: Es Teh Manis, satu.
+Ibu: Makan sini atau bungkus?
 Sarah: Makan sini saja.
 Ibu: Tunggu sebentar ya.
 
@@ -121,15 +121,15 @@ Ibu: Tunggu sebentar ya.
 [IND] Motor
 
 --- DIALOGUE ---
-Driver: Siang, Pak. Sesuai aplikasi ya? (Good day. According to app?)
+Driver: Siang, Pak. Sesuai aplikasi ya?
 Budi: Ya, Pak. Ke Hotel Santika.
-Driver: Lewat mana, Pak? (Which way?)
+Driver: Lewat mana, Pak?
 Budi: Ikut Google Maps saja, Pak.
-Budi: Pak, nanti **belok kanan** di depan ya.
+Budi: Pak, nanti belok kanan di depan ya.
 Driver: Oke, siap.
-Budi: Masuk gang ini, lalu **lurus terus**.
+Budi: Masuk gang ini, lalu lurus terus.
 Driver: Yang pagar hitam itu?
-Budi: Ya, benar. **Stop di kiri**, Pak.
+Budi: Ya, benar. Stop di kiri, Pak.
 Driver: Oke. Sampai, Pak.
 
 
@@ -155,14 +155,14 @@ Driver: Oke. Sampai, Pak.
 [IND] Tutup
 
 --- DIALOGUE ---
-Sarah: Budi, **hari Sabtu** sibuk nggak? (Busy on Saturday?)
+Sarah: Budi, hari Sabtu sibuk nggak?
 Budi: Nggak terlalu. Kenapa?
 Sarah: Kita mau ke pantai. Mau ikut?
-Budi: Boleh. **Jam berapa** berangkat?
+Budi: Boleh. Jam berapa berangkat?
 Sarah: Jam delapan pagi.
-Budi: Waduh, pagi banget! Saya baru **bangun** jam sembilan.
-Sarah: Ya ampun, kebo banget! (Cow/Lazy!). Ya sudah, jam sepuluh ya?
-Budi: Oke, jam sepuluh bisa. Sampai ketemu **besok**.
+Budi: Waduh, pagi banget! Saya baru bangun jam sembilan.
+Sarah: Ya ampun, kebo banget! Ya sudah, jam sepuluh ya?
+Budi: Oke, jam sepuluh bisa. Sampai ketemu besok.
 
 
 === Unit 06: Family & Possession (Punya) ===
@@ -185,13 +185,13 @@ Budi: Oke, jam sepuluh bisa. Sampai ketemu **besok**.
 
 --- DIALOGUE ---
 Ibu Wayan: Ini siapa, Mba Sarah?
-Sarah: Ini **adikku**, namanya Tom.
-Ibu Wayan: Ganteng ya (Handsome). Dia **punya** pacar?
+Sarah: Ini adikku, namanya Tom.
+Ibu Wayan: Ganteng ya. Dia punya pacar?
 Sarah: Sudah. Ini pacarnya, Lisa.
 Ibu Wayan: Wah, cantik. Kalau ini?
-Sarah: Ini **orang tua** saya. Ayah dan Ibu.
+Sarah: Ini orang tua saya. Ayah dan Ibu.
 Ibu Wayan: Mba Sarah punya kakak?
-Sarah: Tidak punya. Saya anak tunggal (only child).
+Sarah: Tidak punya. Saya anak tunggal.
 
 
 === Unit 07: Adjectives (Hot/Cold/Spicy) ===
@@ -215,13 +215,13 @@ Sarah: Tidak punya. Saya anak tunggal (only child).
 [IND] Sangat / Banget
 
 --- DIALOGUE ---
-Sarah: Aduh, hari ini **panas banget** ya!
-Budi: Iya, gila (crazy). Matahari kuat sekali.
-Sarah: Kita cari tempat **yang dingin** yuk. Masuk mall?
-Budi: Boleh. Mall Grand Indonesia **dekat** dari sini.
-Sarah: **Jauh** nggak kalau jalan kaki?
-Budi: Lumayan (So-so). Tapi capek. Naik Gojek saja?
-Sarah: Ide **bagus**.
+Sarah: Aduh, hari ini panas banget ya!
+Budi: Iya, gila. Matahari kuat sekali.
+Sarah: Kita cari tempat yang dingin yuk. Masuk mall?
+Budi: Boleh. Mall Grand Indonesia dekat dari sini.
+Sarah: Jauh nggak kalau jalan kaki?
+Budi: Lumayan. Tapi capek. Naik Gojek saja?
+Sarah: Ide bagus.
 
 
 === Unit 08: Health & Emergencies ===
@@ -245,14 +245,14 @@ Sarah: Ide **bagus**.
 
 --- DIALOGUE ---
 Apoteker: Selamat sore, ada yang bisa dibantu?
-Sarah: Sore, Mba. Saya lagi **sakit perut**.
+Sarah: Sore, Mba. Saya lagi sakit perut.
 Apoteker: Sudah berapa lama?
-Sarah: Dari pagi. Saya juga agak **mual** (nauseous).
-Apoteker: Salah makan? (Ate wrong food?)
+Sarah: Dari pagi. Saya juga agak mual.
+Apoteker: Salah makan?
 Sarah: Mungkin. Kemarin makan sambal terlalu banyak.
-Apoteker: Ini ada **obat** untuk maag dan diare. Diminum 3x sehari ya.
+Apoteker: Ini ada obat untuk maag dan diare. Diminum 3x sehari ya.
 Sarah: Oke. Terima kasih.
-Apoteker: Semoga cepat sembuh (Get well soon).
+Apoteker: Semoga cepat sembuh.
 
 
 === Unit 09: Past & Future (Sudah/Belum/Akan) ===
@@ -269,13 +269,13 @@ Apoteker: Semoga cepat sembuh (Get well soon).
 [IND] Baru saja
 
 --- DIALOGUE ---
-Budi: Sarah, kamu **sudah** berapa lama di Indonesia?
-Sarah: **Sudah** dua minggu.
-Budi: Kamu **pernah** ke Jogja?
-Sarah: **Belum pernah**. Tapi saya **mau** ke sana minggu depan.
+Budi: Sarah, kamu sudah berapa lama di Indonesia?
+Sarah: Sudah dua minggu.
+Budi: Kamu pernah ke Jogja?
+Sarah: Belum pernah. Tapi saya mau ke sana minggu depan.
 Budi: Wah, asik. Jogja bagus banget.
-Sarah: Kamu **sudah pernah** ke Borobudur?
-Budi: Sudah sering (Often). Rumah nenek saya di sana.
+Sarah: Kamu sudah pernah ke Borobudur?
+Budi: Sudah sering. Rumah nenek saya di sana.
 Sarah: Nanti saya minta tips ya!
 
 
@@ -295,12 +295,12 @@ Sarah: Nanti saya minta tips ya!
 [IND] Santai
 
 --- DIALOGUE ---
-Sarah: (Knocking) **Permisi**... Selamat sore.
-Ibu Wayan: Eh, Mba Sarah. **Silakan masuk**.
-Sarah: Terima kasih, Bu. **Maaf** saya terlambat sedikit. Macet.
-Ibu Wayan: **Tidak apa-apa**, santai saja. **Silakan duduk**.
+Sarah: Permisi... Selamat sore.
+Ibu Wayan: Eh, Mba Sarah. Silakan masuk.
+Sarah: Terima kasih, Bu. Maaf saya terlambat sedikit. Macet.
+Ibu Wayan: Tidak apa-apa, santai saja. Silakan duduk.
 Sarah: Wah, rumahnya bagus sekali.
-Ibu Wayan: Biasa saja (Just ordinary/humble). **Silakan diminum** tehnya.
+Ibu Wayan: Biasa saja. Silakan diminum tehnya.
 Sarah: Terima kasih, Bu.
 
 

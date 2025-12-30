@@ -33,8 +33,8 @@ export function Hero({ scrollToDownload }: HeroProps) {
             </h1>
 
             <p className="text-xl text-[#2D3436]/70 max-w-lg leading-relaxed">
-              Join <strong>Kiki the Monkey</strong> on hilarious adventures through Indonesia!
-              No boring textbooks - just real phrases locals actually use.
+              Let <strong>Kiki the Monkey</strong> guide you through real Indonesian conversations!
+              No boring textbooks - just phrases locals actually use.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -106,7 +106,7 @@ export function Hero({ scrollToDownload }: HeroProps) {
                 {/* Cover image - positioned to show Kiki with map */}
                 <img
                   src="/images/cover.jpg"
-                  alt="Learn Indonesian the fun way - with Kiki the Monkey"
+                  alt="Learn Indonesian the fun way - Beginner Course"
                   className="absolute inset-0 w-full h-full object-cover transform translate-y-[5%] scale-110"
                 />
                 {/* Title overlay at top */}

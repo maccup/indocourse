@@ -5,27 +5,27 @@ const faqs = [
   {
     emoji: '🤔',
     q: 'Is Indonesian hard to learn?',
-    a: 'Nope! It\'s one of the EASIEST languages for English speakers. No verb conjugations, no gendered nouns, no tones. Even Kiki learned the basics in a week! 🐵'
+    a: 'Nope! It\'s one of the EASIEST languages for English speakers. No verb conjugations, no gendered nouns, no tones. Even Kiki learned the basics in a week!'
   },
   {
     emoji: '⏱️',
     q: 'How long until I can actually talk to people?',
-    a: 'With just 15-20 minutes a day, you\'ll be having basic conversations in 2-4 weeks. Our course is designed for fast results - no fluff, just the stuff you\'ll actually use!'
+    a: 'With just 15-20 minutes a day, you\'ll be having basic conversations in 2-4 weeks. We cut the fluff - just stuff you\'ll actually use!'
   },
   {
     emoji: '🏝️',
     q: 'Do I really need Indonesian for Bali?',
-    a: 'Technically no, but... locals LOVE when you try! You\'ll get better prices at markets, make genuine connections, and have way more fun. Plus, it feels amazing to order "Nasi Goreng tidak pedas" like a pro! 🍳'
+    a: 'Technically no, but... locals LOVE when you try! You\'ll get better prices at markets, make genuine connections, and have way more fun. Plus, ordering "Nasi Goreng tidak pedas" like a pro feels amazing!'
   },
   {
     emoji: '📱',
     q: 'What do I actually get?',
-    a: 'A beautiful PDF eBook with Kiki\'s adventures + MP3 audio files for every phrase. Works offline - perfect for practicing on the plane to Bali! ✈️'
+    a: 'A beautiful PDF eBook with 10 real-world lessons + 234 MP3 audio files with native speakers. Works offline - perfect for the plane to Bali!'
   },
   {
     emoji: '💸',
     q: 'Wait, it\'s really FREE free?',
-    a: 'Yep! 100% free. No credit card, no "premium upgrade" tricks. We made this because we love Indonesia and want more people to experience it like locals do. Kiki approves! 🐵👍'
+    a: 'Yep! 100% free. No credit card, no "premium upgrade" tricks. We made this because we love Indonesia and want more people to experience it like locals do. Kiki approves!'
   }
 ];
 
@@ -40,10 +40,10 @@ export function FAQ() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
-            Got questions? 🙋
+            Got questions?
           </h2>
           <p className="text-xl text-[#2D3436]/60">
-            Kiki had the same ones when starting out!
+            Kiki had the same ones! Here's what beginners usually ask.
           </p>
         </motion.div>
 

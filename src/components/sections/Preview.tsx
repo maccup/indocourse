@@ -1,25 +1,124 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Play, Pause, Volume2 } from 'lucide-react';
 
 const messages = [
-  { speaker: '🐵', text: 'Pagi, Mba!', translation: 'Morning, Miss!', side: 'right' as const },
-  { speaker: '👩', text: 'Pagi, Mas.', translation: 'Morning, Sir.', side: 'left' as const },
-  { speaker: '🐵', text: 'Apa kabar?', translation: 'How are you?', side: 'right' as const },
-  { speaker: '👩', text: 'Baik! Mas gimana?', translation: 'Good! How about you?', side: 'left' as const },
-  { speaker: '🐵', text: 'Baik juga! 🍌', translation: 'Good too! (excited monkey noises)', side: 'right' as const }
+  {
+    speaker: 'Budi',
+    emoji: '👨',
+    text: 'Pagi, Mba.',
+    translation: 'Morning, Miss.',
+    side: 'right' as const,
+    audio: '/audio/en/unit01_dialogue_0_budi.mp3'
+  },
+  {
+    speaker: 'Sarah',
+    emoji: '👩',
+    text: 'Pagi, Mas.',
+    translation: 'Morning, Sir.',
+    side: 'left' as const,
+    audio: '/audio/en/unit01_dialogue_1_sarah.mp3'
+  },
+  {
+    speaker: 'Budi',
+    emoji: '👨',
+    text: 'Apa kabar?',
+    translation: 'How are you?',
+    side: 'right' as const,
+    audio: '/audio/en/unit01_dialogue_2_budi.mp3'
+  },
+  {
+    speaker: 'Sarah',
+    emoji: '👩',
+    text: 'Baik. Mas gimana?',
+    translation: 'Good! How about you?',
+    side: 'left' as const,
+    audio: '/audio/en/unit01_dialogue_3_sarah.mp3'
+  },
+  {
+    speaker: 'Budi',
+    emoji: '👨',
+    text: 'Baik juga. Makasih.',
+    translation: 'Good too. Thanks!',
+    side: 'right' as const,
+    audio: '/audio/en/unit01_dialogue_4_budi.mp3'
+  }
 ];
 
-export function Preview() {
-  const [isPlaying, setIsPlaying] = useState<string | null>(null);
+function AudioBubble({
+  message,
+  index,
+  currentPlaying,
+  onPlay
+}: {
+  message: typeof messages[0];
+  index: number;
+  currentPlaying: number | null;
+  onPlay: (index: number) => void;
+}) {
+  const isPlaying = currentPlaying === index;
 
-  const toggleAudio = (id: string) => {
-    if (isPlaying === id) {
-      setIsPlaying(null);
-    } else {
-      setIsPlaying(id);
-      setTimeout(() => setIsPlaying(null), 3000);
+  return (
+    <motion.div
+      initial={{ opacity: 0, x: message.side === 'right' ? 20 : -20 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
+      transition={{ delay: index * 0.1 }}
+      className={`flex ${message.side === 'right' ? 'justify-end' : 'justify-start'}`}
+    >
+      <button
+        onClick={() => onPlay(index)}
+        className={`max-w-[85%] p-4 rounded-2xl text-left transition-all group hover:scale-105 ${
+          message.side === 'right'
+            ? 'bg-[#2EC4B6] text-white rounded-tr-sm hover:bg-[#2EC4B6]/90'
+            : 'bg-[#F8F9FA] text-[#2D3436] rounded-tl-sm hover:bg-[#EBEBEB]'
+        }`}
+        aria-label={`Play: ${message.text}`}
+      >
+        <div className="flex items-center gap-3">
+          <span className="text-xl">{message.emoji}</span>
+          <div>
+            <p className="font-bold">{message.text}</p>
+            <p className={`text-xs mt-1 ${message.side === 'right' ? 'text-white/70' : 'text-[#2D3436]/50'}`}>
+              {message.translation}
+            </p>
+          </div>
+          {isPlaying ? (
+            <Pause className="w-4 h-4 animate-pulse flex-shrink-0" />
+          ) : (
+            <Play className="w-4 h-4 opacity-40 group-hover:opacity-100 flex-shrink-0" />
+          )}
+        </div>
+      </button>
+    </motion.div>
+  );
+}
+
+export function Preview() {
+  const [currentPlaying, setCurrentPlaying] = useState<number | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const handlePlay = (index: number) => {
+    if (audioRef.current) {
+      audioRef.current.pause();
     }
+
+    if (currentPlaying === index) {
+      setCurrentPlaying(null);
+      return;
+    }
+
+    const audio = new Audio(messages[index].audio);
+    audioRef.current = audio;
+
+    audio.onended = () => setCurrentPlaying(null);
+    audio.onerror = () => setCurrentPlaying(null);
+
+    audio.play().then(() => {
+      setCurrentPlaying(index);
+    }).catch(() => {
+      setCurrentPlaying(null);
+    });
   };
 
   return (
@@ -37,12 +136,12 @@ export function Preview() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
-              Watch Kiki
+              Listen to Budi
               <br />
-              <span className="text-[#2EC4B6]">make friends! 🐵</span>
+              <span className="text-[#2EC4B6]">make a friend!</span>
             </h2>
             <p className="text-xl text-white/60 mb-8 leading-relaxed">
-              Tap the messages to hear how it sounds. This is Kiki's first conversation in Indonesia!
+              Tap to hear native pronunciation! This is from Unit 1 - Budi meets Sarah at a Bali co-working space. Easy, right?
             </p>
 
             <div className="space-y-4">
@@ -57,7 +156,7 @@ export function Preview() {
                 <div className="text-3xl">🗣️</div>
                 <div>
                   <h4 className="font-bold">Repeat</h4>
-                  <p className="text-white/50 text-sm">Say it out loud (like Kiki!)</p>
+                  <p className="text-white/50 text-sm">Practice saying it out loud</p>
                 </div>
               </div>
             </div>
@@ -71,55 +170,29 @@ export function Preview() {
           >
             <div className="flex items-center gap-3 border-b border-black/10 pb-4 mb-6">
               <div className="w-12 h-12 bg-[#2EC4B6] rounded-full flex items-center justify-center text-2xl">
-                🐵
+                🎧
               </div>
               <div>
-                <h3 className="font-bold">Kiki's First Hello!</h3>
+                <h3 className="font-bold">Meeting at the Cafe</h3>
                 <p className="text-xs text-[#2D3436]/50">Unit 01: Greetings</p>
               </div>
             </div>
 
             <div className="space-y-3">
               {messages.map((msg, idx) => (
-                <motion.div
+                <AudioBubble
                   key={idx}
-                  initial={{ opacity: 0, x: msg.side === 'right' ? 20 : -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: idx * 0.1 }}
-                  className={`flex ${msg.side === 'right' ? 'justify-end' : 'justify-start'}`}
-                >
-                  <button
-                    onClick={() => toggleAudio(`msg-${idx}`)}
-                    className={`max-w-[85%] p-4 rounded-2xl text-left transition-all group hover:scale-105 ${
-                      msg.side === 'right'
-                        ? 'bg-[#2EC4B6] text-white rounded-tr-sm hover:bg-[#2EC4B6]/90'
-                        : 'bg-[#F8F9FA] text-[#2D3436] rounded-tl-sm hover:bg-[#EBEBEB]'
-                    }`}
-                    aria-label={`Play: ${msg.text}`}
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className="text-xl">{msg.speaker}</span>
-                      <div>
-                        <p className="font-bold">{msg.text}</p>
-                        <p className={`text-xs mt-1 ${msg.side === 'right' ? 'text-white/70' : 'text-[#2D3436]/50'}`}>
-                          {msg.translation}
-                        </p>
-                      </div>
-                      {isPlaying === `msg-${idx}` ? (
-                        <Pause className="w-4 h-4 animate-pulse flex-shrink-0" />
-                      ) : (
-                        <Play className="w-4 h-4 opacity-40 group-hover:opacity-100 flex-shrink-0" />
-                      )}
-                    </div>
-                  </button>
-                </motion.div>
+                  message={msg}
+                  index={idx}
+                  currentPlaying={currentPlaying}
+                  onPlay={handlePlay}
+                />
               ))}
             </div>
 
             <div className="mt-6 pt-4 border-t border-black/10 text-center">
               <p className="text-sm text-[#2D3436]/50">
-                🎉 Kiki made a friend! That was easy!
+                Budi made a friend! That was easy! 234 audio files in the full course.
               </p>
             </div>
           </motion.div>
