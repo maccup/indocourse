@@ -12,7 +12,7 @@ const vocabCards = [
   {
     indonesian: 'Apa kabar?',
     english: 'How are you?',
-    audio: '/audio/en/unit01_vocab_apa_kabar?.mp3',
+    audio: '/audio/en/unit01_vocab_apa_kabar.mp3',
     tip: 'Literally means "What news?" - respond with "Baik" (Good)!'
   },
   {
@@ -24,7 +24,7 @@ const vocabCards = [
   {
     indonesian: 'Berapa?',
     english: 'How much?',
-    audio: '/audio/en/unit02_vocab_berapa?.mp3',
+    audio: '/audio/en/unit02_vocab_berapa.mp3',
     tip: 'Essential for markets! Point at something and ask "Berapa?"'
   },
   {

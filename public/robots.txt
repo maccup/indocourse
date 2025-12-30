@@ -4,15 +4,13 @@
 User-agent: *
 Allow: /
 
-# Block development/build files
+# Block development/build files (not present in production dist anyway)
 Disallow: /src/
-Disallow: /*.tsx$
-Disallow: /*.ts$
 Disallow: /node_modules/
 
 # Allow important resources
 Allow: /images/
-Allow: /*.pdf$
+Allow: /audio/
 
 # Crawl rate limits for aggressive bots
 User-agent: AhrefsBot
@@ -20,6 +18,9 @@ Crawl-delay: 10
 
 User-agent: SemrushBot
 Crawl-delay: 10
+
+User-agent: GPTBot
+Crawl-delay: 5
 
 # Sitemap
 Sitemap: https://indonesianbasics.com/sitemap.xml

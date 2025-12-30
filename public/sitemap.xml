@@ -10,9 +10,37 @@
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://indonesianbasics.com/images/cover.jpg</image:loc>
-      <image:title>Indonesian Basics - Free Indonesian for Beginners eBook Cover</image:title>
+      <image:title>Indonesian Basics - Free Indonesian Course for Beginners</image:title>
       <image:caption>Learn basic Indonesian language with our free PDF course for travelers and expats in Bali</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://indonesianbasics.com/og-image.jpg</image:loc>
+      <image:title>Indonesian Basics Open Graph Image</image:title>
+    </image:image>
+  </url>
+
+  <!-- Audio Companion Page -->
+  <url>
+    <loc>https://indonesianbasics.com/audio</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://indonesianbasics.com/privacy-policy</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://indonesianbasics.com/terms</loc>
+    <lastmod>2025-12-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
 
 </urlset>

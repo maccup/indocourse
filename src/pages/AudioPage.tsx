@@ -21,6 +21,7 @@ interface UnitData {
 
 function slugify(text: string): string {
   return text
+    .replace(/[?!.,;:'"()]+/g, '')
     .replace(/[\/\s]+/g, '_')
     .toLowerCase();
 }

@@ -16,10 +16,10 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://indonesianbasics.com/" />
-    <meta property="og:site_name" content="Learn with Kiki" />
+    <meta property="og:site_name" content="Indonesian Basics" />
     <meta property="og:title" content="Learn Indonesian with Kiki - Free Fun Course!" />
     <meta property="og:description" content="Join Kiki the Monkey on fun adventures learning Indonesian! Free PDF + audio. Real phrases locals use in Bali. No boring textbooks!" />
-    <meta property="og:image" content="https://indonesianbasics.com/og-image.webp" />
+    <meta property="og:image" content="https://indonesianbasics.com/og-image.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="en_US" />
@@ -29,18 +29,36 @@
     <meta name="twitter:url" content="https://indonesianbasics.com/" />
     <meta name="twitter:title" content="Learn Indonesian with Kiki - Free Fun Course!" />
     <meta name="twitter:description" content="Join Kiki the Monkey learning Indonesian! Free PDF + audio. Fun adventures, real phrases for Bali." />
-    <meta name="twitter:image" content="https://indonesianbasics.com/og-image.webp" />
+    <meta name="twitter:image" content="https://indonesianbasics.com/og-image.jpg" />
 
     <!-- Geo & Language -->
     <meta name="language" content="English" />
     <meta name="geo.region" content="ID-BA" />
     <meta name="geo.placename" content="Bali, Indonesia" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <!-- Favicons - Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+
+    <!-- Favicons - Android & Standard -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
 
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -58,33 +76,58 @@
           "@type": "WebSite",
           "@id": "https://indonesianbasics.com/#website",
           "url": "https://indonesianbasics.com/",
-          "name": "Learn with Kiki",
-          "description": "Free fun Indonesian course for beginners with Kiki the Monkey",
+          "name": "Indonesian Basics",
+          "alternateName": "Learn with Kiki",
+          "description": "Indonesian Basics - Free fun Indonesian course for beginners with Kiki the Monkey",
           "inLanguage": "en"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://indonesianbasics.com/#organization",
+          "name": "Indonesian Basics",
+          "alternateName": "Learn with Kiki",
+          "url": "https://indonesianbasics.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://indonesianbasics.com/logo.webp",
+            "width": 512,
+            "height": 512
+          },
+          "description": "Indonesian Basics - Fun Indonesian language learning with Kiki the Monkey"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://indonesianbasics.com/#maciej-cupial",
+          "name": "Maciej Cupial",
+          "jobTitle": "Content Architect & Course Designer",
+          "description": "Digital nomad and polyglot who designed the Indonesian Basics course structure",
+          "knowsLanguage": ["en", "pl", "id"],
+          "url": "https://indonesianbasics.com/"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://indonesianbasics.com/#fawwaz-faishal",
+          "name": "Fawwaz Faishal",
+          "jobTitle": "Language Expert & Native Speaker",
+          "description": "Native Indonesian speaker and language teacher who created all audio content",
+          "knowsLanguage": ["id", "en"],
+          "nationality": {
+            "@type": "Country",
+            "name": "Indonesia"
+          },
+          "url": "https://indonesianbasics.com/"
         },
         {
           "@type": "Course",
           "@id": "https://indonesianbasics.com/#course",
-          "name": "Learn Indonesian with Kiki - Fun Course for Beginners",
+          "name": "Indonesian Basics - Learn Indonesian with Kiki",
           "description": "Join Kiki the Monkey on hilarious adventures learning Indonesian! Free PDF eBook with audio. Covers greetings, numbers, food, directions, and essential phrases locals actually use in Bali.",
           "provider": {
-            "@type": "Organization",
-            "name": "Learn with Kiki",
-            "url": "https://indonesianbasics.com"
+            "@id": "https://indonesianbasics.com/#organization"
           },
           "creator": [
-            {
-              "@type": "Person",
-              "name": "Maciej Cupial",
-              "jobTitle": "Content Architect",
-              "description": "Digital nomad and polyglot who designed the course structure"
-            },
-            {
-              "@type": "Person",
-              "name": "Fawwaz Faishal",
-              "jobTitle": "Language Expert",
-              "description": "Native Indonesian speaker and language teacher"
-            }
+            {"@id": "https://indonesianbasics.com/#maciej-cupial"},
+            {"@id": "https://indonesianbasics.com/#fawwaz-faishal"}
           ],
           "educationalLevel": "Beginner (A1-A2)",
           "inLanguage": "en",
@@ -105,61 +148,99 @@
           }
         },
         {
+          "@type": "HowTo",
+          "@id": "https://indonesianbasics.com/#howto",
+          "name": "How to Learn Indonesian with Indonesian Basics Free Course",
+          "description": "Step-by-step guide to using our free Indonesian learning materials",
+          "estimatedCost": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": "0"
+          },
+          "totalTime": "PT10H",
+          "step": [
+            {
+              "@type": "HowToStep",
+              "position": 1,
+              "name": "Download the free materials",
+              "text": "Enter your email to receive the PDF eBook and 234 MP3 audio files instantly",
+              "url": "https://indonesianbasics.com/#download"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 2,
+              "name": "Start with Unit 1 - Greetings",
+              "text": "Learn essential greetings like Selamat Pagi and polite titles (Mas, Mba, Pak, Bu)",
+              "url": "https://indonesianbasics.com/audio#unit-01"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 3,
+              "name": "Practice with audio files",
+              "text": "Listen to native pronunciation for all vocabulary and dialogues",
+              "url": "https://indonesianbasics.com/audio"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 4,
+              "name": "Complete all 10 units",
+              "text": "Progress through greetings, numbers, food, directions, time, family, adjectives, health, tenses, and etiquette",
+              "url": "https://indonesianbasics.com/#whats-inside"
+            },
+            {
+              "@type": "HowToStep",
+              "position": 5,
+              "name": "Practice in real situations",
+              "text": "Use your new Indonesian skills in Bali or Indonesia to order food, ask directions, and connect with locals",
+              "url": "https://indonesianbasics.com/"
+            }
+          ]
+        },
+        {
           "@type": "FAQPage",
           "@id": "https://indonesianbasics.com/#faq",
           "mainEntity": [
             {
               "@type": "Question",
-              "name": "Is Indonesian easy to learn?",
+              "name": "Is Indonesian hard to learn?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, Indonesian is one of the easiest Asian languages for English speakers. It uses the Latin alphabet, has no verb conjugations, no gendered nouns, no tones, and simple grammar. Most beginners can hold basic conversations within 1-2 weeks of study."
+                "text": "Nope! It's one of the easiest languages for English speakers. No verb conjugations, no gendered nouns, no tones. Indonesian uses the Latin alphabet and has very straightforward grammar rules. Even complete beginners can learn the basics in a week!"
               }
             },
             {
               "@type": "Question",
-              "name": "How long does it take to learn Indonesian?",
+              "name": "How long until I can actually talk to people?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "For basic conversational Indonesian (A1-A2 level), most learners achieve this in 2-4 weeks with daily practice. The US Foreign Service Institute classifies Indonesian as a Category II language, requiring approximately 900 hours for professional proficiency."
+                "text": "With just 15-20 minutes a day, you'll be having basic conversations in 2-4 weeks. This course cuts the fluff and focuses on high-frequency vocabulary and phrases you'll hear every day in Bali and Indonesia - just stuff you'll actually use!"
               }
             },
             {
               "@type": "Question",
-              "name": "What is the difference between Indonesian and Malay?",
+              "name": "Do I really need Indonesian for Bali?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Indonesian (Bahasa Indonesia) and Malay (Bahasa Melayu) are mutually intelligible with about 80% shared vocabulary. The main differences are in some vocabulary, spelling conventions, and regional expressions. If you learn Indonesian, you will understand most Malay."
+                "text": "Technically no, but locals love when you try! You'll get better prices at markets, make genuine connections, and have way more fun. Speaking even basic Indonesian transforms your travel experience in Bali and Indonesia. Plus, ordering 'Nasi Goreng tidak pedas' like a pro feels amazing!"
               }
             },
             {
               "@type": "Question",
-              "name": "Do I need to learn Indonesian for Bali?",
+              "name": "What do I actually get?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "While many Balinese speak English in tourist areas, learning basic Indonesian dramatically improves your experience. Locals appreciate the effort, you get better prices, and you can connect with people outside tourist zones. Even 20-30 phrases make a big difference."
+                "text": "A beautiful PDF eBook with 10 real-world lessons plus 234 MP3 audio files with native speakers. Works offline - perfect for the plane to Bali! The course covers greetings, numbers, food, directions, time, family, adjectives, health, tenses, and polite requests."
               }
             },
             {
               "@type": "Question",
-              "name": "What are the basic Indonesian words I should learn first?",
+              "name": "Wait, it's really FREE free?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Start with greetings (Pagi, Siang, Sore, Malam), polite titles (Mas, Mba, Pak, Bu), essential phrases (Terima kasih, Sama-sama, Permisi, Maaf), and numbers 1-10. These 20-30 words cover most daily interactions in Bali and Indonesia."
+                "text": "Yep! 100% free. No credit card, no 'premium upgrade' tricks. We made this because we love Indonesia and want more people to experience it like locals do. You get instant access to all materials with just your email. Kiki approves!"
               }
             }
           ]
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://indonesianbasics.com/#organization",
-          "name": "Learn with Kiki",
-          "url": "https://indonesianbasics.com/",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://indonesianbasics.com/logo.webp"
-          },
-          "description": "Fun Indonesian language learning with Kiki the Monkey"
         }
       ]
     }

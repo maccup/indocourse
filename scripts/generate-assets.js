@@ -361,7 +361,7 @@ async function main() {
 
       // Vocabulary
       for (const vocab of unit.vocabulary) {
-        const sanitized = vocab.indonesian.replace(/[\/\s]+/g, '_').toLowerCase();
+        const sanitized = vocab.indonesian.replace(/[?!.,;:'"()]+/g, '').replace(/[\/\s]+/g, '_').toLowerCase();
         const filename = `${unitId}_vocab_${sanitized}.mp3`;
         const outputPath = path.join(OUTPUT_AUDIO_DIR, filename);
 
