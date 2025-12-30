@@ -105,7 +105,7 @@ async function generateAudio(text, outputPath, voiceName = TTS_VOICE) {
   return { generated: true };
 }
 
-async function generateImage(prompt, outputPath) {
+async function generateImage(prompt, outputPath, useCustomStyle = true) {
   const pngPath = outputPath.replace(/\.\w+$/, '.png');
   if (fs.existsSync(pngPath)) {
     return { skipped: true };
@@ -115,7 +115,7 @@ async function generateImage(prompt, outputPath) {
     throw new Error('GOOGLE_API_KEY not found');
   }
 
-  const styledPrompt = `${prompt}
+  const styledPrompt = useCustomStyle ? prompt : `${prompt}
 
 Style requirements:
 - Minimalist flat vector illustration
@@ -163,6 +163,32 @@ Style requirements:
   throw new Error('No image data in response');
 }
 
+// Hero mascot: Kiki the Monkey - a cute, friendly monkey learning Indonesian
+// Consistent character design across all illustrations
+const MASCOT_STYLE = `A cute cartoon monkey character named Kiki: small friendly monkey with big expressive eyes, warm brown fur, wearing a small teal (#2EC4B6) backpack. Round face, always expressive and emotive. Duolingo/Headspace style flat illustration. Bright, cheerful, minimal background.`;
+
+const UNIT_PROMPTS = {
+  '01': `${MASCOT_STYLE} Scene: Kiki the monkey enthusiastically waving with both hands at a friendly Indonesian person. Over-eager, slightly awkward greeting. The person waves back with an amused smile. Sunny yellow (#FFE66D) sun in corner. Warm, welcoming mood. No text.`,
+
+  '02': `${MASCOT_STYLE} Scene: Kiki the monkey with swirly confused eyes, holding Indonesian Rupiah banknotes with many zeros. A comically long receipt trails behind. Money notes floating around. Expression of bewilderment at all the zeros. Funny and relatable. No text.`,
+
+  '03': `${MASCOT_STYLE} Scene: Kiki the monkey at a food stall, face bright red, sweating drops flying off, steam shooting from ears after eating spicy sambal. Tongue out, fanning mouth. A plate of nasi goreng and chili visible. Hilarious overreaction. No text.`,
+
+  '04': `${MASCOT_STYLE} Scene: Kiki the monkey on a small scooter, holding a map completely upside down, looking confused. Road signs pointing in different directions. A helpful Gojek driver (human in green) pointing the right way. Comedic lost situation. No text.`,
+
+  '05': `${MASCOT_STYLE} Scene: Kiki the monkey in panic mode, running with an alarm clock ringing loudly. One sandal flying off. Fur messy like just woke up. Sun showing it's morning. Late for something important! Comedic chaos energy. Yellow (#FFE66D) alarm effects. No text.`,
+
+  '06': `${MASCOT_STYLE} Scene: Kiki the monkey surrounded by a big loving Indonesian family - grandma pinching cheeks, uncle patting head, kids hugging. Kiki looks overwhelmed but happy, blushing. Hearts floating around. Warm family chaos. No text.`,
+
+  '07': `${MASCOT_STYLE} Scene: Split image - LEFT: Kiki melting in tropical heat, sun blazing, sweat puddle forming. RIGHT: Same Kiki freezing with icicles, shivering in an over-airconditioned space. Extreme contrast, exaggerated reactions. Comedy of temperature. No text.`,
+
+  '08': `${MASCOT_STYLE} Scene: Kiki the monkey looking sick and pathetic, wrapped in a blanket, thermometer in mouth, sad puppy eyes. A kind pharmacist offers medicine bottle and young coconut. Get-well-soon vibes but adorably dramatic sick face. No text.`,
+
+  '09': `${MASCOT_STYLE} Scene: Kiki the monkey in the center with two thought bubbles - LEFT bubble shows chaotic yesterday (mess, mistakes). RIGHT bubble shows bright tomorrow (stars, checkmarks, success). Kiki looks determined and hopeful. Timeline feeling. No text.`,
+
+  '10': `${MASCOT_STYLE} Scene: Kiki the monkey nervously removing tiny shoes at a doorway, bowing respectfully but a bit too deep, almost tipping over. Indonesian host family at door smiling kindly at the effort. Shoes neatly placed. Sweet cultural learning moment. No text.`
+};
+
 async function generateCover() {
   const outputPath = path.join(OUTPUT_IMAGE_DIR, 'cover.png');
   if (fs.existsSync(outputPath)) {
@@ -170,13 +196,124 @@ async function generateCover() {
     return;
   }
 
-  const coverPrompt = `Digital nomad scene at a Balinese open-air café. Laptop on a natural wood/bamboo table. Tropical plants (monstera, banana leaves) framing the left and right edges. In the background: soft silhouette of a traditional Balinese temple (pura) and palm trees. Warm golden hour lighting with terracotta and sage green tones. A cup of coffee beside the laptop. Peaceful, productive atmosphere. Modern minimalist flat illustration style, clean geometric shapes. Portrait orientation (3:4 aspect ratio). Upper third should have open/lighter area suitable for text overlay. No text, no words, no letters in the image.`;
+  const coverPrompt = `Cute cartoon book cover illustration. Bright teal (#2EC4B6) background.
+A cute friendly monkey character (Kiki): small monkey with big expressive happy eyes, warm brown fur, wearing a small teal backpack, waving hello enthusiastically with a big smile.
+Indonesian tropical elements around: palm tree leaves, temple silhouette, small scooter, tropical fruits like banana and coconut.
+Cheerful, welcoming, fun vibe like Duolingo app style.
+Flat cartoon illustration, bright colors, teal (#2EC4B6) and yellow (#FFE66D) palette.
+Portrait orientation (3:4 aspect ratio).
+Professional children's book / language learning app quality.
+The monkey is the hero, centered and prominent.
+Inviting and friendly, makes you want to learn Indonesian.
+No text in the image.`;
 
   try {
-    await generateImage(coverPrompt, outputPath);
+    await generateImage(coverPrompt, outputPath, true);
     console.log('  [OK] cover.png generated');
   } catch (err) {
     console.error('  [ERROR] cover.png:', err.message);
+  }
+}
+
+// OG Image for social media sharing (1200x630)
+async function generateOGImage() {
+  const outputPath = path.join(__dirname, '../public/og-image.png');
+  if (fs.existsSync(outputPath)) {
+    console.log('  [SKIP] og-image.png exists');
+    return;
+  }
+
+  const ogPrompt = `Professional social media Open Graph card, exactly 1200x630 pixels landscape format.
+
+Scene: A cute cartoon monkey character (Kiki) - small friendly monkey with huge expressive happy eyes, warm brown fur, wearing tiny teal (#2EC4B6) backpack - sitting happily and waving at the viewer.
+
+Kiki is positioned on the LEFT third of the image, leaving RIGHT two-thirds as clean space.
+
+Background: Solid bright teal (#2EC4B6) with subtle lighter teal geometric shapes or soft gradients. Very clean and modern.
+
+Small decorative elements floating around Kiki: yellow banana, small palm leaf, tiny Indonesian temple silhouette.
+
+Style: Premium Duolingo/Headspace/Notion marketing quality. Flat vector illustration. Modern, clean, professional. The kind of image you'd see on a top-tier app's social media.
+
+Absolutely NO text in the image. Clean right side for text overlay later.
+
+This should look like a million-dollar app's social card.`;
+
+  try {
+    await generateImage(ogPrompt, outputPath, true);
+    console.log('  [OK] og-image.png generated');
+  } catch (err) {
+    console.error('  [ERROR] og-image.png:', err.message);
+  }
+}
+
+// Apple Touch Icon (180x180) - just Kiki's face
+async function generateAppleTouchIcon() {
+  const outputPath = path.join(__dirname, '../public/apple-touch-icon.png');
+  if (fs.existsSync(outputPath)) {
+    console.log('  [SKIP] apple-touch-icon.png exists');
+    return;
+  }
+
+  const iconPrompt = `App icon illustration, perfect square 1:1 aspect ratio.
+A cute cartoon monkey face (Kiki): round face filling most of the square, big expressive happy eyes, warm brown fur, friendly wide smile, small cute ears on sides.
+Solid teal (#2EC4B6) background.
+Simple, clean, recognizable at small sizes.
+Duolingo owl style - iconic and memorable.
+Flat illustration, no gradients, high contrast for app icon visibility.
+No text, no extra elements - just the monkey face as the mascot icon.`;
+
+  try {
+    await generateImage(iconPrompt, outputPath, true);
+    console.log('  [OK] apple-touch-icon.png generated');
+  } catch (err) {
+    console.error('  [ERROR] apple-touch-icon.png:', err.message);
+  }
+}
+
+// Logo for schema.org and general branding (512x512)
+async function generateLogo() {
+  const outputPath = path.join(__dirname, '../public/logo.png');
+  if (fs.existsSync(outputPath)) {
+    console.log('  [SKIP] logo.png exists');
+    return;
+  }
+
+  const logoPrompt = `Brand logo illustration, square 1:1 aspect ratio.
+A cute cartoon monkey character (Kiki): full body, small friendly monkey with big happy eyes, warm brown fur, wearing a small teal (#2EC4B6) backpack, standing and waving.
+White or very light background (#FFFFFF or #F8F9FA).
+Simple, clean, professional.
+Duolingo mascot style - recognizable brand mascot.
+Flat illustration, centered, the monkey is the logo itself.
+No text - just the character as the visual brand mark.`;
+
+  try {
+    await generateImage(logoPrompt, outputPath, true);
+    console.log('  [OK] logo.png generated');
+  } catch (err) {
+    console.error('  [ERROR] logo.png:', err.message);
+  }
+}
+
+async function generateUnitImages() {
+  console.log('\n--- Unit Illustrations ---');
+
+  for (const [unitNum, prompt] of Object.entries(UNIT_PROMPTS)) {
+    const outputPath = path.join(OUTPUT_IMAGE_DIR, `unit_${unitNum}.png`);
+
+    if (fs.existsSync(outputPath)) {
+      console.log(`  [SKIP] unit_${unitNum}.png exists`);
+      continue;
+    }
+
+    try {
+      await generateImage(prompt, outputPath, true);
+      console.log(`  [OK] unit_${unitNum}.png generated`);
+      // Small delay to avoid rate limiting
+      await sleep(1000);
+    } catch (err) {
+      console.error(`  [ERROR] unit_${unitNum}.png:`, err.message);
+    }
   }
 }
 
@@ -198,40 +335,22 @@ async function main() {
     await generateCover();
   }
 
-  // 2. Generate Chapter Images
-  console.log('\n--- Chapter Images ---');
-  if (API_KEY && fs.existsSync(PROMPTS_PATH)) {
-    const content = fs.readFileSync(PROMPTS_PATH, 'utf-8');
-    const regex = /\*\*Unit (\d+):.*?\*\*\s*>\s*(.*?)(?=\n\n|\n\*\*|$)/gs;
-
-    const prompts = [];
-    let match;
-    while ((match = regex.exec(content)) !== null) {
-      prompts.push({ unit: match[1].padStart(2, '0'), prompt: match[2].trim() });
-    }
-
-    console.log(`Found ${prompts.length} chapter prompts`);
-
-    for (const item of prompts) {
-      const filename = `unit_${item.unit}.png`;
-      const outputPath = path.join(OUTPUT_IMAGE_DIR, filename);
-
-      try {
-        const result = await generateImage(item.prompt, outputPath);
-        if (result.skipped) {
-          console.log(`  [SKIP] ${filename} exists`);
-        } else {
-          console.log(`  [OK] ${filename} generated`);
-        }
-      } catch (err) {
-        console.error(`  [ERROR] ${filename}:`, err.message);
-      }
-
-      await sleep(1500);
-    }
+  // 2. Generate Brand Assets (OG image, icons, logo)
+  console.log('\n--- Brand Assets ---');
+  if (API_KEY) {
+    await generateOGImage();
+    await sleep(1000);
+    await generateAppleTouchIcon();
+    await sleep(1000);
+    await generateLogo();
   }
 
-  // 3. Generate Audio
+  // 3. Generate Unit Illustrations
+  if (API_KEY) {
+    await generateUnitImages();
+  }
+
+  // 4. Generate Audio
   console.log('\n--- Audio Files ---');
   if (hasCredentials && fs.existsSync(AUDIO_SCRIPT_PATH)) {
     const script = JSON.parse(fs.readFileSync(AUDIO_SCRIPT_PATH, 'utf-8'));

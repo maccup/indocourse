@@ -3,30 +3,35 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    q: 'Is Indonesian easy to learn?',
-    a: 'Yes! Indonesian uses the Latin alphabet, has no verb conjugations, no gendered nouns, and no tones. Most beginners can hold basic conversations within 2 weeks.'
+    emoji: '🤔',
+    q: 'Is Indonesian hard to learn?',
+    a: 'Nope! It\'s one of the EASIEST languages for English speakers. No verb conjugations, no gendered nouns, no tones. Even Kiki learned the basics in a week! 🐵'
   },
   {
-    q: 'How long does it take to learn basic Indonesian?',
-    a: 'With 15-20 minutes of daily practice, you can reach conversational level (A1-A2) in 2-4 weeks. Our course is designed for quick results.'
+    emoji: '⏱️',
+    q: 'How long until I can actually talk to people?',
+    a: 'With just 15-20 minutes a day, you\'ll be having basic conversations in 2-4 weeks. Our course is designed for fast results - no fluff, just the stuff you\'ll actually use!'
   },
   {
-    q: 'Do I need to learn Indonesian for Bali?',
-    a: 'While many speak English in tourist areas, knowing basic Indonesian dramatically improves your experience. Locals appreciate the effort and you\'ll get better prices at markets.'
+    emoji: '🏝️',
+    q: 'Do I really need Indonesian for Bali?',
+    a: 'Technically no, but... locals LOVE when you try! You\'ll get better prices at markets, make genuine connections, and have way more fun. Plus, it feels amazing to order "Nasi Goreng tidak pedas" like a pro! 🍳'
   },
   {
-    q: 'What format is the course?',
-    a: 'You get a downloadable PDF eBook plus MP3 audio files. No internet needed after download - perfect for offline study.'
+    emoji: '📱',
+    q: 'What do I actually get?',
+    a: 'A beautiful PDF eBook with Kiki\'s adventures + MP3 audio files for every phrase. Works offline - perfect for practicing on the plane to Bali! ✈️'
   },
   {
-    q: 'Is this really free?',
-    a: 'Yes, completely free. No email signup, no hidden fees. Just download and start learning.'
+    emoji: '💸',
+    q: 'Wait, it\'s really FREE free?',
+    a: 'Yep! 100% free. No credit card, no "premium upgrade" tricks. We made this because we love Indonesia and want more people to experience it like locals do. Kiki approves! 🐵👍'
   }
 ];
 
 export function FAQ() {
   return (
-    <section id="faq" className="py-24 lg:py-32 px-6 bg-white scroll-mt-20">
+    <section id="faq" className="py-24 lg:py-32 px-6 bg-[#F8F9FA] scroll-mt-20">
       <div className="max-w-3xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -35,10 +40,10 @@ export function FAQ() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
-            Common questions
+            Got questions? 🙋
           </h2>
           <p className="text-xl text-[#2D3436]/60">
-            Everything you need to know about learning Indonesian
+            Kiki had the same ones when starting out!
           </p>
         </motion.div>
 
@@ -50,13 +55,14 @@ export function FAQ() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.05 }}
-              className="group bg-[#FDFBF7] rounded-2xl overflow-hidden border border-black/5"
+              className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
-              <summary className="cursor-pointer p-6 font-bold text-lg flex items-center justify-between hover:text-[#E07A5F] transition-colors list-none">
-                <span>{faq.q}</span>
-                <ChevronDown className="w-5 h-5 text-[#2D3436]/30 group-open:rotate-180 transition-transform" />
+              <summary className="cursor-pointer p-6 font-bold text-lg flex items-center gap-4 hover:text-[#2EC4B6] transition-colors list-none">
+                <span className="text-2xl">{faq.emoji}</span>
+                <span className="flex-1">{faq.q}</span>
+                <ChevronDown className="w-5 h-5 text-[#2D3436]/30 group-open:rotate-180 transition-transform flex-shrink-0" />
               </summary>
-              <div className="px-6 pb-6 text-[#2D3436]/60 leading-relaxed -mt-2">
+              <div className="px-6 pb-6 text-[#2D3436]/70 leading-relaxed pl-16">
                 {faq.a}
               </div>
             </motion.details>

@@ -1,23 +1,21 @@
 import { motion } from 'framer-motion';
-import { BookOpen, Headphones, MessageCircle, Coffee, MapPin, Globe } from 'lucide-react';
 
 const units = [
-  { icon: <MessageCircle className="w-4 h-4" />, text: 'Greetings & Introductions' },
-  { icon: <Coffee className="w-4 h-4" />, text: 'Food & Dining' },
-  { icon: <MapPin className="w-4 h-4" />, text: 'Directions & Transport' },
-  { icon: <Globe className="w-4 h-4" />, text: 'Numbers & Bargaining' }
-];
-
-const bonusMaterials = [
-  'Audio pronunciation files',
-  'Quick reference cheat sheet',
-  'Cultural notes for Bali',
-  'Common mistakes to avoid'
+  { emoji: '👋', title: 'Greetings', desc: 'Kiki learns to wave hello (a bit too enthusiastically)' },
+  { emoji: '💰', title: 'Numbers & Money', desc: 'So many zeros! Kiki vs Indonesian Rupiah' },
+  { emoji: '🌶️', title: 'Food & Dining', desc: 'Kiki discovers sambal is VERY spicy' },
+  { emoji: '🛵', title: 'Directions', desc: 'Kiki gets lost (with map upside down)' },
+  { emoji: '⏰', title: 'Time & Routine', desc: 'Kiki is late again!' },
+  { emoji: '👨‍👩‍👧‍👦', title: 'Family', desc: 'Kiki meets ALL the relatives' },
+  { emoji: '🥵', title: 'Adjectives', desc: 'Hot outside, freezing in the mall' },
+  { emoji: '🤒', title: 'Health', desc: 'Kiki catches Bali Belly' },
+  { emoji: '📅', title: 'Past & Future', desc: 'Yesterday was chaos, tomorrow will be better!' },
+  { emoji: '🙏', title: 'Etiquette', desc: 'Kiki learns to bow (bows too deep)' }
 ];
 
 export function WhatsInside() {
   return (
-    <section className="py-24 lg:py-32 px-6 bg-[#FDFBF7]">
+    <section className="py-24 lg:py-32 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -26,60 +24,48 @@ export function WhatsInside() {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
-            What's inside
+            Kiki's 10 Adventures 🐵
           </h2>
           <p className="text-xl text-[#2D3436]/60">
-            Everything you need to start speaking Indonesian
+            Each unit = one hilarious situation Kiki gets into while learning Indonesian
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="bg-white p-8 rounded-3xl border border-black/5"
-          >
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 rounded-2xl bg-[#E07A5F]/10 flex items-center justify-center">
-                <BookOpen className="w-6 h-6 text-[#E07A5F]" />
-              </div>
-              <h3 className="text-2xl font-bold">10 Essential Units</h3>
-            </div>
-            <div className="grid gap-4">
-              {units.map((item, i) => (
-                <div key={i} className="flex items-center gap-3 p-3 rounded-xl bg-[#FDFBF7]">
-                  <span className="text-[#E07A5F]">{item.icon}</span>
-                  <span className="font-medium">{item.text}</span>
-                </div>
-              ))}
-              <p className="text-sm text-[#2D3436]/50 pl-3">+ 6 more units...</p>
-            </div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="bg-white p-8 rounded-3xl border border-black/5"
-          >
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-12 h-12 rounded-2xl bg-[#81B29A]/10 flex items-center justify-center">
-                <Headphones className="w-6 h-6 text-[#81B29A]" />
-              </div>
-              <h3 className="text-2xl font-bold">Bonus Materials</h3>
-            </div>
-            <div className="grid gap-4">
-              {bonusMaterials.map((item, i) => (
-                <div key={i} className="flex items-center gap-3 p-3 rounded-xl bg-[#FDFBF7]">
-                  <div className="w-2 h-2 rounded-full bg-[#81B29A]" />
-                  <span className="font-medium">{item}</span>
-                </div>
-              ))}
-              <p className="text-sm text-[#2D3436]/50 pl-3">+ practice exercises</p>
-            </div>
-          </motion.div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 max-w-6xl mx-auto">
+          {units.map((unit, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.05 }}
+              whileHover={{ y: -5, scale: 1.02 }}
+              className="bg-[#F8F9FA] hover:bg-[#2EC4B6] group p-5 rounded-2xl text-center transition-all cursor-default"
+            >
+              <div className="text-4xl mb-3">{unit.emoji}</div>
+              <h3 className="font-bold text-sm mb-1 group-hover:text-white transition-colors">
+                {unit.title}
+              </h3>
+              <p className="text-xs text-[#2D3436]/50 group-hover:text-white/70 transition-colors">
+                {unit.desc}
+              </p>
+            </motion.div>
+          ))}
         </div>
+
+        {/* Bonus callout */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-12 max-w-2xl mx-auto"
+        >
+          <div className="bg-[#FFE66D] rounded-2xl p-6 text-center">
+            <p className="font-bold text-[#2D3436]">
+              🎁 BONUS: Audio files + Cultural tips + Practice exercises included!
+            </p>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

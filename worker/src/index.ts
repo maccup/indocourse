@@ -11,6 +11,9 @@ interface SubscribeRequest {
   email: string;
   name: string;
   locale: string;
+  termsConsent: boolean;
+  marketingConsent: boolean;
+  consentDate: string;
 }
 
 const ALLOWED_LOCALES = ['en'];
@@ -184,7 +187,7 @@ async function handleSubscribe(request: Request, env: Env, origin: string): Prom
     return jsonResponse({ error: 'Invalid JSON body' }, 400, origin, env.FRONTEND_URL);
   }
 
-  const { email, name, locale = 'en' } = body;
+  const { email, name, locale = 'en', termsConsent, marketingConsent, consentDate } = body;
 
   if (!email || !validateEmail(email)) {
     return jsonResponse({ error: 'Valid email is required' }, 400, origin, env.FRONTEND_URL);
@@ -192,6 +195,10 @@ async function handleSubscribe(request: Request, env: Env, origin: string): Prom
 
   if (!name || name.trim().length < 2) {
     return jsonResponse({ error: 'Name is required (minimum 2 characters)' }, 400, origin, env.FRONTEND_URL);
+  }
+
+  if (!termsConsent) {
+    return jsonResponse({ error: 'Terms consent is required' }, 400, origin, env.FRONTEND_URL);
   }
 
   const normalizedLocale = ALLOWED_LOCALES.includes(locale) ? locale : 'en';
@@ -203,8 +210,8 @@ async function handleSubscribe(request: Request, env: Env, origin: string): Prom
 
     if (existing) {
       await env.DB.prepare(
-        'UPDATE subscribers SET download_count = download_count + 1, locale = ?, name = ? WHERE id = ?'
-      ).bind(normalizedLocale, name.trim(), existing.id).run();
+        'UPDATE subscribers SET download_count = download_count + 1, locale = ?, name = ?, terms_consent = ?, marketing_consent = ?, consent_date = ? WHERE id = ?'
+      ).bind(normalizedLocale, name.trim(), termsConsent ? 1 : 0, marketingConsent ? 1 : 0, consentDate || new Date().toISOString(), existing.id).run();
 
       // Always resend email
       const emailResult = await sendEmail(env, email, name, normalizedLocale);
@@ -223,8 +230,8 @@ async function handleSubscribe(request: Request, env: Env, origin: string): Prom
     }
 
     const result = await env.DB.prepare(
-      'INSERT INTO subscribers (email, name, locale, download_count) VALUES (?, ?, ?, 1)'
-    ).bind(email.toLowerCase(), name.trim(), normalizedLocale).run();
+      'INSERT INTO subscribers (email, name, locale, terms_consent, marketing_consent, consent_date, download_count) VALUES (?, ?, ?, ?, ?, ?, 1)'
+    ).bind(email.toLowerCase(), name.trim(), normalizedLocale, termsConsent ? 1 : 0, marketingConsent ? 1 : 0, consentDate || new Date().toISOString()).run();
 
     const emailResult = await sendEmail(env, email, name, normalizedLocale);
 

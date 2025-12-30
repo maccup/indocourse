@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Mail, User, Globe, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
+import { X, Mail, User, Globe, Loader2, AlertCircle, Check } from 'lucide-react';
 
 interface EmailModalProps {
   isOpen: boolean;
@@ -24,6 +25,8 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [locale, setLocale] = useState('en');
+  const [termsConsent, setTermsConsent] = useState(false);
+  const [marketingConsent, setMarketingConsent] = useState(false);
   const [status, setStatus] = useState<SubmitStatus>('idle');
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -36,7 +39,14 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
       const response = await fetch(`${API_URL}/api/subscribe`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, name, locale })
+        body: JSON.stringify({
+          email,
+          name,
+          locale,
+          termsConsent,
+          marketingConsent,
+          consentDate: new Date().toISOString()
+        })
       });
 
       const data = await response.json();
@@ -57,6 +67,8 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
       setName('');
       setEmail('');
       setLocale('en');
+      setTermsConsent(false);
+      setMarketingConsent(false);
       setStatus('idle');
       setErrorMessage('');
       onClose();
@@ -81,7 +93,7 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
             className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-md z-50 px-4"
           >
             <div className="bg-white rounded-3xl shadow-2xl overflow-hidden">
-              <div className="bg-gradient-to-br from-[#E07A5F] to-[#d4684f] p-6 text-white relative">
+              <div className="bg-[#2EC4B6] p-6 text-white relative">
                 <button
                   onClick={handleClose}
                   className="absolute top-4 right-4 p-2 hover:bg-white/20 rounded-full transition-colors"
@@ -89,38 +101,41 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
                 >
                   <X className="w-5 h-5" />
                 </button>
-                <h2 className="text-2xl font-bold">Get Your Free eBook</h2>
-                <p className="text-white/80 mt-1">Enter your details to receive the download link</p>
+                <div className="flex items-center gap-3">
+                  <span className="text-4xl">🐵</span>
+                  <div>
+                    <h2 className="text-2xl font-bold">Join Kiki's Adventure!</h2>
+                    <p className="text-white/80 mt-1">Get your free eBook + audio files</p>
+                  </div>
+                </div>
               </div>
 
               <div className="p-6">
                 {status === 'success' ? (
                   <div className="text-center py-4">
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-[#81B29A]/10 rounded-full mb-4">
-                      <CheckCircle className="w-8 h-8 text-[#81B29A]" />
-                    </div>
-                    <h3 className="text-xl font-bold text-[#2D3436] mb-2">Check Your Email!</h3>
-                    <p className="text-[#636e72] mb-4">
-                      We've sent your download links to <strong>{email}</strong>
+                    <div className="text-6xl mb-4">🎉</div>
+                    <h3 className="text-xl font-bold text-[#2D3436] mb-2">Woohoo! Check Your Email!</h3>
+                    <p className="text-[#2D3436]/60 mb-4">
+                      Kiki sent your download links to <strong>{email}</strong>
                     </p>
-                    <p className="text-sm text-[#a0a0a0]">
-                      Don't see it? Check your spam folder or try again in a few minutes.
+                    <p className="text-sm text-[#2D3436]/40">
+                      Don't see it? Check your spam folder (Kiki promises it's not junk!)
                     </p>
                     <button
                       onClick={handleClose}
-                      className="mt-6 w-full py-3 px-4 bg-[#81B29A] text-white rounded-xl font-semibold hover:bg-[#6fa389] transition-colors"
+                      className="mt-6 w-full py-3 px-4 bg-[#2EC4B6] text-white rounded-xl font-bold hover:bg-[#2EC4B6]/90 transition-colors"
                     >
-                      Got it!
+                      Awesome! 🐵
                     </button>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <div>
-                      <label htmlFor="name" className="block text-sm font-medium text-[#2D3436] mb-1.5">
+                      <label htmlFor="name" className="block text-sm font-medium text-[#1A1A1A] mb-1.5">
                         Your Name
                       </label>
                       <div className="relative">
-                        <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#a0a0a0]" />
+                        <User className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1A1A1A]/40" />
                         <input
                           type="text"
                           id="name"
@@ -129,18 +144,18 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
                           placeholder="Enter your name"
                           required
                           minLength={2}
-                          className="w-full pl-10 pr-4 py-3 border border-[#e0e0e0] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#E07A5F] focus:border-transparent transition-all"
+                          className="w-full pl-10 pr-4 py-3 border border-[#E5E5E5] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#2EC4B6] focus:border-transparent transition-all"
                           disabled={status === 'loading'}
                         />
                       </div>
                     </div>
 
                     <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-[#2D3436] mb-1.5">
+                      <label htmlFor="email" className="block text-sm font-medium text-[#1A1A1A] mb-1.5">
                         Email Address
                       </label>
                       <div className="relative">
-                        <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#a0a0a0]" />
+                        <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1A1A1A]/40" />
                         <input
                           type="email"
                           id="email"
@@ -148,23 +163,23 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
                           onChange={(e) => setEmail(e.target.value)}
                           placeholder="your@email.com"
                           required
-                          className="w-full pl-10 pr-4 py-3 border border-[#e0e0e0] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#E07A5F] focus:border-transparent transition-all"
+                          className="w-full pl-10 pr-4 py-3 border border-[#E5E5E5] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#2EC4B6] focus:border-transparent transition-all"
                           disabled={status === 'loading'}
                         />
                       </div>
                     </div>
 
                     <div>
-                      <label htmlFor="locale" className="block text-sm font-medium text-[#2D3436] mb-1.5">
+                      <label htmlFor="locale" className="block text-sm font-medium text-[#1A1A1A] mb-1.5">
                         eBook Language
                       </label>
                       <div className="relative">
-                        <Globe className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#a0a0a0]" />
+                        <Globe className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#1A1A1A]/40" />
                         <select
                           id="locale"
                           value={locale}
                           onChange={(e) => setLocale(e.target.value)}
-                          className="w-full pl-10 pr-4 py-3 border border-[#e0e0e0] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#E07A5F] focus:border-transparent transition-all appearance-none bg-white"
+                          className="w-full pl-10 pr-4 py-3 border border-[#E5E5E5] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#2EC4B6] focus:border-transparent transition-all appearance-none bg-white"
                           disabled={status === 'loading'}
                         >
                           {AVAILABLE_LOCALES.map((l) => (
@@ -175,8 +190,67 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
                         </select>
                       </div>
                       {AVAILABLE_LOCALES.length === 1 && (
-                        <p className="text-xs text-[#a0a0a0] mt-1">More languages coming soon!</p>
+                        <p className="text-xs text-[#1A1A1A]/40 mt-1">More languages coming soon!</p>
                       )}
+                    </div>
+
+                    <div className="space-y-3">
+                      <label className="flex items-start gap-3 cursor-pointer group">
+                        <div className="relative flex-shrink-0 mt-0.5">
+                          <input
+                            type="checkbox"
+                            checked={termsConsent}
+                            onChange={(e) => setTermsConsent(e.target.checked)}
+                            className="sr-only peer"
+                            disabled={status === 'loading'}
+                            required
+                          />
+                          <div className="w-5 h-5 border-2 border-[#E5E5E5] rounded peer-checked:border-[#2EC4B6] peer-checked:bg-[#2EC4B6] transition-all flex items-center justify-center group-hover:border-[#2EC4B6]/50">
+                            {termsConsent && <Check className="w-3 h-3 text-white" />}
+                          </div>
+                        </div>
+                        <span className="text-sm text-[#2D3436]/70 leading-snug">
+                          I agree to the{' '}
+                          <Link
+                            to="/privacy-policy"
+                            target="_blank"
+                            className="text-[#2EC4B6] hover:underline font-medium"
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            Privacy Policy
+                          </Link>
+                          {' '}and{' '}
+                          <Link
+                            to="/terms"
+                            target="_blank"
+                            className="text-[#2EC4B6] hover:underline font-medium"
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            Terms of Service
+                          </Link>
+                          .{' '}
+                          <span className="text-[#2D3436]/40">(Required)</span>
+                        </span>
+                      </label>
+
+                      <label className="flex items-start gap-3 cursor-pointer group">
+                        <div className="relative flex-shrink-0 mt-0.5">
+                          <input
+                            type="checkbox"
+                            checked={marketingConsent}
+                            onChange={(e) => setMarketingConsent(e.target.checked)}
+                            className="sr-only peer"
+                            disabled={status === 'loading'}
+                          />
+                          <div className="w-5 h-5 border-2 border-[#E5E5E5] rounded peer-checked:border-[#2EC4B6] peer-checked:bg-[#2EC4B6] transition-all flex items-center justify-center group-hover:border-[#2EC4B6]/50">
+                            {marketingConsent && <Check className="w-3 h-3 text-white" />}
+                          </div>
+                        </div>
+                        <span className="text-sm text-[#2D3436]/70 leading-snug">
+                          Keep me updated about new Indonesian learning resources and products.{' '}
+                          <span className="text-[#2D3436]/40">(Optional)</span>
+                        </span>
+                      </label>
                     </div>
 
                     {status === 'error' && (
@@ -188,21 +262,21 @@ export function EmailModal({ isOpen, onClose }: EmailModalProps) {
 
                     <button
                       type="submit"
-                      disabled={status === 'loading'}
-                      className="w-full py-3.5 px-4 bg-[#E07A5F] text-white rounded-xl font-semibold hover:bg-[#d4684f] transition-colors disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                      disabled={status === 'loading' || !termsConsent}
+                      className="w-full py-3.5 px-4 bg-[#2EC4B6] text-white rounded-xl font-bold hover:bg-[#2EC4B6]/90 transition-colors disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                     >
                       {status === 'loading' ? (
                         <>
                           <Loader2 className="w-5 h-5 animate-spin" />
-                          Sending...
+                          Kiki's preparing your files...
                         </>
                       ) : (
-                        'Get Free Download'
+                        'Send Me the eBook! 🍌'
                       )}
                     </button>
 
-                    <p className="text-xs text-center text-[#a0a0a0]">
-                      We respect your privacy. No spam, ever.
+                    <p className="text-xs text-center text-[#2D3436]/40">
+                      🔒 No spam, ever. Kiki pinky promises!
                     </p>
                   </form>
                 )}

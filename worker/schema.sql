@@ -3,6 +3,9 @@ CREATE TABLE IF NOT EXISTS subscribers (
   email TEXT NOT NULL UNIQUE,
   name TEXT NOT NULL,
   locale TEXT NOT NULL DEFAULT 'en',
+  terms_consent INTEGER NOT NULL DEFAULT 0,
+  marketing_consent INTEGER NOT NULL DEFAULT 0,
+  consent_date TEXT,
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   email_sent_at TEXT,
   download_count INTEGER NOT NULL DEFAULT 0

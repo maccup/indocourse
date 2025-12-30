@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
 
 :root {
-  --color-cream: #FDFBF7;
-  --color-terracotta: #E07A5F;
-  --color-sage: #81B29A;
-  --color-charcoal: #3D405B;
-  --color-light-gray: #f0ebe4;
+  --color-primary: #2EC4B6;
+  --color-secondary: #FFE66D;
+  --color-text: #2D3436;
+  --color-background: #FFFFFF;
+  --color-accent: #F8F9FA;
+  --color-border: #E5E5E5;
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
-  color: var(--color-charcoal);
-  background-color: var(--color-cream);
-  line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-background);
+  line-height: 1.7;
   font-size: 16px;
   margin: 0;
   padding: 0;
@@ -29,36 +30,36 @@ body {
 }
 
 .chapter {
-  padding: 2cm;
+  padding: 2.5cm 2cm;
   box-sizing: border-box;
 }
 
 /* Typography */
 h1, h2, h3, h4 {
-  font-family: 'Lora', serif;
-  color: var(--color-terracotta);
+  font-family: 'Inter', sans-serif;
+  color: var(--color-text);
+  font-weight: 700;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
 h1 {
-  font-size: 2.5rem;
-  border-bottom: 3px solid var(--color-sage);
-  padding-bottom: 0.2em;
-  margin-top: 0; /* Reset for start of page */
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid var(--color-text);
 }
 
 h2 {
-  font-size: 1.8rem;
-  color: var(--color-charcoal);
-  border-left: 5px solid var(--color-terracotta);
-  padding-left: 15px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2em;
 }
 
 h3 {
-  font-size: 1.4rem;
-  color: var(--color-sage);
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 p {
@@ -71,34 +72,78 @@ table {
   border-collapse: collapse;
   margin: 2em 0;
   background-color: white;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
 th {
-  background-color: var(--color-terracotta);
+  background-color: var(--color-text);
   color: white;
-  padding: 12px;
+  padding: 12px 16px;
   text-align: left;
-  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 td {
-  padding: 12px;
-  border-bottom: 1px solid var(--color-light-gray);
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-border);
 }
 
 tr:nth-child(even) {
-  background-color: var(--color-cream);
+  background-color: var(--color-accent);
 }
 
 /* Blockquotes */
 blockquote {
-  background-color: #ecf3f0; /* Light Sage */
-  border-left: 5px solid var(--color-sage);
+  background-color: transparent;
+  border-left: 4px solid var(--color-primary);
   margin: 1.5em 0;
-  padding: 1em 1.5em;
-  font-style: italic;
-  font-family: 'Lora', serif;
+  padding: 0.5em 1.5em;
+  font-style: normal;
+}
+
+/* Chapter Divider Page */
+.chapter-divider {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  page-break-after: always;
+  padding: 2cm;
+  box-sizing: border-box;
+}
+
+.chapter-divider-number {
+  font-family: 'Inter', sans-serif;
+  font-size: 180px;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--color-text);
+  margin-bottom: 0.1em;
+}
+
+.chapter-divider-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-text);
+  margin-bottom: 1.5em;
+}
+
+.chapter-divider-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  line-height: 1.3;
 }
 
 /* Cover Page */
@@ -110,6 +155,7 @@ blockquote {
   flex-direction: column;
   page-break-after: always;
   overflow: hidden;
+  background-color: var(--color-primary);
 }
 
 .cover-background {
@@ -121,50 +167,37 @@ blockquote {
   z-index: 0;
 }
 
-.cover-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(253, 251, 247, 0.6) 0%,
-    rgba(253, 251, 247, 0.3) 15%,
-    rgba(253, 251, 247, 0.1) 50%,
-    rgba(253, 251, 247, 0.3) 85%,
-    rgba(253, 251, 247, 0.5) 100%
-  );
-  z-index: 1;
-}
-
 .cover-content {
   position: relative;
   z-index: 2;
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 3rem 2rem;
+  padding: 3rem 2.5rem;
   box-sizing: border-box;
 }
 
 .cover-header {
-  text-align: center;
+  text-align: left;
   flex: 0 0 auto;
+  margin-top: auto;
+}
+
+.cover-author-line {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 0.5em;
 }
 
 .cover-title {
-  font-family: 'Lora', serif;
-  font-size: 3.5rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
   font-weight: 700;
-  color: var(--color-terracotta);
-  margin: 0 0 0.3em 0;
-  line-height: 1.1;
-}
-
-.cover-subtitle {
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 600;
-  color: var(--color-charcoal);
+  color: var(--color-text);
   margin: 0;
+  line-height: 1.1;
 }
 
 .cover-spacer {
@@ -172,58 +205,40 @@ blockquote {
 }
 
 .cover-footer {
-  text-align: center;
+  text-align: left;
   flex: 0 0 auto;
-}
-
-.cover-author {
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: var(--color-charcoal);
-  margin: 0 0 0.3em 0;
+  padding-bottom: 2rem;
 }
 
 .cover-website {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
-  color: var(--color-sage);
+  font-weight: 500;
+  color: var(--color-text);
+  opacity: 0.8;
   margin: 0;
-}
-
-.cover-badge {
-  display: inline-block;
-  background: var(--color-sage);
-  color: white;
-  font-family: 'Nunito', sans-serif;
-  font-size: 0.85rem;
-  font-weight: 700;
-  padding: 0.4em 1.2em;
-  border-radius: 2em;
-  margin-top: 1em;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
 }
 
 /* Author Page */
 .author-page {
   page-break-before: always;
-  padding: 3rem 2rem;
+  padding: 3rem 2.5rem;
 }
 
 .author-page h2 {
-  font-family: 'Lora', serif;
-  font-size: 1.8rem;
-  color: var(--color-terracotta);
-  border-left: 5px solid var(--color-sage);
-  padding-left: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
   margin-bottom: 1.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid var(--color-text);
 }
 
 .author-bio {
   font-size: 1.05rem;
   line-height: 1.8;
-  color: var(--color-charcoal);
+  color: var(--color-text);
 }
 
 .author-bio p {
@@ -236,6 +251,65 @@ blockquote {
   color: #999;
   text-align: center;
   margin-top: 3em;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid var(--color-border);
   padding-top: 1em;
+}
+
+/* Table of Contents */
+.toc-page {
+  padding: 3rem 2.5rem;
+  page-break-after: always;
+}
+
+.toc-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 2em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid var(--color-text);
+}
+
+.toc-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.8em 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.toc-item-title {
+  font-weight: 600;
+}
+
+.toc-item-page {
+  font-weight: 400;
+  color: var(--color-text);
+  opacity: 0.6;
+}
+
+/* Lists */
+ul, ol {
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Strong emphasis */
+strong {
+  font-weight: 700;
+}
+
+/* Code / Indonesian phrases */
+code {
+  background-color: var(--color-accent);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: 0.95em;
 }

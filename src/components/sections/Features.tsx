@@ -1,30 +1,26 @@
 import { motion } from 'framer-motion';
-import { MessageCircle, Headphones, BookOpen } from 'lucide-react';
 
 const features = [
   {
-    icon: <MessageCircle className="w-7 h-7" />,
-    color: '#E07A5F',
-    title: 'No Robot Language',
-    desc: 'We ban the word "Anda". Learn to use "Mas", "Mba", "Pak", and "Bu" like locals do in Bali.'
+    emoji: '🙅‍♂️',
+    title: 'No Robot Talk!',
+    desc: 'We banned "Anda" (the formal you nobody uses). Learn "Mas", "Mba", "Pak" & "Bu" like real Indonesians!'
   },
   {
-    icon: <Headphones className="w-7 h-7" />,
-    color: '#81B29A',
-    title: 'Audio Included',
-    desc: 'Every phrase includes clear audio pronunciation. Listen and repeat to perfect your accent.'
+    emoji: '🎧',
+    title: 'Hear It Right',
+    desc: 'Every phrase has audio so you don\'t sound like a confused tourist. Listen, repeat, impress locals!'
   },
   {
-    icon: <BookOpen className="w-7 h-7" />,
-    color: '#3D405B',
-    title: 'Zero Grammar Fluff',
-    desc: 'Indonesian has no verb conjugations. We show you the shortcuts that make it easy to learn.'
+    emoji: '🚀',
+    title: 'Zero Grammar Pain',
+    desc: 'No verb conjugations, no gender, no plurals. Indonesian is actually EASY - we\'ll prove it!'
   }
 ];
 
 export function Features() {
   return (
-    <section id="features" className="py-24 lg:py-32 px-6 bg-white scroll-mt-20">
+    <section id="features" className="py-24 lg:py-32 px-6 bg-[#F8F9FA] scroll-mt-20">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -33,10 +29,10 @@ export function Features() {
           className="text-center max-w-2xl mx-auto mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight">
-            Why this course is different
+            Why learn with Kiki? 🐵
           </h2>
           <p className="text-xl text-[#2D3436]/60">
-            Most courses teach formal Indonesian. We teach you how locals actually speak.
+            Forget boring textbooks! This course is actually fun (we promise).
           </p>
         </motion.div>
 
@@ -48,18 +44,18 @@ export function Features() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="group p-8 rounded-3xl bg-[#FDFBF7] hover:bg-white border border-transparent hover:border-black/5 hover:shadow-xl transition-all duration-300"
+              className="group p-8 rounded-3xl bg-white hover:bg-[#2EC4B6] border-2 border-transparent hover:border-[#2EC4B6] shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <div
-                className="w-14 h-14 rounded-2xl flex items-center justify-center mb-6 transition-transform group-hover:scale-110"
-                style={{ backgroundColor: `${feature.color}15`, color: feature.color }}
+              <motion.div
+                whileHover={{ scale: 1.2, rotate: 10 }}
+                className="text-5xl mb-6"
               >
-                {feature.icon}
-              </div>
-              <h3 className="text-xl font-bold mb-3 group-hover:text-[#E07A5F] transition-colors">
+                {feature.emoji}
+              </motion.div>
+              <h3 className="text-xl font-bold mb-3 group-hover:text-white transition-colors">
                 {feature.title}
               </h3>
-              <p className="text-[#2D3436]/60 leading-relaxed">
+              <p className="text-[#2D3436]/60 group-hover:text-white/80 leading-relaxed transition-colors">
                 {feature.desc}
               </p>
             </motion.div>

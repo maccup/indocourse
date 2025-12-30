@@ -52,6 +52,36 @@ function embedImages(html, basePath) {
   });
 }
 
+// Extract unit number and title from filename
+function parseChapterFilename(filename) {
+  // Format: 01-greetings-introductions.md
+  const match = filename.match(/^(\d+)-(.+)\.md$/);
+  if (!match) return { number: '1', title: filename };
+
+  const number = parseInt(match[1], 10).toString();
+  const slug = match[2];
+
+  // Convert slug to title: greetings-introductions -> Greetings & Introductions
+  const title = slug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+    .replace(' And ', ' & ');
+
+  return { number, title };
+}
+
+// Generate chapter divider HTML
+function generateChapterDivider(number, title) {
+  return `
+    <div class="chapter-divider">
+      <div class="chapter-divider-number">${number}</div>
+      <div class="chapter-divider-label">UNIT</div>
+      <div class="chapter-divider-title">${title.toUpperCase()}</div>
+    </div>
+  `;
+}
+
 // Ensure output directory exists
 if (!fs.existsSync(path.dirname(OUTPUT_FILE))) {
   fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
@@ -73,11 +103,14 @@ async function buildPdf() {
   const cssPath = path.join(ASSETS_DIR, 'styles/ebook.css');
   const cssContent = fs.readFileSync(cssPath, 'utf-8');
 
-  // 2. Load Cover Image
+  // 2. Load Cover Image (optional - for abstract B graphic)
+  let coverImgSrc = '';
   const coverPath = path.join(ASSETS_DIR, 'images/generated/cover.png');
-  const coverImage = fs.readFileSync(coverPath);
-  const coverBase64 = coverImage.toString('base64');
-  const coverImgSrc = `data:image/png;base64,${coverBase64}`;
+  if (fs.existsSync(coverPath)) {
+    const coverImage = fs.readFileSync(coverPath);
+    const coverBase64 = coverImage.toString('base64');
+    coverImgSrc = `data:image/png;base64,${coverBase64}`;
+  }
 
   // 3. Get Chapters
   const files = fs.readdirSync(CHAPTERS_DIR)
@@ -88,7 +121,7 @@ async function buildPdf() {
 
   // Book metadata
   const bookTitle = 'Survival Indonesian';
-  const bookSubtitle = '10 Lessons to Speak Like a Local in Bali';
+  const bookSubtitle = '10 Lessons to Speak Like a Local';
   const authorName = 'Maciej Cupial';
   const website = 'indonesianbasics.com';
 
@@ -119,41 +152,49 @@ This ebook is the tool he built for himself to speak with locals immediately—f
             page-break-before: always;
           }
           .cover-title {
-            font-size: 2.8rem;
+            font-size: 2.5rem;
           }
-          .cover-subtitle {
-            font-size: 1.1rem;
+          .chapter-divider-number {
+            font-size: 140px;
+          }
+          .chapter-divider-title {
+            font-size: 22px;
           }
         ` : ''}
       </style>
     </head>
     <body>
       <div class="cover-page">
-        <img src="${coverImgSrc}" class="cover-background" alt="">
-        <div class="cover-overlay"></div>
+        ${coverImgSrc ? `<img src="${coverImgSrc}" class="cover-background" alt="">` : ''}
         <div class="cover-content">
-          <div class="cover-header">
-            <h1 class="cover-title">${bookTitle}</h1>
-            <p class="cover-subtitle">${bookSubtitle}</p>
-          </div>
           <div class="cover-spacer"></div>
-          <div class="cover-footer">
-            <p class="cover-author">by ${authorName}</p>
-            <p class="cover-website">${website}</p>
-            <span class="cover-badge">Free eBook</span>
+          <div class="cover-header">
+            <p class="cover-author-line">${authorName} · Indonesian Basics</p>
+            <h1 class="cover-title">${bookTitle}</h1>
           </div>
         </div>
       </div>
   `;
 
+  // Process each chapter
   for (const file of files) {
     const filePath = path.join(CHAPTERS_DIR, file);
     const content = fs.readFileSync(filePath, 'utf-8');
-    
+
+    // Parse chapter info from filename
+    const { number, title } = parseChapterFilename(file);
+
+    // Add chapter divider page
+    htmlContent += generateChapterDivider(number, title);
+
+    // Add page break and chapter content
     htmlContent += `<div class="page-break"></div>`;
-    
-    // Render Markdown
-    const rendered = md.render(content);
+
+    // Render Markdown (remove the first H1 since we have it in the divider)
+    let rendered = md.render(content);
+    // Remove the first H1 tag to avoid duplication
+    rendered = rendered.replace(/<h1[^>]*>.*?<\/h1>/i, '');
+
     htmlContent += `<div class="chapter">${rendered}</div>`;
   }
 
@@ -187,7 +228,7 @@ This ebook is the tool he built for himself to speak with locals immediately—f
   await page.setContent(htmlContent, { waitUntil: 'networkidle0' });
 
   console.log('Printing to PDF...');
-  
+
   const pdfOptions = isKdp ? {
     path: OUTPUT_FILE,
     printBackground: true,
