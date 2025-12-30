@@ -1,36 +1,47 @@
-# IndoCourse: Survival Indonesian
+# Indonesian Basics
 
-A premium, open-source Indonesian language course for travelers and expats.
+Free Indonesian language course for beginners - indonesianbasics.com
 
-## Project Structure
+## Quick Deploy
 
-*   `ebook/`: Markdown source files for the chapters.
-*   `assets/`: Images and Styles (CSS/SVG).
-*   `scripts/`: Build scripts for PDF and Audio.
-*   `index.html`: Marketing landing page.
+```bash
+npm run deploy
+```
 
-## Getting Started
+Builds everything (frontend + PDF + audio) and deploys the worker.
 
-1.  **Install Dependencies:**
-    ```bash
-    npm install
-    ```
+**Frontend** (Cloudflare Pages):
+```bash
+wrangler pages deploy dist --project-name=indonesian-basics
+```
 
-2.  **Build the PDF eBook:**
-    ```bash
-    npm run build:pdf
-    ```
-    Output: `IndoCourse_Survival_Indonesian.pdf`
+## Commands
 
-3.  **Extract Audio Scripts:**
-    ```bash
-    npm run build:audio
-    ```
-    Output: `audio_production_script.txt` (and `.json`)
+| Command | What it does |
+|---------|--------------|
+| `npm run dev` | Local development |
+| `npm run build` | Build frontend + SSR prerender |
+| `npm run build:prod` | Build all (frontend + PDF + audio) |
+| `npm run deploy` | Build all + deploy worker |
+| `npm run deploy:worker` | Deploy worker only |
 
-4.  **View the Website:**
-    Open `index.html` in your browser.
+## Architecture
 
-## Design System
-*   **Font:** Nunito (Sans) & Lora (Serif).
-*   **Colors:** Terracotta (`#E07A5F`), Sage (`#81B29A`), Cream (`#FDFBF7`), Charcoal (`#3D405B`).
+```
+indonesianbasics.com     → dist/           → Cloudflare Pages
+api.indonesianbasics.com → worker/         → Cloudflare Worker
+                           └── public/downloads/
+                               ├── indonesian-basics-en.pdf
+                               └── indonesian-basics-audio-en.zip
+```
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Full Documentation
+
+See [AGENTS.md](AGENTS.md) for complete project documentation.

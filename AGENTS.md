@@ -99,3 +99,120 @@ You are the **Indonesian Basics Architect**, a specialized AI project manager an
 
 ### C. Image Generation Prompt (Reference)
 > "Minimalist vector illustration of an Indonesian Gunungan Wayang Kulit mountain, flat design, cream background, terracotta and sage green colors, simple geometric shapes, clean lines, cultural education, book cover style."
+
+---
+
+## 7. TECHNICAL ARCHITECTURE & DEPLOYMENT
+
+### A. Project Structure
+```
+IndoCourse/
+├── src/                    # React frontend (Vite)
+├── public/                 # Static assets (favicons, images, audio)
+├── dist/                   # Built frontend (after npm run build)
+├── worker/                 # Cloudflare Worker (API + downloads)
+│   ├── src/               # Worker source code
+│   ├── public/downloads/  # PDF & audio zip files
+│   └── wrangler.toml      # Cloudflare config
+├── scripts/               # Build scripts
+│   ├── build-pdf.js       # PDF generation
+│   ├── prerender.js       # SSR prerendering with Puppeteer
+│   └── generate-assets.js # Asset generation
+├── assets/                # Source content
+│   ├── audio/en/          # MP3 audio files
+│   └── content/           # Markdown course content
+└── output/                # Generated PDF output
+```
+
+### B. Build & Deploy Commands
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build frontend + SSR prerender |
+| `npm run build:prod` | Full production build (frontend + PDF + audio) |
+| `npm run build:pdf` | Generate PDF and copy to worker |
+| `npm run build:audio-zip` | Zip audio files to worker |
+| `npm run build:ebook` | Build PDF + audio zip |
+| `npm run deploy:worker` | Deploy worker to Cloudflare |
+| `npm run deploy` | **Full deploy**: build:prod + deploy:worker |
+
+### C. Deployment Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    indonesianbasics.com                      │
+│              (Cloudflare Pages / Static Host)                │
+│                                                              │
+│  dist/                                                       │
+│  ├── index.html          (SSR homepage)                     │
+│  ├── audio/index.html    (SSR audio page)                   │
+│  ├── privacy-policy/index.html                              │
+│  └── terms/index.html                                       │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              │ API calls
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                   api.indonesianbasics.com                   │
+│                    (Cloudflare Worker)                       │
+│                                                              │
+│  worker/                                                     │
+│  ├── src/index.ts        (API endpoints)                    │
+│  └── public/downloads/                                       │
+│      ├── indonesian-basics-en.pdf                           │
+│      └── indonesian-basics-audio-en.zip                     │
+└─────────────────────────────────────────────────────────────┘
+                              │
+                              ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    Cloudflare D1 Database                    │
+│              (Subscriber emails, analytics)                  │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### D. Deployment Steps
+
+**Option 1: Full deploy (recommended)**
+```bash
+npm run deploy
+```
+This runs: build → prerender → PDF → audio zip → wrangler deploy
+
+**Option 2: Step by step**
+```bash
+# 1. Build everything
+npm run build:prod
+
+# 2. Deploy frontend to Cloudflare Pages (via dashboard or CLI)
+# Source: dist/ folder
+
+# 3. Deploy worker (API + downloads)
+npm run deploy:worker
+```
+
+### E. SSR / Prerendering
+
+The frontend uses **Puppeteer-based prerendering** for SEO:
+
+1. Vite builds the React SPA to `dist/`
+2. `scripts/prerender.js` starts a local server
+3. Puppeteer renders each route and captures full HTML
+4. Each page gets unique meta tags (title, description, OG, canonical)
+5. Output: Static HTML files with React content pre-rendered
+
+**Prerendered routes:**
+- `/` - Homepage
+- `/audio` - Audio companion page
+- `/privacy-policy` - Privacy policy
+- `/terms` - Terms of service
+
+### F. SEO Configuration
+
+**Files:**
+- `public/sitemap.xml` - All 4 pages listed
+- `public/robots.txt` - Allows full crawling
+- `public/manifest.json` - PWA manifest
+- `index.html` - Schema.org structured data (FAQ, Course, HowTo, Organization, Person)
+
+**Favicons:** Full set for iOS, Android, and Windows (see `index.html` for complete list)

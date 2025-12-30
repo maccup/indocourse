@@ -16,7 +16,9 @@
     "build:audio-zip": "cd assets/audio/en && zip -r ../../../worker/public/downloads/indonesian-basics-audio-en.zip *.mp3",
     "generate:assets": "node scripts/generate-assets.js",
     "generate:qr": "node scripts/generate-qr-codes.js",
-    "build:ebook": "npm run build:pdf && npm run build:audio-zip"
+    "build:ebook": "npm run build:pdf && npm run build:audio-zip",
+    "deploy:worker": "cd worker && npx wrangler deploy",
+    "deploy": "npm run build:prod && npm run deploy:worker"
   },
   "dependencies": {
     "clsx": "^2.1.1",
