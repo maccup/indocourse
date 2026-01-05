@@ -24,6 +24,10 @@ By the end of this unit, you will be able to:
 | **Istri** | Wife | |
 | **Teman** | Friend | |
 | **Pacar** | Boyfriend/Girlfriend | |
+| **Cowo / Cowok** | Male / Guy | Casual/slang. |
+| **Cewe / Cewek** | Female / Girl | Casual/slang. |
+| **Laki-laki** | Male | Formal. |
+| **Perempuan** | Female | Formal. |
 | **Punya** | Have / Own | |
 | **Ada** | There is / exist | Often confused with Punya. |
 | **Menikah** | Married | |
@@ -58,6 +62,33 @@ Instead of "My book", Indonesian often attaches the pronoun to the noun.
 For formal situations (using titles), place the title after the noun.
 *   *Nama Anda* -> *Nama Bapak* / *Nama Ibu*.
 *   *Rumah Pak Budi* (Mr. Budi's house).
+
+### C. No Gender in Family Words
+Indonesian does NOT have separate words for brother/sister or son/daughter. The same word is used for both!
+
+| Indonesian | English |
+| :--- | :--- |
+| **Kakak** | Older sibling (brother OR sister) |
+| **Adik** | Younger sibling (brother OR sister) |
+| **Anak** | Child (son OR daughter) |
+| **Teman** | Friend (male OR female) |
+| **Pacar** | Partner (boyfriend OR girlfriend) |
+
+**To specify gender, add:**
+*   **Cowo** / **Cowok** = Male (casual/slang)
+*   **Cewe** / **Cewek** = Female (casual/slang)
+*   **Laki-laki** = Male (formal)
+*   **Perempuan** = Female (formal)
+
+**Examples:**
+*   *Adik **cowo*** = Younger brother
+*   *Adik **cewe*** = Younger sister
+*   *Anak **laki-laki*** = Son (lit: male child)
+*   *Anak **perempuan*** = Daughter (lit: female child)
+*   *Teman **cowo*** = Male friend
+*   *Pacar **cewe*** = Girlfriend
+
+> **Note:** "Cowo/Cewe" is very common in daily speech. "Laki-laki/Perempuan" is more formal or written.
 
 ## 4. Dialogue: Showing Photos
 

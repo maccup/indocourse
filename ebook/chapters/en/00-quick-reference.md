@@ -213,6 +213,13 @@ Indonesian verbs don't change! Just add a marker word before the verb:
    - Formal: *Sangat* + adjective → *Sangat bagus* (Very good)
    - Casual: adjective + *banget* → *Bagus banget!* (So good!)
 
+6. **No gender in family words**
+   - *Kakak* = older sibling (brother OR sister)
+   - *Adik* = younger sibling (brother OR sister)
+   - *Anak* = child (son OR daughter)
+   - To specify: add *cowo* (male) or *cewe* (female)
+   - *Adik cowo* = younger brother, *Adik cewe* = younger sister
+
 ---
 
 *Ready to learn? Let's start with Unit 01!*
