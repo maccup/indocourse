@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import MarkdownIt from 'markdown-it';
 import puppeteer from 'puppeteer';
+import { PDFDocument } from 'pdf-lib';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -73,6 +74,17 @@ function parseChapterFilename(filename) {
 
 // Generate chapter divider HTML
 function generateChapterDivider(number, title) {
+  // Special handling for chapter 00 (Quick Reference)
+  if (number === '0') {
+    return `
+      <div class="chapter-divider full-bleed-page reference-divider">
+        <div class="chapter-divider-icon">📚</div>
+        <div class="chapter-divider-title">${title.toUpperCase()}</div>
+        <div class="chapter-divider-subtitle">Your Essential Cheat Sheet</div>
+      </div>
+    `;
+  }
+
   return `
     <div class="chapter-divider full-bleed-page">
       <div class="chapter-divider-number">${number}</div>
@@ -316,6 +328,27 @@ From proper titles (Mas, Mba, Pak, Bu) to authentic pronunciation, Fawwaz bridge
   await page.pdf(pdfOptions);
 
   await browser.close();
+
+  // 7. Add PDF metadata using pdf-lib
+  console.log('Adding PDF metadata...');
+  const pdfBytes = fs.readFileSync(OUTPUT_FILE);
+  const pdfDoc = await PDFDocument.load(pdfBytes);
+
+  // Set document metadata
+  pdfDoc.setTitle(`${bookTitle} ${bookTagline} - ${bookSubtitle}`);
+  pdfDoc.setAuthor(`${authors.primary} & ${authors.secondary}`);
+  pdfDoc.setSubject('Indonesian Language Course for Beginners (A1-A2)');
+  pdfDoc.setKeywords(['Indonesian', 'Bahasa Indonesia', 'Language Learning', 'Travel', 'Bali', 'Course', 'Beginner']);
+  pdfDoc.setCreator('IndonesianBasics.com');
+  pdfDoc.setProducer('IndonesianBasics PDF Generator');
+  pdfDoc.setCreationDate(new Date());
+  pdfDoc.setModificationDate(new Date());
+
+  // Save the modified PDF
+  const modifiedPdfBytes = await pdfDoc.save();
+  fs.writeFileSync(OUTPUT_FILE, modifiedPdfBytes);
+
+  console.log('PDF metadata added successfully.');
   console.log(`PDF created successfully at: ${OUTPUT_FILE}`);
 }
 

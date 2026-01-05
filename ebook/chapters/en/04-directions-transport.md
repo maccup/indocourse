@@ -15,7 +15,9 @@ By the end of this unit, you will be able to:
 | :--- | :--- | :--- |
 | **Di mana** | Where (is) | |
 | **Ke mana** | Where (to) | |
-| **Sini / Situ / Sana** | Here / There / Over there | Distance increases. |
+| **Sini** | Here | Close to speaker. |
+| **Situ / Sana** | There | Sana is farther away. |
+| **Posisi?** | Where are you? | Casual - locals use this! |
 | **Kiri** | Left | |
 | **Kanan** | Right | |
 | **Lurus** | Straight | |
@@ -53,17 +55,17 @@ To tell a driver what to do, just use the verb + direction.
 
 **Context:** Budi is taking a Grab Car to his hotel. The driver confirms the location.
 
-**Driver:** Siang, Pak. Sesuai aplikasi ya? (Good day. According to app?)
-**Budi:** Ya, Pak. Ke Hotel Santika.
-**Driver:** Lewat mana, Pak? (Which way?)
-**Budi:** Ikut Google Maps saja, Pak.
+**Driver:** Siang, Pak. Sesuai aplikasi ya? *(Good day, Sir. According to the app, right?)*
+**Budi:** Ya, Pak. Ke Hotel Santika. *(Yes, Sir. To Hotel Santika.)*
+**Driver:** Lewat mana, Pak? *(Which way, Sir?)*
+**Budi:** Ikut Google Maps saja, Pak. *(Just follow Google Maps, Sir.)*
 *(Some time later)*
-**Budi:** Pak, nanti **belok kanan** di depan ya.
-**Driver:** Oke, siap.
-**Budi:** Masuk gang ini, lalu **lurus terus**.
-**Driver:** Yang pagar hitam itu?
-**Budi:** Ya, benar. **Stop di kiri**, Pak.
-**Driver:** Oke. Sampai, Pak.
+**Budi:** Pak, nanti belok kanan di depan ya. *(Sir, turn right ahead, okay.)*
+**Driver:** Oke, siap. *(Okay, ready.)*
+**Budi:** Masuk gang ini, lalu lurus terus. *(Enter this alley, then go straight.)*
+**Driver:** Yang pagar hitam itu? *(The one with the black fence?)*
+**Budi:** Ya, benar. Stop di kiri, Pak. *(Yes, correct. Stop on the left, Sir.)*
+**Driver:** Oke. Sampai, Pak. *(Okay. We've arrived, Sir.)*
 
 ### 🎧 Listen Online
 
@@ -81,14 +83,15 @@ Scan to hear native pronunciation:
 
 ## 5. Cultural Note: Gojek & Grab (The Super Apps)
 In Indonesia, you don't hail taxis on the street much anymore. You use apps like **Gojek** or **Grab**.
-*   **Gojek/GrabBike:** Motorcycle taxi (Ojek). Fastest way to beat traffic (*Macet*). They provide a helmet.
-*   **Gocar/GrabCar:** Private car.
-*   **Gofood:** Food delivery (Life saver!).
+*   **GoBike/GrabBike:** Motorcycle taxi (Ojek). Fastest way to beat traffic (*Macet*). They provide a helmet.
+*   **GoCar/GrabCar:** Private car.
+*   **GoFood/GrabFood:** Food delivery (Life saver!).
 
 **Safety Tip:** If you take a motorcycle taxi (Ojek), always wear the helmet (*Helm*) properly.
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -110,8 +113,11 @@ In Indonesia, you don't hail taxis on the street much anymore. You use apps like
 4.  "Over there (far)" → Di ____________
 5.  "There (medium distance)" → Di ____________
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Choose the correct preposition (Di / Ke / Dari):**
@@ -137,8 +143,11 @@ In Indonesia, you don't hail taxis on the street much anymore. You use apps like
 2.  "Toilet di mana ada?" (Where is the toilet?)
     ▸ Correct: ________________________________________________
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -159,8 +168,11 @@ In Indonesia, you don't hail taxis on the street much anymore. You use apps like
 3.  "Yang pagar hitam itu?"
     ▸ ________________________________________________________________
 
+[See Answers C →](#ans-c)
+
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue between Budi and the Grab driver, then answer:*
@@ -176,8 +188,11 @@ In Indonesia, you don't hail taxis on the street much anymore. You use apps like
 5.  What color was the fence of Budi's destination?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -193,8 +208,11 @@ In Indonesia, you don't hail taxis on the street much anymore. You use apps like
 5.  Someone asks you where you're from. Answer with your country.
     ▸ ________________________________________________________________
 
+[See Answers E →](#ans-e)
+
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -234,8 +252,11 @@ M O T O R Q W E R T
 4. Straight (5 letters)
    ▸ ________________________________________________________________
 
+[See Answers F →](#ans-f)
+
 ---
 
+<a id="ex-g"></a>
 ### G. Cumulative Review (Units 01-03)
 
 **Test your memory from previous units!**
@@ -248,6 +269,8 @@ M O T O R Q W E R T
     ▸ ________________________________________________________________
 4.  What does "Bungkus" mean when ordering food?
     ▸ ________________________________________________________________
+
+[See Answers G →](#ans-g)
 
 ---
 
@@ -266,11 +289,17 @@ M O T O R Q W E R T
 
 ### Answer Key - Unit 04
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-c, 2-d, 3-b, 4-e, 5-a
 
 **A2. Direction words:**
 1. Depan, 2. Belakang, 3. Sini, 4. Sana, 5. Situ
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Prepositions:**
 1. Ke, 2. Di, 3. Dari, 4. Di, 5. Ke
 
@@ -281,6 +310,11 @@ M O T O R Q W E R T
 1. "Saya pergi ke Bali." (Use "ke" for movement to a place)
 2. "Toilet di mana?" or "Di mana toilet?" (Standard question form)
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Di mana pantai? / Pantai di mana?
 2. Belok kanan di depan.
@@ -291,6 +325,11 @@ M O T O R Q W E R T
 2. Enter this alley, then go straight.
 3. The one with the black fence?
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. "Lewat mana?" (Which way?)
 2. Google Maps
@@ -298,6 +337,11 @@ M O T O R Q W E R T
 4. A small alleyway
 5. Black (hitam)
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Ikut Google Maps saja, Pak."
 2. "Belok kiri di depan, ya Pak."
@@ -305,6 +349,11 @@ M O T O R Q W E R T
 4. "Permisi, Pak/Bu. Di mana ATM?"
 5. "Saya dari [country name]."
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found in grid
 
 **F2. Sentence Scramble:**
@@ -315,8 +364,15 @@ M O T O R Q W E R T
 
 **F3. Vocabulary Puzzle:** 1. DEPAN, 2. SINI, 3. JALAN, 4. LURUS
 
+[← Back to Exercise F](#ex-f)
+
+---
+
+<a id="ans-g"></a>
 **G. Cumulative Review:**
 1. Mba
 2. Tujuh puluh lima ribu
 3. Minta Es Teh Manis satu.
 4. Take away / Wrap it up
+
+[← Back to Exercise G](#ex-g)

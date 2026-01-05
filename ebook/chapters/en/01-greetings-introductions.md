@@ -7,26 +7,38 @@ By the end of this unit, you will be able to:
 *   Greet people naturally at different times of the day.
 *   Introduce yourself without sounding like a robot.
 *   Understand why we avoid the word "Anda" (You).
-*   Understand the "Zero Copula" (No "to be").
+*   Understand why Indonesian has no "am/is/are".
 
 ## 2. Vocabulary
 
 | Indonesian | English | Notes |
 | :--- | :--- | :--- |
-| **Selamat pagi** | Good morning | Used until ~11:00 AM |
-| **Selamat siang** | Good day | ~11:00 AM to ~3:00 PM |
+| **Saya** | I / Me | |
+| **Kamu** | You (informal) | For friends, peers. |
+| **Dia** | He / She | |
+| **Kami** | We | "We" but NOT the person you're talking to. |
+| **Kita** | We | "We" INCLUDING the person you're talking to. |
+| **Mereka** | They | |
+| **Kalian** | You (plural) | |
+| **Selamat pagi** | Good morning | Used until 11:59 AM |
+| **Selamat siang** | Good day | 12:00 PM to 2:59 PM |
 | **Selamat sore** | Good afternoon | ~3:00 PM to Sunset |
 | **Selamat malam** | Good evening | After sunset |
 | **Apa kabar?** | How are you? | Lit: "What news?" |
 | **Baik** | Good / Fine | Common answer. |
 | **Nama** | Name | |
-| **Saya** | I / My | Safe for everyone. |
 | **Mas** | You (Brother) | For young males / peers. |
 | **Mba** | You (Sister) | For young females / peers. |
 | **Pak** | You (Sir/Father) | For older men / respect. |
 | **Bu** | You (Ma'am/Mother) | For older women / respect. |
 | **Siapa** | Who | |
 | **Makasih** | Thanks | Casual version of "Terima kasih". |
+| **Umur** | Age | |
+| **Tahun** | Year | |
+| **Sampai jumpa** | See you | Lit: "Until meet". |
+| **Selamat datang** | Welcome | |
+| **Selamat jalan** | Safe travels | Said TO the person leaving. |
+| **Selamat tinggal** | Goodbye | Said BY the person leaving. |
 
 > **Pro Tip:** In spoken Indonesian, we often drop the "Selamat" and just say "Pagi", "Siang", or "Malam". It's like saying "Morning!" instead of "Good Morning".
 
@@ -43,31 +55,44 @@ Instead, Indonesians call people by titles based on age/gender, even strangers.
 *   **Bu:** Older female / Respected figure.
 
 *   *English:* Who are you?
-*   *Textbook:* Siapa nama Anda? (Stiff)
+*   *Textbook:* Siapa nama Anda? (Too formal)
 *   *Natural:* Siapa nama **Mas**? (Polite & Friendly to a male)
 
-### B. The "Zero Copula" (No "To Be")
-Indonesian has no word for "am", "is", or "are".
+> **Note:** If you are already close to someone, just say **"kamu"**. For extra intimacy or politeness with friends, use their name. E.g., "Kamu mau makan apa?" → "Kiki, kamu mau makan apa?"
+
+### B. No "Am / Is / Are"
+Indonesian has no word for "am", "is", or "are". Just skip it!
 
 *   *English:* I **am** Budi.
-*   *Indo:* Saya Budi. (Lit: I Budi)
+*   *Indonesian:* Saya Budi. (Literally: "I Budi")
 
 *   *English:* She **is** Sarah.
-*   *Indo:* Dia Sarah.
+*   *Indonesian:* Dia Sarah. (Literally: "She Sarah")
+
+### C. Asking Someone's Age
+A common question when meeting someone:
+
+*   *English:* How old are you?
+*   *Indonesian:* **Berapa umur kamu?** (Lit: "How much age you?")
+
+*   *Answer:* Umur saya dua puluh lima tahun. (My age is 25 years.)
+*   *Short:* Dua puluh lima. (25.)
+
+> **Note:** Asking age is common and not considered rude in Indonesia. It helps people know how to address you (formal or casual).
 
 ## 4. Dialogue: Meeting a New Friend
 
 **Context:** Budi (Male) meets Sarah (Female) at a co-working space in Bali. They appear to be similar ages.
 
-**Budi:** Pagi, Mba.
-**Sarah:** Pagi, Mas.
-**Budi:** Apa kabar?
-**Sarah:** Baik. Mas gimana? (How about you?)
-**Budi:** Baik juga. Makasih.
-**Sarah:** Namanya siapa, Mas?
-**Budi:** Saya Budi. Mba siapa namanya?
-**Sarah:** Saya Sarah.
-**Budi:** Salam kenal, Sarah.
+**Budi:** Pagi, Mba. *(Morning, Miss.)*
+**Sarah:** Pagi, Mas. *(Morning, Mister.)*
+**Budi:** Apa kabar? *(How are you?)*
+**Sarah:** Baik. Mas gimana? *(Good. How about you?)*
+**Budi:** Baik juga. Makasih. *(Good too. Thanks.)*
+**Sarah:** Namanya siapa, Mas? *(What's your name, Mister?)*
+**Budi:** Saya Budi. Mba siapa namanya? *(I'm Budi. What's your name, Miss?)*
+**Sarah:** Saya Sarah. *(I'm Sarah.)*
+**Budi:** Salam kenal, Sarah. *(Nice to meet you, Sarah.)*
 
 ### 🎧 Listen Online
 
@@ -95,6 +120,7 @@ This is not them being nosey! It is just a friendly greeting, like "What's up?".
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -116,8 +142,11 @@ This is not them being nosey! It is just a friendly greeting, like "What's up?".
 4.  You want to ask someone's name: "____________ nama Mas?"
 5.  It's 8 PM. You say: "Selamat ____________."
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Choose the correct title (Mas / Mba / Pak / Bu):**
@@ -137,14 +166,17 @@ This is not them being nosey! It is just a friendly greeting, like "What's up?".
 3.  "Selamat pagi!" (It's 2 PM)
     ▸ Correct: ________________________________________________
 
-**B3. Complete the sentence using "Zero Copula" (no "to be"):**
+**B3. Complete the sentence (remember: no "am/is/are" in Indonesian!):**
 
 1.  (I am Sarah) → Saya ____________.
 2.  (She is Ibu Wayan) → Dia ____________.
 3.  (He is Pak Budi) → Dia ____________.
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -155,6 +187,10 @@ This is not them being nosey! It is just a friendly greeting, like "What's up?".
     ▸ ________________________________________________________________
 3.  Nice to meet you. (Lit: "Greetings to know")
     ▸ ________________________________________________________________
+4.  How old are you?
+    ▸ ________________________________________________________________
+5.  See you tomorrow!
+    ▸ ________________________________________________________________
 
 **C2. Translate to English:**
 
@@ -164,9 +200,16 @@ This is not them being nosey! It is just a friendly greeting, like "What's up?".
     ▸ ________________________________________________________________
 3.  "Saya Budi. Mba siapa namanya?"
     ▸ ________________________________________________________________
+4.  "Umur saya dua puluh lima tahun."
+    ▸ ________________________________________________________________
+5.  "Sampai jumpa! Selamat jalan."
+    ▸ ________________________________________________________________
+
+[See Answers C →](#ans-c)
 
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue between Budi and Sarah, then answer:*
@@ -182,8 +225,11 @@ This is not them being nosey! It is just a friendly greeting, like "What's up?".
 5.  In the dialogue, did anyone use "Anda"? Why or why not?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -198,9 +244,16 @@ This is not them being nosey! It is just a friendly greeting, like "What's up?".
     ▸ ________________________________________________________________
 5.  You want to say goodbye at 7 PM. What do you say?
     ▸ ________________________________________________________________
+6.  Someone asks your age. You are 30 years old. How do you answer?
+    ▸ ________________________________________________________________
+7.  You're leaving a friend's house. Say goodbye properly (you are the one leaving).
+    ▸ ________________________________________________________________
+
+[See Answers E →](#ans-e)
 
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -241,6 +294,8 @@ S A Y A P A K O A
 4. Casual "Thanks" (7 letters)
    ▸ ________________________________________________________________
 
+[See Answers F →](#ans-f)
+
 ---
 
 ### G. Self-Check: Am I Ready?
@@ -251,6 +306,8 @@ S A Y A P A K O A
 - [ ] Introduce yourself naturally (without "Anda")
 - [ ] Use the right title (Mas/Mba/Pak/Bu) for different people
 - [ ] Ask someone's name politely
+- [ ] Ask and answer age questions
+- [ ] Say goodbye properly (Sampai jumpa, Selamat jalan/tinggal)
 - [ ] Respond to "Apa kabar?" and "Mau ke mana?"
 - [ ] Understand why Indonesian has no "to be" verb
 
@@ -258,29 +315,49 @@ S A Y A P A K O A
 
 ### Answer Key - Unit 01
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-c, 2-a, 3-b, 4-e, 5-d
 
 **A2. Fill in the blank:** 1. Pagi, 2. Sore, 3. Baik, 4. Siapa, 5. Malam
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Titles:** 1. Mas, 2. Bu, 3. Pak, 4. Mba, 5. Pak
 
 **B2. Error Correction:**
 1. "Siapa nama Mas?" (Use title, not Anda)
-2. "Saya Budi." (No "adalah" needed - Zero Copula)
+2. "Saya Budi." (No "adalah" needed - Indonesian has no "am/is/are")
 3. "Selamat siang!" (2 PM is Siang, not Pagi)
 
-**B3. Zero Copula:** 1. Sarah, 2. Ibu Wayan, 3. Pak Budi
+**B3. No "am/is/are":** 1. Sarah, 2. Ibu Wayan, 3. Pak Budi
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Selamat sore, Bu.
 2. Siapa nama Pak/Bapak?
 3. Salam kenal.
+4. Berapa umur kamu?
+5. Sampai jumpa besok!
 
 **C2. To English:**
 1. Morning, (young man). How are you?
 2. Good/Fine. Thanks.
 3. I am Budi. What is your name, Miss?
+4. I am 25 years old. / My age is 25 years.
+5. See you! Safe travels.
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. A co-working space in Bali
 2. Morning (they said "Pagi")
@@ -288,13 +365,25 @@ S A Y A P A K O A
 4. "Nice to meet you" / "Greetings to know (you)"
 5. No - because "Anda" sounds stiff; they used titles instead
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Pagi, Mas. Siapa nama Mas?"
 2. "Selamat pagi, Bu. Saya [your name]. Salam kenal."
 3. "Jalan-jalan saja." (Just walking around)
 4. "Baik. Makasih. Mas/Mba gimana?"
 5. "Selamat malam."
+6. "Umur saya tiga puluh tahun."
+7. "Sampai jumpa! Selamat tinggal." (You say "tinggal" when YOU are leaving)
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found horizontally/vertically/diagonally in grid
 
 **F2. Sentence Scramble:**
@@ -304,3 +393,5 @@ S A Y A P A K O A
 4. Salam kenal, Sarah.
 
 **F3. Vocabulary Puzzle:** 1. PAGI, 2. BAIK, 3. SIAPA, 4. MAKASIH
+
+[← Back to Exercise F](#ex-f)

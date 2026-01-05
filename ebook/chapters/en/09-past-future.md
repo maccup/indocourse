@@ -1,4 +1,4 @@
-# Unit 09: Past & Future (Sudah/Belum/Akan)
+# Unit 09: Past and Future
 
 ![Unit 09 Illustration](../../../assets/images/generated/unit_09.jpg)
 
@@ -17,7 +17,7 @@ By the end of this unit, you will be able to:
 | **Belum** | Not yet | Negation of *Sudah*. |
 | **Akan** | Will | Future marker (Formal). |
 | **Mau** | Want / Will | Future marker (Casual). |
-| **Sedang / Lagi** | Currently / -ing | Continuous marker. |
+| **Sedang / Lagi** | Currently / -ing | "Lagi" is more commonly used. |
 | **Pernah** | Ever | Have you ever...? |
 | **Tadi** | Just now / Earlier | *Tadi pagi* = Earlier this morning. |
 | **Nanti** | Later | |
@@ -47,14 +47,14 @@ In conversation, **Mau** (want) is often used for "Will/Gonna".
 
 **Context:** Budi asks Sarah about her travels in Indonesia.
 
-**Budi:** Sarah, kamu **sudah** berapa lama di Indonesia?
-**Sarah:** **Sudah** dua minggu.
-**Budi:** Kamu **pernah** ke Jogja?
-**Sarah:** **Belum pernah**. Tapi saya **mau** ke sana minggu depan.
-**Budi:** Wah, asik. Jogja bagus banget.
-**Sarah:** Kamu **sudah pernah** ke Borobudur?
-**Budi:** Sudah sering (Often). Rumah nenek saya di sana.
-**Sarah:** Nanti saya minta tips ya!
+**Budi:** Sarah, kamu sudah berapa lama di Indonesia? *(Sarah, how long have you been in Indonesia?)*
+**Sarah:** Sudah dua minggu. *(Two weeks already.)*
+**Budi:** Kamu pernah ke Jogja? *(Have you ever been to Jogja?)*
+**Sarah:** Belum pernah. Tapi saya mau ke sana minggu depan. *(Not yet. But I want to go there next week.)*
+**Budi:** Wah, asik. Jogja bagus banget. *(Nice! Jogja is really great.)*
+**Sarah:** Kamu sudah pernah ke Borobudur? *(Have you been to Borobudur?)*
+**Budi:** Sudah sering. Rumah nenek saya di sana. *(Yes, often. My grandmother's house is there.)*
+**Sarah:** Nanti saya minta tips ya! *(I'll ask you for tips later!)*
 
 ### 🎧 Listen Online
 
@@ -76,6 +76,7 @@ Saying "Tidak" (No) to marriage sounds too final and can be confusing culturally
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -97,8 +98,11 @@ Saying "Tidak" (No) to marriage sounds too final and can be confusing culturally
 4.  Tomorrow: ____________
 5.  Right now: ____________
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Choose the correct marker (Sudah / Sedang / Akan):**
@@ -123,8 +127,11 @@ Saying "Tidak" (No) to marriage sounds too final and can be confusing culturally
 2.  "Sudah makan? Tidak." (Have you eaten? No.)
     ▸ Correct: ________________________________________________
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -145,8 +152,11 @@ Saying "Tidak" (No) to marriage sounds too final and can be confusing culturally
 3.  "Sudah sering ke Borobudur."
     ▸ ________________________________________________________________
 
+[See Answers C →](#ans-c)
+
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue where Budi asks Sarah about her travels, then answer:*
@@ -162,8 +172,11 @@ Saying "Tidak" (No) to marriage sounds too final and can be confusing culturally
 5.  What does "Asik" mean?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -179,8 +192,11 @@ Saying "Tidak" (No) to marriage sounds too final and can be confusing culturally
 5.  Tell someone you will visit Lombok tomorrow.
     ▸ ________________________________________________________________
 
+[See Answers E →](#ans-e)
+
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -217,8 +233,11 @@ S E K A R A N G U V W
 4.  ____________
 5.  ____________ (furthest future)
 
+[See Answers F →](#ans-f)
+
 ---
 
+<a id="ex-g"></a>
 ### G. Cumulative Review (Units 01-08)
 
 **Test your memory from previous units!**
@@ -233,6 +252,8 @@ S E K A R A N G U V W
     ▸ ________________________________________________________________
 5.  Say "My head hurts."
     ▸ ________________________________________________________________
+
+[See Answers G →](#ans-g)
 
 ---
 
@@ -251,11 +272,17 @@ S E K A R A N G U V W
 
 ### Answer Key - Unit 09
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-b, 2-e, 3-a, 4-c, 5-d
 
 **A2. Time markers:**
 1. Baru saja, 2. Tadi, 3. Nanti, 4. Besok, 5. Sekarang
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Markers:**
 1. Sedang/Lagi, 2. Sudah, 3. Akan/Mau, 4. Sudah, 5. Sedang/Lagi
 
@@ -266,6 +293,11 @@ S E K A R A N G U V W
 1. "Saya belum pernah ke Bali." (Use "belum" not "tidak" with "pernah")
 2. "Sudah makan? Belum." (Answer with "Belum", not "Tidak")
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Pernah makan durian?
 2. Saya akan/mau ke Bali minggu depan.
@@ -276,6 +308,11 @@ S E K A R A N G U V W
 2. Not yet / Never, but I want to go there next week.
 3. (I've) been to Borobudur often.
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. Two weeks (dua minggu)
 2. No, not yet (belum pernah)
@@ -283,6 +320,11 @@ S E K A R A N G U V W
 4. Yes, often (sudah sering)
 5. Cool / Fun / Awesome
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Belum."
 2. "Pernah coba pizza?"
@@ -290,6 +332,11 @@ S E K A R A N G U V W
 4. "Saya sedang kerja." / "Saya lagi kerja."
 5. "Saya akan ke Lombok besok." / "Besok saya mau ke Lombok."
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found in grid
 
 **F2. Sentence Scramble:**
@@ -301,9 +348,16 @@ S E K A R A N G U V W
 **F3. Timeline:**
 1. Kemarin, 2. Tadi, 3. Sekarang, 4. Nanti, 5. Besok
 
+[← Back to Exercise F](#ex-f)
+
+---
+
+<a id="ans-g"></a>
 **G. Cumulative Review:**
 1. Bu
 2. Saya tidak punya uang. / Saya nggak punya uang.
 3. Saya mau Mie Goreng.
 4. Stop di kiri, Pak.
 5. Kepala saya sakit. / Saya sakit kepala.
+
+[← Back to Exercise G](#ex-g)

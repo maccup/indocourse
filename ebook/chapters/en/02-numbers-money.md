@@ -1,4 +1,4 @@
-# Unit 02: Numbers, Money, & Basic Bargaining
+# Unit 02: Numbers, Currency, & Basic Bargaining
 
 ![Unit 02 Illustration](../../../assets/images/generated/unit_02.jpg)
 
@@ -22,6 +22,8 @@ By the end of this unit, you will be able to:
 | **Kurang** | Less / Minus | Used to ask for a discount. |
 | **Ini** | This | |
 | **Itu** | That | |
+| **Bayar** | To pay | |
+| **Kembalian** | Change (money back) | |
 | **Satu** | One | |
 | **Dua** | Two | |
 | **Tiga** | Three | |
@@ -32,6 +34,9 @@ By the end of this unit, you will be able to:
 | **Delapan** | Eight | |
 | **Sembilan** | Nine | |
 | **Sepuluh** | Ten | Prefix *Se-* means "One". |
+| **Belas** | -teen | Suffix for 11-19. |
+| **Puluh** | -ty (tens) | For 20, 30, etc. |
+| **Ratus** | Hundred | |
 | **Ribu** | Thousand | |
 | **Juta** | Million | |
 
@@ -62,7 +67,7 @@ Indonesian numbers are very logical. Once you know 1-10, you can build the rest.
     ▸ 1,500,000 = Satu **juta** lima ratus **ribu** (Often just called "Satu setengah juta" - 1.5 million)
 
 ### B. Asking the Price
-Don't say "Berapa harga ini?". It's grammatically correct but stiff.
+Don't say "Berapa harga ini?". It's grammatically correct but too formal.
 
 **Natural Ways to Ask:**
 1.  **"Ini berapa?"** (This is how much?) - *Most common.*
@@ -81,17 +86,22 @@ Bargaining is expected in traditional markets (Pasar), but NOT in supermarkets o
 
 **Context:** Sarah wants to buy a Sarong in Bali. She talks to an older female seller (Ibu).
 
-**Sarah:** Pagi, Bu. Kain ini berapa?
-**Ibu:** Pagi, cantik (beautiful). Itu seratus lima puluh ribu. (150,000)
-**Sarah:** Wah, mahal banget, Bu!
-**Ibu:** Bagus lho, kualitas ekspor.
-**Sarah:** **Boleh kurang, nggak?**
-**Ibu:** Boleh. Mau berapa?
-**Sarah:** Tujuh puluh ribu, ya? (70,000)
-**Ibu:** Waduh, belum dapat, Mba. (I can't do that yet). Seratus pas, deh. (100 flat/fixed).
-**Sarah:** Delapan puluh ribu deh, Bu. Saya ambil dua.
-**Ibu:** Ya sudah. Delapan puluh ribu. Silakan.
-**Sarah:** Makasih, Bu.
+**Sarah:** Pagi, Bu. Kain ini berapa? *(Morning, Ma'am. How much is this fabric?)*
+**Ibu:** Pagi, cantik. Itu seratus lima puluh ribu. *(Morning, beautiful. That's 150,000.)*
+**Sarah:** Wah, mahal banget, Bu! *(Wow, so expensive, Ma'am!)*
+**Ibu:** Bagus lho, kualitas ekspor. *(It's good quality, export grade.)*
+**Sarah:** Boleh kurang, nggak? *(Can you lower the price?)*
+**Ibu:** Boleh. Mau berapa? *(Sure. How much do you want?)*
+**Sarah:** Tujuh puluh ribu, ya? *(70,000, okay?)*
+**Ibu:** Waduh, belum dapat, Mba. Seratus pas, deh. *(Oh, I can't do that yet, Miss. 100,000 flat.)*
+**Sarah:** Delapan puluh ribu deh, Bu. Saya ambil dua. *(80,000 then, Ma'am. I'll take two.)*
+**Ibu:** Ya sudah. Delapan puluh ribu. Silakan. *(Alright. 80,000. Here you go.)*
+**Sarah:** Makasih, Bu. *(Thanks, Ma'am.)*
+
+> **Useful Payment Phrases:**
+> *   *Saya mau bayar.* (I want to pay.)
+> *   *Bayar di mana?* (Where do I pay?)
+> *   *Kembaliannya berapa?* (How much is the change?)
 
 ### 🎧 Listen Online
 
@@ -120,6 +130,7 @@ Locals and expats often chop off the last three zeros when talking.
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -141,8 +152,11 @@ Locals and expats often chop off the last three zeros when talking.
 5.  100 = ______________________
 6.  1,000 = ______________________
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Build the number (fill in the blanks):**
@@ -168,8 +182,11 @@ Locals and expats often chop off the last three zeros when talking.
 2.  "Satu belas" (for 11)
     ▸ Correct: ________________________________________________
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -180,6 +197,10 @@ Locals and expats often chop off the last three zeros when talking.
     ▸ ________________________________________________________________
 3.  Can you lower the price?
     ▸ ________________________________________________________________
+4.  I want to pay.
+    ▸ ________________________________________________________________
+5.  Where do I pay?
+    ▸ ________________________________________________________________
 
 **C2. Translate to English:**
 
@@ -189,9 +210,16 @@ Locals and expats often chop off the last three zeros when talking.
     ▸ ________________________________________________________________
 3.  "Delapan puluh ribu, ya?"
     ▸ ________________________________________________________________
+4.  "Saya mau bayar."
+    ▸ ________________________________________________________________
+5.  "Kembaliannya berapa?"
+    ▸ ________________________________________________________________
+
+[See Answers C →](#ans-c)
 
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue between Sarah and the seller, then answer:*
@@ -207,8 +235,11 @@ Locals and expats often chop off the last three zeros when talking.
 5.  What does "Belum dapat" mean in this context?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -223,9 +254,16 @@ Locals and expats often chop off the last three zeros when talking.
     ▸ ________________________________________________________________
 5.  You're at a mall (fixed price). Should you bargain? Why or why not?
     ▸ ________________________________________________________________
+6.  You finished shopping and want to pay. What do you say?
+    ▸ ________________________________________________________________
+7.  You gave 100,000 but the price was 75,000. Ask about the change.
+    ▸ ________________________________________________________________
+
+[See Answers E →](#ans-e)
 
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -265,8 +303,11 @@ M A H A L B C D E
 4. This (3 letters)
    ▸ ________________________________________________________________
 
+[See Answers F →](#ans-f)
+
 ---
 
+<a id="ex-g"></a>
 ### G. Cumulative Review (Unit 01)
 
 **Test your memory from the previous unit!**
@@ -279,6 +320,8 @@ M A H A L B C D E
     ▸ ________________________________________________________________
 4.  Why do Indonesians avoid using "Anda"?
     ▸ ________________________________________________________________
+
+[See Answers G →](#ans-g)
 
 ---
 
@@ -297,11 +340,17 @@ M A H A L B C D E
 
 ### Answer Key - Unit 02
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-b, 2-e, 3-a, 4-c, 5-d
 
 **A2. Numbers:**
 1. Tujuh, 2. Lima belas, 3. Dua puluh tiga, 4. Lima puluh, 5. Seratus, 6. Seribu
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Build the number:**
 1. Sebelas, 2. Empat belas, 3. Dua puluh, 4. Tiga puluh lima, 5. Seratus
 
@@ -312,16 +361,30 @@ M A H A L B C D E
 1. "Ini berapa?" (More natural way to ask)
 2. "Sebelas" (Special form for 11, not "Satu belas")
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Ini berapa?
 2. Wah, mahal banget!
 3. Boleh kurang, nggak?
+4. Saya mau bayar.
+5. Bayar di mana?
 
 **C2. To English:**
 1. How much is this, Ma'am?
 2. Can you lower the price?
 3. 80,000, okay?
+4. I want to pay.
+5. How much is the change?
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. A sarong/kain
 2. 150,000 Rupiah
@@ -329,13 +392,25 @@ M A H A L B C D E
 4. 80,000 Rupiah
 5. "I can't do that yet" / The seller hasn't reached an acceptable price
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Ini berapa, Bu?"
 2. "Waduh, mahal banget, Bu!"
 3. "Seratus dua puluh ribu, boleh?"
 4. "Makasih, Bu."
 5. No - malls have fixed prices (Harga Pas), bargaining is only for traditional markets
+6. "Saya mau bayar." / "Bayar di mana?"
+7. "Kembaliannya berapa?" (The change is 25,000)
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found in grid
 
 **F2. Sentence Scramble:**
@@ -346,8 +421,15 @@ M A H A L B C D E
 
 **F3. Vocabulary Puzzle:** 1. LIMA, 2. RIBU, 3. MURAH, 4. INI
 
+[← Back to Exercise F](#ex-f)
+
+---
+
+<a id="ans-g"></a>
 **G. Cumulative Review:**
 1. Pak
 2. Selamat sore, Bu.
 3. Saya [name]. (No "adalah" or "am")
 4. It sounds cold/stiff - like a police interrogation. Use titles instead.
+
+[← Back to Exercise G](#ex-g)

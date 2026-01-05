@@ -17,8 +17,12 @@ By the end of this unit, you will be able to:
 | **Menit** | Minute | |
 | **Sekarang** | Now | |
 | **Besok** | Tomorrow | |
+| **Lusa** | Day after tomorrow | Special word for "in 2 days". |
 | **Kemarin** | Yesterday | |
 | **Hari ini** | Today | |
+| **Minggu depan** | Next week | |
+| **Bulan depan** | Next month | |
+| **Berapa jam?** | How long? | Lit: "How many hours?" |
 | **Pagi** | Morning | |
 | **Siang** | Day/Noon | |
 | **Sore** | Afternoon | |
@@ -34,6 +38,11 @@ By the end of this unit, you will be able to:
 **Days of the Week:**
 *   **Senin** (Mon), **Selasa** (Tue), **Rabu** (Wed), **Kamis** (Thu), **Jumat** (Fri), **Sabtu** (Sat), **Minggu** (Sun).
 
+**Months of the Year:**
+*   **Januari**, **Februari**, **Maret**, **April**, **Mei**, **Juni**, **Juli**, **Agustus**, **September**, **Oktober**, **November**, **Desember**
+
+> **Good news:** Indonesian months are almost identical to English - just adjust the spelling!
+
 ## 3. Grammar Focus
 
 ### A. Telling Time
@@ -42,8 +51,11 @@ Structure: **Jam [Hour] + [Minute]**
 *   09:30 = Jam sembilan (lewat) tiga puluh.
 *   *Casual:* Jam setengah sepuluh (Half to ten / 9:30).
 
-**Note:** Indonesians often use the 24-hour clock in writing (20:00) but spoken 12-hour format with "Malam/Pagi" clarification.
-*   *Jam 8 malam* = 8 PM.
+**Note:** Indonesians often use the 24-hour clock in writing (20:00) but spoken 12-hour format with "Pagi/Siang/Sore/Malam" clarification.
+*   *Jam 8 pagi* = 8 AM (08:00)
+*   *Jam 1 siang* = 1 PM (13:00)
+*   *Jam 4 sore* = 4 PM (16:00)
+*   *Jam 8 malam* = 8 PM (20:00)
 
 ### B. Time Markers (Placement)
 Time markers usually go at the **beginning** or **end** of a sentence.
@@ -59,14 +71,14 @@ When talking about routine, you might be asked: "Have you eaten?"
 
 **Context:** Sarah asks Budi about his schedule for the weekend.
 
-**Sarah:** Budi, **hari Sabtu** sibuk nggak? (Busy on Saturday?)
-**Budi:** Nggak terlalu. Kenapa?
-**Sarah:** Kita mau ke pantai. Mau ikut?
-**Budi:** Boleh. **Jam berapa** berangkat?
-**Sarah:** Jam delapan pagi.
-**Budi:** Waduh, pagi banget! Saya baru **bangun** jam sembilan.
-**Sarah:** Ya ampun, kebo banget! (Cow/Lazy!). Ya sudah, jam sepuluh ya?
-**Budi:** Oke, jam sepuluh bisa. Sampai ketemu **besok**.
+**Sarah:** Budi, hari Sabtu sibuk nggak? *(Budi, are you busy on Saturday?)*
+**Budi:** Nggak terlalu. Kenapa? *(Not really. Why?)*
+**Sarah:** Kita mau ke pantai. Mau ikut? *(We want to go to the beach. Want to join?)*
+**Budi:** Boleh. Jam berapa berangkat? *(Sure. What time do we leave?)*
+**Sarah:** Jam delapan pagi. *(8 AM.)*
+**Budi:** Waduh, pagi banget! Saya baru bangun jam sembilan. *(Whoa, so early! I only wake up at 9.)*
+**Sarah:** Ya ampun, kebo banget! Ya sudah, jam sepuluh ya? *(Oh my, so lazy! Alright, 10 o'clock then?)*
+**Budi:** Oke, jam sepuluh bisa. Sampai ketemu besok. *(Okay, 10 works. See you tomorrow.)*
 
 ### 🎧 Listen Online
 
@@ -86,10 +98,11 @@ Scan to hear native pronunciation:
 Indonesians are famous for **Jam Karet**. Time is flexible.
 *   If a party starts at 7 PM, people might arrive at 8 PM.
 *   If a meeting is at 9 AM, 9:15 AM is often acceptable.
-*   *Exception:* Flights and Trains are on time! Don't use Jam Karet there.
+*   *Exception:* All transportation is on time! Don't use Jam Karet for flights, trains, buses, or boats.
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -111,8 +124,11 @@ Indonesians are famous for **Jam Karet**. Time is flexible.
 4.  10 PM = Jam sepuluh ____________
 5.  "What time?" = ____________ berapa?
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Write the time in Indonesian:**
@@ -131,15 +147,26 @@ Indonesians are famous for **Jam Karet**. Time is flexible.
 4.  Sunday = ____________
 5.  Today is Tuesday. Tomorrow is ____________
 
-**B3. Error Correction - Find and fix the mistake:**
+**B3. Months of the Year - Fill in:**
+
+1.  January = ____________
+2.  March = ____________
+3.  August = ____________
+4.  December = ____________
+5.  My birthday is in May = Ulang tahun saya di bulan ____________
+
+**B4. Error Correction - Find and fix the mistake:**
 
 1.  "Saya bangun di jam enam." (I wake up at 6)
     ▸ Correct: ________________________________________________
 2.  "Tidak yet" (Not yet)
     ▸ Correct: ________________________________________________
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -160,8 +187,11 @@ Indonesians are famous for **Jam Karet**. Time is flexible.
 3.  "Sampai ketemu besok."
     ▸ ________________________________________________________________
 
+[See Answers C →](#ans-c)
+
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue between Sarah and Budi about weekend plans, then answer:*
@@ -177,8 +207,11 @@ Indonesians are famous for **Jam Karet**. Time is flexible.
 5.  What time did they finally agree on?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -194,8 +227,11 @@ Indonesians are famous for **Jam Karet**. Time is flexible.
 5.  Say goodbye and that you'll see them tomorrow.
     ▸ ________________________________________________________________
 
+[See Answers E →](#ans-e)
+
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -235,8 +271,11 @@ A B C D E F G H I J K L
 4. Sleep (5 letters)
    ▸ ________________________________________________________________
 
+[See Answers F →](#ans-f)
+
 ---
 
+<a id="ex-g"></a>
 ### G. Cumulative Review (Units 01-04)
 
 **Test your memory from previous units!**
@@ -250,6 +289,8 @@ A B C D E F G H I J K L
 4.  Tell the taxi driver to turn left ahead.
     ▸ ________________________________________________________________
 
+[See Answers G →](#ans-g)
+
 ---
 
 ### H. Self-Check: Am I Ready?
@@ -258,6 +299,7 @@ A B C D E F G H I J K L
 
 - [ ] Tell time in Indonesian
 - [ ] Name all days of the week
+- [ ] Name all months of the year
 - [ ] Use time markers (Sekarang, Besok, Kemarin)
 - [ ] Ask "What time...?"
 - [ ] Describe daily routines (bangun, mandi, kerja, tidur)
@@ -267,21 +309,35 @@ A B C D E F G H I J K L
 
 ### Answer Key - Unit 05
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-c, 2-a, 3-d, 4-b, 5-e
 
 **A2. Time words:**
 1. Jam, 2. Siang, 3. Sore, 4. Malam, 5. Jam
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Times:**
 1. Jam tujuh (pagi), 2. Jam sembilan tiga puluh / Jam setengah sepuluh, 3. Jam dua belas (siang), 4. Jam delapan malam, 5. Jam sepuluh tiga puluh malam / Jam setengah sebelas malam
 
 **B2. Days:**
 1. Senin, 2. Rabu, 3. Jumat, 4. Minggu, 5. Rabu
 
-**B3. Error Correction:**
+**B3. Months:**
+1. Januari, 2. Maret, 3. Agustus, 4. Desember, 5. Mei
+
+**B4. Error Correction:**
 1. "Saya bangun jam enam." (No "di" before jam)
 2. "Belum" (Indonesian word for "not yet")
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Jam berapa kita berangkat?
 2. Saya bangun jam tujuh pagi.
@@ -292,6 +348,11 @@ A B C D E F G H I J K L
 2. I only wake up at 9 o'clock.
 3. See you tomorrow.
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. Saturday (Hari Sabtu)
 2. The beach (pantai)
@@ -299,6 +360,11 @@ A B C D E F G H I J K L
 4. Because it was too early for him - he wakes up at 9
 5. 10 AM (Jam sepuluh)
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Jam berapa buka?"
 2. "Tidak apa-apa. Jam karet!" (No problem. Rubber time!)
@@ -306,6 +372,11 @@ A B C D E F G H I J K L
 4. "Hari Sabtu sibuk nggak?"
 5. "Sampai ketemu besok."
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found in grid
 
 **F2. Sentence Scramble:**
@@ -316,8 +387,15 @@ A B C D E F G H I J K L
 
 **F3. Vocabulary Puzzle:** 1. JAM, 2. BESOK, 3. KEMARIN, 4. TIDUR
 
+[← Back to Exercise F](#ex-f)
+
+---
+
+<a id="ans-g"></a>
 **G. Cumulative Review:**
 1. Selamat sore.
 2. Ini berapa?
 3. Jangan pedas, ya!
 4. Belok kiri di depan, Pak.
+
+[← Back to Exercise G](#ex-g)

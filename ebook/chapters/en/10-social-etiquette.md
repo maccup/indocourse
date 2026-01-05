@@ -17,7 +17,7 @@ By the end of this unit, you will be able to:
 | **Permisi** | Excuse me | For passing by / getting attention. |
 | **Silakan** | Please (go ahead) | Offering something. |
 | **Tolong** | Please (help) | Asking for something. |
-| **Boleh** | May I? | Asking permission. |
+| **Boleh** | May I? / Allowed | E.g., "Boleh saya makan?" → "Ya, boleh." |
 | **Terima kasih** | Thank you | |
 | **Sama-sama** | You're welcome | |
 | **Kembali** | You're welcome | Short for "Terima kasih kembali". |
@@ -47,13 +47,13 @@ English has "Please". Indonesian has three, depending on context:
 
 **Context:** Sarah is invited to Ibu Wayan's house.
 
-**Sarah:** (Knocking) **Permisi**... Selamat sore.
-**Ibu Wayan:** Eh, Mba Sarah. **Silakan masuk**.
-**Sarah:** Terima kasih, Bu. **Maaf** saya terlambat sedikit. Macet.
-**Ibu Wayan:** **Tidak apa-apa**, santai saja. **Silakan duduk**.
-**Sarah:** Wah, rumahnya bagus sekali.
-**Ibu Wayan:** Biasa saja (Just ordinary/humble). **Silakan diminum** tehnya.
-**Sarah:** Terima kasih, Bu.
+**Sarah:** (Knocking) Permisi... Selamat sore. *(Excuse me... Good afternoon.)*
+**Ibu Wayan:** Eh, Mba Sarah. Silakan masuk. *(Oh, Miss Sarah. Please come in.)*
+**Sarah:** Terima kasih, Bu. Maaf saya terlambat sedikit. Macet. *(Thank you, Ma'am. Sorry I'm a bit late. Traffic.)*
+**Ibu Wayan:** Tidak apa-apa, santai saja. Silakan duduk. *(No problem, just relax. Please sit down.)*
+**Sarah:** Wah, rumahnya bagus sekali. *(Wow, your house is so nice.)*
+**Ibu Wayan:** Biasa saja. Silakan diminum tehnya. *(Just ordinary. Please drink the tea.)*
+**Sarah:** Terima kasih, Bu. *(Thank you, Ma'am.)*
 
 ### 🎧 Listen Online
 
@@ -77,6 +77,7 @@ Scan to hear native pronunciation:
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -98,8 +99,11 @@ Scan to hear native pronunciation:
 4.  Offering a seat: ____________ duduk.
 5.  After receiving something: ____________.
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Choose the correct "Please" (Tolong / Silakan / Mohon):**
@@ -124,8 +128,11 @@ Scan to hear native pronunciation:
 2.  Someone says "Maaf." You reply: ____________
 3.  Someone compliments your house. You reply humbly: ____________
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -146,8 +153,11 @@ Scan to hear native pronunciation:
 3.  "Biasa saja."
     ▸ ________________________________________________________________
 
+[See Answers C →](#ans-c)
+
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue where Sarah visits Ibu Wayan's house, then answer:*
@@ -163,8 +173,11 @@ Scan to hear native pronunciation:
 5.  How many times did Ibu Wayan use "Silakan"?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -180,8 +193,11 @@ Scan to hear native pronunciation:
 5.  You're pointing at something. Should you use your index finger? Why or why not?
     ▸ ________________________________________________________________
 
+[See Answers E →](#ans-e)
+
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -215,8 +231,11 @@ S A N T A I H A T I X
 4.  You should remove shoes before entering a home. ( T / F )
 5.  Answering "Belum" to "Sudah nikah?" is more polite than "Tidak." ( T / F )
 
+[See Answers F →](#ans-f)
+
 ---
 
+<a id="ex-g"></a>
 ### G. Final Cumulative Review (Units 01-09)
 
 **Comprehensive test of all your Indonesian knowledge!**
@@ -242,6 +261,8 @@ S A N T A I H A T I X
 10. Respond politely when offered something: "____________"
     ▸ ________________________________________________________________
 
+[See Answers G →](#ans-g)
+
 ---
 
 ### H. Self-Check: Course Complete!
@@ -263,11 +284,17 @@ S A N T A I H A T I X
 
 ### Answer Key - Unit 10
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-c, 2-e, 3-d, 4-a, 5-b
 
 **A2. Polite words:**
 1. Permisi, 2. Maaf, 3. Tolong, 4. Silakan, 5. Terima kasih
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Please (correct form):**
 1. Silakan (offering), 2. Tolong (asking), 3. Silakan (offering), 4. Tolong (asking), 5. Mohon (formal)
 
@@ -279,6 +306,11 @@ S A N T A I H A T I X
 2. Tidak apa-apa
 3. Biasa saja (Just ordinary - humble response)
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Permisi, di mana toilet?
 2. Maaf saya terlambat.
@@ -289,6 +321,11 @@ S A N T A I H A T I X
 2. It's okay, just relax.
 3. Just ordinary / Nothing special (humble response)
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. "Permisi... Selamat sore."
 2. She was a little late because of traffic (macet)
@@ -296,6 +333,11 @@ S A N T A I H A T I X
 4. "Just ordinary" - a humble response to a compliment (Indonesian culture)
 5. Three times (masuk, duduk, diminum)
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Permisi, permisi..."
 2. "Maaf!"
@@ -303,6 +345,11 @@ S A N T A I H A T I X
 4. "Sama-sama."
 5. No - use your thumb or open hand. Pointing with index finger is rude.
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found in grid
 
 **F2. Sentence Scramble:**
@@ -314,6 +361,11 @@ S A N T A I H A T I X
 **F3. True/False:**
 1. F (use thumb), 2. F (head is sacred), 3. F (shows anger), 4. T, 5. T
 
+[← Back to Exercise F](#ex-f)
+
+---
+
+<a id="ans-g"></a>
 **G. Final Review:**
 1. Mas
 2. Dua ratus ribu
@@ -325,6 +377,8 @@ S A N T A I H A T I X
 8. Saya sakit perut.
 9. Pernah ke Bali?
 10. Terima kasih.
+
+[← Back to Exercise G](#ex-g)
 
 ---
 

@@ -13,8 +13,10 @@ By the end of this unit, you will be able to:
 
 | Indonesian | English | Notes |
 | :--- | :--- | :--- |
-| **Makan** | To eat / Food | |
-| **Minum** | To drink / Drink | |
+| **Makan** | To eat | |
+| **Makanan** | Food | Noun form. |
+| **Minum** | To drink | |
+| **Minuman** | A drink | Noun form. |
 | **Nasi** | Rice | The staple of life. |
 | **Ayam** | Chicken | |
 | **Ikan** | Fish | |
@@ -24,9 +26,21 @@ By the end of this unit, you will be able to:
 | **Manis** | Sweet | Important for tea! |
 | **Air putih** | Water | Lit: "White water" |
 | **Es** | Ice | |
+| **Kopi** | Coffee | |
+| **Susu** | Milk | |
+| **Teh** | Tea | |
 | **Mau** | Want | Used to order. |
 | **Suka** | Like | |
 | **Enak** | Delicious | |
+| **Kuah** | Broth / Soup | |
+| **Daging** | Meat (beef) | |
+| **Daging babi** | Pork | |
+| **Sambal** | Chili sauce | |
+| **Gula** | Sugar | |
+| **Panas** | Hot (temperature) | |
+| **Dingin** | Cold | |
+| **Makan di sini** | Dine in | Eat here. |
+| **Bungkus** | Take away | Lit: "Wrap". |
 | **Bon / Bill** | The Bill | |
 
 ## 3. Grammar Focus
@@ -54,20 +68,28 @@ If you want to emphasize a preference, use **Yang**:
 *   **Jangan**: "Do not!" (Prohibition/Imperative).
     ▸ *Jangan pedas, ya!* = Don't make it spicy, okay! (Stronger instruction to the cook).
 
+### D. Common Drink Orders
+*   *Kopi hitam* = Black coffee
+*   *Kopi susu* = Coffee with milk (very popular!)
+*   *Kopi susu gula aren* = Coffee with milk and palm sugar
+*   *Es kopi susu* = Iced coffee with milk
+*   *Teh tawar* = Plain tea (no sugar)
+*   *Teh manis* = Sweet tea
+
 ## 4. Dialogue: Lunch at a Warung
 
 **Context:** Sarah enters a simple roadside eatery (*Warung*).
 
-**Sarah:** Siang, Bu. Buka? (Open?)
-**Ibu:** Siang, Mba. Buka, silakan duduk. Mau pesan apa?
-**Sarah:** Saya mau **Nasi Goreng Ayam**, satu.
-**Ibu:** Pedas nggak?
-**Sarah:** **Jangan pedas**, ya Bu. Dikit saja. (Don't make it spicy. Just a little).
-**Ibu:** Oke. Minumnya apa?
-**Sarah:** **Es Teh Manis**, satu.
-**Ibu:** Makan sini atau **bungkus**? (Eat here or wrap/take-away?)
-**Sarah:** Makan sini saja.
-**Ibu:** Tunggu sebentar ya.
+**Sarah:** Siang, Bu. Buka? *(Good day, Ma'am. Open?)*
+**Ibu:** Siang, Mba. Buka, silakan duduk. Mau pesan apa? *(Good day, Miss. Open, please sit. What would you like to order?)*
+**Sarah:** Saya mau Nasi Goreng Ayam, satu. *(I want one Chicken Fried Rice.)*
+**Ibu:** Pedas nggak? *(Spicy or no?)*
+**Sarah:** Jangan pedas, ya Bu. Dikit saja. *(Don't make it spicy, Ma'am. Just a little.)*
+**Ibu:** Oke. Minumnya apa? *(Okay. What to drink?)*
+**Sarah:** Es Teh Manis, satu. *(One Sweet Iced Tea.)*
+**Ibu:** Makan sini atau bungkus? *(Dine in or take away?)*
+**Sarah:** Makan sini saja. *(Just eat here.)*
+**Ibu:** Tunggu sebentar ya. *(Wait a moment, okay.)*
 
 ### 🎧 Listen Online
 
@@ -81,16 +103,18 @@ Scan to hear native pronunciation:
 
 ### Audio Notes
 1.  "Bungkus" is the magic word for Take-Away.
-2.  "Pedas nggak?" is a quick way asking "Do you want it spicy?".
+2.  "Pedas nggak?" is like asking "Spicy or no?" - a quick way to ask about spice preference.
 
 ## 5. Cultural Note: Warung Etiquette & Hygiene
 
 1.  **The Spoon & Fork:** You hold the **Spoon in your Right hand** (to eat) and the **Fork in your Left hand** (to push food onto the spoon). You rarely put the fork in your mouth.
-2.  **The "Kobokan":** If you eat with your hands (common for Pecel Lele or Padang food), you will see a small bowl of water with a lime slice. **Do not drink it!** It is for washing your fingers before and after eating.
-3.  **Right Hand Rule:** Always eat with your right hand. The left hand is traditionally considered "unclean" (toilet functions).
+2.  **Eating with Bare Hands:** Indonesians also commonly eat with bare hands, especially for dishes like Nasi Padang or Pecel Lele. This is perfectly normal and accepted.
+3.  **The "Kobokan":** If you eat with your hands, you will see a small bowl of water with a lime slice. **Do not drink it!** It is for washing your fingers before and after eating.
+4.  **Right Hand Rule:** Always eat with your right hand. The left hand is traditionally considered "unclean" (toilet functions).
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -112,8 +136,11 @@ Scan to hear native pronunciation:
 4.  Plain water (literally "white water"): ____________
 5.  Fish in Indonesian: ____________
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Complete the order using "Saya mau..." or "Minta...":**
@@ -136,8 +163,11 @@ Scan to hear native pronunciation:
 2.  I want the one that is not spicy → Saya mau ____________ tidak pedas.
 3.  I want the chicken that is grilled → Saya mau ayam ____________ bakar.
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -148,6 +178,10 @@ Scan to hear native pronunciation:
     ▸ ________________________________________________________________
 3.  Eat here or take away?
     ▸ ________________________________________________________________
+4.  Iced coffee with milk, please.
+    ▸ ________________________________________________________________
+5.  Tea without sugar (plain tea).
+    ▸ ________________________________________________________________
 
 **C2. Translate to English:**
 
@@ -157,9 +191,16 @@ Scan to hear native pronunciation:
     ▸ ________________________________________________________________
 3.  "Minumnya apa?"
     ▸ ________________________________________________________________
+4.  "Kopi susu satu."
+    ▸ ________________________________________________________________
+5.  "Es teh manis."
+    ▸ ________________________________________________________________
+
+[See Answers C →](#ans-c)
 
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue between Sarah and Ibu at the Warung, then answer:*
@@ -175,8 +216,11 @@ Scan to hear native pronunciation:
 5.  What does "Tunggu sebentar" mean?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -191,9 +235,16 @@ Scan to hear native pronunciation:
     ▸ ________________________________________________________________
 5.  You see a small bowl of water with lime at a Padang restaurant. What is it for?
     ▸ ________________________________________________________________
+6.  You're at a coffee shop. Order an iced coffee with milk.
+    ▸ ________________________________________________________________
+7.  You want tea but without sugar. What do you order?
+    ▸ ________________________________________________________________
+
+[See Answers E →](#ans-e)
 
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -232,8 +283,11 @@ S B U N G K U S Q W
 4. Spicy (5 letters)
    ▸ ________________________________________________________________
 
+[See Answers F →](#ans-f)
+
 ---
 
+<a id="ex-g"></a>
 ### G. Cumulative Review (Units 01-02)
 
 **Test your memory from previous units!**
@@ -246,6 +300,8 @@ S B U N G K U S Q W
     ▸ ________________________________________________________________
 4.  How do you politely ask for a discount?
     ▸ ________________________________________________________________
+
+[See Answers G →](#ans-g)
 
 ---
 
@@ -264,11 +320,17 @@ S B U N G K U S Q W
 
 ### Answer Key - Unit 03
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-c, 2-e, 3-d, 4-a, 5-b
 
 **A2. Food words:**
 1. Nasi, 2. Ayam, 3. Es, 4. Air putih, 5. Ikan
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Orders:**
 1. Saya mau, 2. Minta, 3. Saya mau, 4. Minta
 
@@ -278,16 +340,30 @@ S B U N G K U S Q W
 **B3. Yang phrases:**
 1. yang, 2. yang, 3. yang
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Saya mau Nasi Goreng Ayam satu.
 2. Pedas nggak? / Pedas tidak?
 3. Makan sini atau bungkus?
+4. Es kopi susu satu. / Minta es kopi susu.
+5. Teh tawar. / Teh tidak pakai gula.
 
 **C2. To English:**
 1. Just eat here.
 2. Wait a moment, okay.
 3. What (would you like) to drink?
+4. One coffee with milk.
+5. Iced sweet tea.
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. Nasi Goreng Ayam (Fried Rice with Chicken)
 2. Not spicy (Jangan pedas, dikit saja - just a little)
@@ -295,13 +371,25 @@ S B U N G K U S Q W
 4. Eat at the warung (Makan sini saja)
 5. Wait a moment
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Siang, Bu. Buka?"
 2. "Saya mau Mie Goreng satu."
 3. "Jangan pedas, ya Bu." or "Tidak pedas sama sekali."
 4. "Enak banget!"
 5. For washing fingers before/after eating (Kobokan) - do NOT drink it!
+6. "Es kopi susu satu." / "Saya mau es kopi susu."
+7. "Teh tawar." (Plain tea / Tea without sugar)
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found in grid
 
 **F2. Sentence Scramble:**
@@ -312,8 +400,15 @@ S B U N G K U S Q W
 
 **F3. Vocabulary Puzzle:** 1. GORENG, 2. BAKAR, 3. NASI, 4. PEDAS
 
+[← Back to Exercise F](#ex-f)
+
+---
+
+<a id="ans-g"></a>
 **G. Cumulative Review:**
 1. Selamat pagi / Pagi
 2. Ini berapa?
 3. 100,000
 4. Boleh kurang, nggak?
+
+[← Back to Exercise G](#ex-g)

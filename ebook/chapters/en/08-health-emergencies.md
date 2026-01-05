@@ -47,19 +47,23 @@ You might see signs like "Dilarang" (Forbidden).
 *   **Dilarang Masuk** = No Entry.
 *   **Dilarang Merokok** = No Smoking.
 
+Other examples of "Di-" passive:
+*   **Dimakan** = Eaten (di + makan)
+*   **Diminum** = Drunk (di + minum)
+
 ## 4. Dialogue: At the Pharmacy
 
 **Context:** Sarah has a stomach ache and goes to an Apotek.
 
-**Apoteker:** Selamat sore, ada yang bisa dibantu?
-**Sarah:** Sore, Mba. Saya lagi **sakit perut**.
-**Apoteker:** Sudah berapa lama?
-**Sarah:** Dari pagi. Saya juga agak **mual** (nauseous).
-**Apoteker:** Salah makan? (Ate wrong food?)
-**Sarah:** Mungkin. Kemarin makan sambal terlalu banyak.
-**Apoteker:** Ini ada **obat** untuk maag dan diare. Diminum 3x sehari ya.
-**Sarah:** Oke. Terima kasih.
-**Apoteker:** Semoga cepat sembuh (Get well soon).
+**Apoteker:** Selamat sore, ada yang bisa dibantu? *(Good afternoon, can I help you?)*
+**Sarah:** Sore, Mba. Saya lagi sakit perut. *(Afternoon, Miss. I have a stomach ache.)*
+**Apoteker:** Sudah berapa lama? *(How long has it been?)*
+**Sarah:** Dari pagi. Saya juga agak mual. *(Since morning. I'm also a bit nauseous.)*
+**Apoteker:** Salah makan? *(Ate something wrong?)*
+**Sarah:** Mungkin. Kemarin makan sambal terlalu banyak. *(Maybe. Yesterday I ate too much chili.)*
+**Apoteker:** Ini ada obat untuk maag dan diare. Diminum 3 kali sehari ya. *(Here's medicine for gastritis and diarrhea. Take it 3 times a day.)*
+**Sarah:** Oke. Terima kasih. *(Okay. Thank you.)*
+**Apoteker:** Semoga cepat sembuh. *(Get well soon.)*
 
 ### 🎧 Listen Online
 
@@ -82,6 +86,7 @@ Traveler's Diarrhea is common.
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -102,8 +107,11 @@ Traveler's Diarrhea is common.
 3.  Toothache = Sakit ____________
 4.  Foot pain = Sakit ____________
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Express the pain using "Sakit + Body Part":**
@@ -127,8 +135,11 @@ Traveler's Diarrhea is common.
 3.  Hati-hati = ____________
 4.  Bahaya = ____________
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -149,8 +160,11 @@ Traveler's Diarrhea is common.
 3.  "Diminum 3x sehari, ya."
     ▸ ________________________________________________________________
 
+[See Answers C →](#ans-c)
+
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue between Sarah and the pharmacist, then answer:*
@@ -166,8 +180,11 @@ Traveler's Diarrhea is common.
 5.  What phrase did the pharmacist use to wish her well?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -183,8 +200,11 @@ Traveler's Diarrhea is common.
 5.  You have "Bali Belly." What should you drink to rehydrate?
     ▸ ________________________________________________________________
 
+[See Answers E →](#ans-e)
+
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -223,8 +243,11 @@ B A H A Y A D E M A M
 4. Fever (5 letters)
    ▸ ________________________________________________________________
 
+[See Answers F →](#ans-f)
+
 ---
 
+<a id="ex-g"></a>
 ### G. Cumulative Review (Units 01-07)
 
 **Test your memory from previous units!**
@@ -239,6 +262,8 @@ B A H A Y A D E M A M
     ▸ ________________________________________________________________
 5.  Say "This food is very delicious!" (casual)
     ▸ ________________________________________________________________
+
+[See Answers G →](#ans-g)
 
 ---
 
@@ -257,11 +282,17 @@ B A H A Y A D E M A M
 
 ### Answer Key - Unit 08
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-c, 2-d, 3-a, 4-b, 5-e
 
 **A2. Body parts:**
 1. Kepala, 2. Perut, 3. Gigi, 4. Kaki
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Express pain:**
 1. kepala, 2. Perut, 3. gigi, 4. Kaki
 
@@ -271,6 +302,11 @@ B A H A Y A D E M A M
 **B3. Signs:**
 1. No Entry, 2. No Smoking, 3. Be Careful, 4. Danger
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Saya sakit perut.
 2. Tolong saya! / Tolong!
@@ -281,6 +317,11 @@ B A H A Y A D E M A M
 2. Get well soon.
 3. Take it 3 times a day, okay.
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. She had a stomachache and felt nauseous
 2. Since the morning (dari pagi)
@@ -288,6 +329,11 @@ B A H A Y A D E M A M
 4. Three times a day (3x sehari)
 5. "Semoga cepat sembuh" (Get well soon)
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Saya demam." / "Saya lagi demam."
 2. "Di mana Rumah Sakit terdekat?"
@@ -295,6 +341,11 @@ B A H A Y A D E M A M
 4. Do not enter (the area is restricted)
 5. Young coconut water (Kelapa Muda), Oralit (electrolytes)
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found in grid
 
 **F2. Sentence Scramble:**
@@ -305,9 +356,16 @@ B A H A Y A D E M A M
 
 **F3. Vocabulary Puzzle:** 1. KEPALA, 2. TOLONG, 3. OBAT, 4. DEMAM
 
+[← Back to Exercise F](#ex-f)
+
+---
+
+<a id="ans-g"></a>
 **G. Cumulative Review:**
 1. Siang!
 2. Ini berapa?
 3. Lurus terus, Pak.
 4. Saya bangun jam delapan pagi.
 5. Makanan ini enak banget!
+
+[← Back to Exercise G](#ex-g)

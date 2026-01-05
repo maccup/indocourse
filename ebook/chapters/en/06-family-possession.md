@@ -1,4 +1,4 @@
-# Unit 06: Family & Possession (Punya)
+# Unit 06: Family and Possessive Words
 
 ![Unit 06 Illustration](../../../assets/images/generated/unit_06.jpg)
 
@@ -48,6 +48,12 @@ Instead of "My book", Indonesian often attaches the pronoun to the noun.
 3.  **Dia** -> **-nya** (His/Her/Its)
     ▸ *Rumahnya* = His/Her house.
 
+**Alternative (without suffix):** You can also use the full pronoun after the noun:
+*   *Rumah saya* = My house
+*   *Rumah kamu* = Your house
+*   *Rumah dia* = His/Her house
+*   *Rumah mereka* = Their house
+
 **Formal Possession:**
 For formal situations (using titles), place the title after the noun.
 *   *Nama Anda* -> *Nama Bapak* / *Nama Ibu*.
@@ -57,14 +63,14 @@ For formal situations (using titles), place the title after the noun.
 
 **Context:** Sarah shows a photo on her phone to Ibu Wayan.
 
-**Ibu Wayan:** Ini siapa, Mba Sarah?
-**Sarah:** Ini **adikku**, namanya Tom.
-**Ibu Wayan:** Ganteng ya (Handsome). Dia **punya** pacar?
-**Sarah:** Sudah. Ini pacarnya, Lisa.
-**Ibu Wayan:** Wah, cantik. Kalau ini?
-**Sarah:** Ini **orang tua** saya. Ayah dan Ibu.
-**Ibu Wayan:** Mba Sarah punya kakak?
-**Sarah:** Tidak punya. Saya anak tunggal (only child).
+**Ibu Wayan:** Ini siapa, Mba Sarah? *(Who is this, Miss Sarah?)*
+**Sarah:** Ini adikku, namanya Tom. *(This is my younger sibling, his name is Tom.)*
+**Ibu Wayan:** Ganteng ya. Dia punya pacar? *(Handsome. Does he have a girlfriend?)*
+**Sarah:** Sudah. Ini pacarnya, Lisa. *(Yes. This is his girlfriend, Lisa.)*
+**Ibu Wayan:** Wah, cantik. Kalau ini? *(Wow, beautiful. How about this one?)*
+**Sarah:** Ini orang tua saya. Ayah dan Ibu. *(These are my parents. Father and Mother.)*
+**Ibu Wayan:** Mba Sarah punya kakak? *(Do you have older siblings, Miss Sarah?)*
+**Sarah:** Tidak punya. Saya anak tunggal. *(I don't have any. I'm an only child.)*
 
 ### 🎧 Listen Online
 
@@ -90,6 +96,7 @@ Don't be offended! They are trying to "place" you in the social structure.
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -111,8 +118,11 @@ Don't be offended! They are trying to "place" you in the social structure.
 4.  Your father: ____________
 5.  Your boyfriend/girlfriend: ____________
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Add the possessive suffix (-ku, -mu, -nya):**
@@ -139,8 +149,11 @@ Don't be offended! They are trying to "place" you in the social structure.
     ▸ Tidak = ________________________________________________
     ▸ Belum = ________________________________________________
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -161,8 +174,11 @@ Don't be offended! They are trying to "place" you in the social structure.
 3.  "Saya anak tunggal."
     ▸ ________________________________________________________________
 
+[See Answers C →](#ans-c)
+
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue where Sarah shows photos to Ibu Wayan, then answer:*
@@ -178,8 +194,11 @@ Don't be offended! They are trying to "place" you in the social structure.
 5.  What does "Anak tunggal" mean?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -195,8 +214,11 @@ Don't be offended! They are trying to "place" you in the social structure.
 5.  Tell someone you have one child.
     ▸ ________________________________________________________________
 
+[See Answers E →](#ans-e)
+
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -235,8 +257,11 @@ K P U N Y A T E M A
 4. Child (4 letters)
    ▸ ________________________________________________________________
 
+[See Answers F →](#ans-f)
+
 ---
 
+<a id="ex-g"></a>
 ### G. Cumulative Review (Units 01-05)
 
 **Test your memory from previous units!**
@@ -251,6 +276,8 @@ K P U N Y A T E M A
     ▸ ________________________________________________________________
 5.  Say "I wake up at 7 AM."
     ▸ ________________________________________________________________
+
+[See Answers G →](#ans-g)
 
 ---
 
@@ -269,11 +296,17 @@ K P U N Y A T E M A
 
 ### Answer Key - Unit 06
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-c, 2-e, 3-d, 4-a, 5-b
 
 **A2. Family words:**
 1. Ibu, 2. Kakak, 3. Adik, 4. Ayah, 5. Pacar
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Possessives:**
 1. Namaku, 2. Rumahmu, 3. Temannya, 4. Kakakku, 5. Uangmu
 
@@ -285,6 +318,11 @@ K P U N Y A T E M A
 2. Tidak = permanent state (I don't have/will never have)
    Belum = temporary (I don't have yet, but might later)
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Saya punya dua adik.
 2. Siapa nama Ibu? / Nama ibumu siapa?
@@ -295,6 +333,11 @@ K P U N Y A T E M A
 2. Does he/she have a boyfriend/girlfriend?
 3. I am an only child.
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. Sarah's younger sibling (adik)
 2. Yes, her name is Lisa
@@ -302,6 +345,11 @@ K P U N Y A T E M A
 4. Handsome (for men)
 5. Only child
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Belum." (Not yet)
 2. "Ini adikku."
@@ -309,6 +357,11 @@ K P U N Y A T E M A
 4. "Biasa saja." (Just ordinary - humble response)
 5. "Saya punya satu anak."
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found in grid
 
 **F2. Sentence Scramble:**
@@ -319,9 +372,16 @@ K P U N Y A T E M A
 
 **F3. Vocabulary Puzzle:** 1. KAKAK, 2. PUNYA, 3. TEMAN, 4. ANAK
 
+[← Back to Exercise F](#ex-f)
+
+---
+
+<a id="ans-g"></a>
 **G. Cumulative Review:**
 1. Selamat malam.
 2. Lima puluh ribu.
 3. Saya mau Ayam Bakar.
 4. Jauh dari sini nggak, Pak?
 5. Saya bangun jam tujuh pagi.
+
+[← Back to Exercise G](#ex-g)

@@ -13,8 +13,8 @@ By the end of this unit, you will be able to:
 
 | Indonesian | English | Notes |
 | :--- | :--- | :--- |
-| **Bagus** | Good / Nice | For things/places. |
-| **Baik** | Good / Kind | For people/health. |
+| **Bagus** | Good / Nice | For quality & condition of things. |
+| **Baik** | Good / Kind | For morality & manner of people. |
 | **Besar** | Big | |
 | **Kecil** | Small | |
 | **Panas** | Hot | Weather/Temp. |
@@ -45,22 +45,24 @@ In Indonesian: **"Rumah Besar"** (Noun + Adj). Always flip it!
 *   *Saya mau teh **yang** manis.* (I want the tea **that is** sweet).
 
 ### C. Intensifiers: "Sangat" vs "Banget"
-*   **Sangat:** Formal, goes *before* adjective.
-    ▸ *Bali sangat indah.*
-*   **Banget:** Casual, goes *after* adjective.
+*   **Sangat:** Formal, goes *BEFORE* adjective.
+    ▸ *Sangat ganteng.* (Very handsome.)
+    ▸ *Bali sangat indah.* (Bali is very beautiful.)
+*   **Banget:** Casual, goes *AFTER* adjective.
+    ▸ *Ganteng banget!* (So handsome!)
     ▸ *Bali indah banget!* (Bali is so beautiful!)
 
 ## 4. Dialogue: Complaining about the Weather
 
 **Context:** Budi and Sarah are walking outside in Jakarta.
 
-**Sarah:** Aduh, hari ini **panas banget** ya!
-**Budi:** Iya, gila (crazy). Matahari kuat sekali.
-**Sarah:** Kita cari tempat **yang dingin** yuk. Masuk mall?
-**Budi:** Boleh. Mall Grand Indonesia **dekat** dari sini.
-**Sarah:** **Jauh** nggak kalau jalan kaki?
-**Budi:** Lumayan (So-so). Tapi capek. Naik Gojek saja?
-**Sarah:** Ide **bagus**.
+**Sarah:** Aduh, hari ini panas banget ya! *(Ugh, it's so hot today!)*
+**Budi:** Iya, gila. Matahari kuat sekali. *(Yeah, crazy. The sun is so strong.)*
+**Sarah:** Kita cari tempat yang dingin yuk. Masuk mall? *(Let's find a cold place. Go into a mall?)*
+**Budi:** Boleh. Mall Grand Indonesia dekat dari sini. *(Sure. Grand Indonesia Mall is close from here.)*
+**Sarah:** Jauh nggak kalau jalan kaki? *(Is it far if we walk?)*
+**Budi:** Lumayan. Tapi capek. Naik Gojek saja? *(So-so. But tiring. Just take Gojek?)*
+**Sarah:** Ide bagus. *(Good idea.)*
 
 ### 🎧 Listen Online
 
@@ -80,10 +82,11 @@ Scan to hear native pronunciation:
 Indonesians believe many illnesses are caused by "Trapped Wind" (**Masuk Angin**).
 Symptoms: Bloating, fever, flu, feeling unwell.
 Cause: Rain, late nights, fans, air conditioning.
-Cure: **Kerokan** (Coin scraping on back) or drinking *Tolak Angin* (herbal syrup).
+Cure: **Kerokan** (Coin scraping on back) or drinking *Tolak Angin* (a popular "magic" herbal remedy).
 
 ## 6. Exercises
 
+<a id="ex-a"></a>
 ### A. Vocabulary Drill
 
 **A1. Match the Indonesian to English:**
@@ -105,8 +108,11 @@ Cure: **Kerokan** (Coin scraping on back) or drinking *Tolak Angin* (herbal syru
 4.  A big city: Kota ____________
 5.  A small room: Kamar ____________
 
+[See Answers A →](#ans-a)
+
 ---
 
+<a id="ex-b"></a>
 ### B. Grammar Practice
 
 **B1. Flip the phrase (Remember: Noun + Adjective):**
@@ -132,8 +138,11 @@ Cure: **Kerokan** (Coin scraping on back) or drinking *Tolak Angin* (herbal syru
 3.  (Formal) The food is very delicious: Makanan ini ____________ enak.
 4.  (Casual) I'm so tired!: Saya capek ____________!
 
+[See Answers B →](#ans-b)
+
 ---
 
+<a id="ex-c"></a>
 ### C. Translation Challenge
 
 **C1. Translate to Indonesian:**
@@ -154,8 +163,11 @@ Cure: **Kerokan** (Coin scraping on back) or drinking *Tolak Angin* (herbal syru
 3.  "Lumayan capek."
     ▸ ________________________________________________________________
 
+[See Answers C →](#ans-c)
+
 ---
 
+<a id="ex-d"></a>
 ### D. Dialogue Comprehension
 
 *Re-read the dialogue between Budi and Sarah about the weather, then answer:*
@@ -171,8 +183,11 @@ Cure: **Kerokan** (Coin scraping on back) or drinking *Tolak Angin* (herbal syru
 5.  What does "Yuk" mean in casual Indonesian?
     ▸ ________________________________________________________________
 
+[See Answers D →](#ans-d)
+
 ---
 
+<a id="ex-e"></a>
 ### E. Real-World Scenarios
 
 **What would you say in these situations?**
@@ -188,8 +203,11 @@ Cure: **Kerokan** (Coin scraping on back) or drinking *Tolak Angin* (herbal syru
 5.  You want tea that is sweet, not plain. Use "Yang" to specify.
     ▸ ________________________________________________________________
 
+[See Answers E →](#ans-e)
+
 ---
 
+<a id="ex-f"></a>
 ### F. Fun & Games
 
 **F1. Word Search**
@@ -228,8 +246,11 @@ S E N A N G B A R U
 4. Tired (5 letters)
    ▸ ________________________________________________________________
 
+[See Answers F →](#ans-f)
+
 ---
 
+<a id="ex-g"></a>
 ### G. Cumulative Review (Units 01-06)
 
 **Test your memory from previous units!**
@@ -244,6 +265,8 @@ S E N A N G B A R U
     ▸ ________________________________________________________________
 5.  Say "I have two children."
     ▸ ________________________________________________________________
+
+[See Answers G →](#ans-g)
 
 ---
 
@@ -262,11 +285,17 @@ S E N A N G B A R U
 
 ### Answer Key - Unit 07
 
+<a id="ans-a"></a>
 **A1. Matching:** 1-d, 2-c, 3-b, 4-e, 5-a
 
 **A2. Adjectives:**
 1. Enak, 2. Baik, 3. Bagus, 4. Besar, 5. Kecil
 
+[← Back to Exercise A](#ex-a)
+
+---
+
+<a id="ans-b"></a>
 **B1. Flip the phrase:**
 1. Air dingin, 2. Kota besar, 3. Ayam pedas, 4. Mobil baru, 5. Cuaca panas
 
@@ -277,6 +306,11 @@ S E N A N G B A R U
 1. Sangat (formal, before adjective), 2. Banget (casual, after adjective)
 3. Sangat (formal), 4. Banget (casual)
 
+[← Back to Exercise B](#ex-b)
+
+---
+
+<a id="ans-c"></a>
 **C1. To Indonesian:**
 1. Hari ini panas banget!
 2. Kita cari tempat yang dingin, yuk.
@@ -287,6 +321,11 @@ S E N A N G B A R U
 2. Grand Indonesia Mall is near from here.
 3. Pretty tired. / So-so tired.
 
+[← Back to Exercise C](#ex-c)
+
+---
+
+<a id="ans-d"></a>
 **D. Dialogue Comprehension:**
 1. Very hot (panas banget)
 2. Go inside a mall to find a cold/cool place
@@ -294,6 +333,11 @@ S E N A N G B A R U
 4. Because they were tired (capek)
 5. "Let's" - casual invitation
 
+[← Back to Exercise D](#ex-d)
+
+---
+
+<a id="ans-e"></a>
 **E. Scenarios (Sample answers):**
 1. "Enak banget!"
 2. "Capek banget!"
@@ -301,6 +345,11 @@ S E N A N G B A R U
 4. "Dekat kok, tidak jauh."
 5. "Saya mau teh yang manis."
 
+[← Back to Exercise E](#ex-e)
+
+---
+
+<a id="ans-f"></a>
 **F1. Word Search:** All words found in grid
 
 **F2. Sentence Scramble:**
@@ -311,9 +360,16 @@ S E N A N G B A R U
 
 **F3. Vocabulary Puzzle:** 1. PANAS, 2. DINGIN, 3. BAGUS, 4. CAPEK
 
+[← Back to Exercise F](#ex-f)
+
+---
+
+<a id="ans-g"></a>
 **G. Cumulative Review:**
 1. Pak
 2. Boleh kurang, nggak?
 3. Saya mau Nasi Goreng. Jangan pedas, ya.
 4. Stop di depan, Pak.
 5. Saya punya dua anak.
+
+[← Back to Exercise G](#ex-g)
